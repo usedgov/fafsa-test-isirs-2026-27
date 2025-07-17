@@ -4977,276 +4977,209 @@ const field_315 = {len: 3, pos_start: 3177, pos_end: 3180,
         "Blank"
     ]};
 
-const field_316 = {len: 15, pos_start: 3015, pos_end: 3030,
-    idx: 316, name: "Student Employment Expense Allowance", alias: "SEEA", path: "/FPS/student/Employment_Expense_Allowance", 
-    validate: _validate_options, allow_blank: true,
-    options: [
-      {op: "range", "min":"0","max":"999999999999999"},
-    ],
-    note: [
-        "0 to 999999999999999",
-        "Blank"
-    ]};
-
-const field_317 = {len: 15, pos_start: 3030, pos_end: 3045,
-    idx: 317, name: "Total Student Allowances Against Income", path: "/FPS/student/Total_Allowances_Against_Income", 
-    validate: _validate_options, allow_blank: true,
-    options: [
-      {op: "range", "min":"0","max":"999999999999999"},
-    ],
-    note: [
-        "0 to 999999999999999",
-        "Blank"
-    ]};
-
-const field_318 = {len: 15, pos_start: 3045, pos_end: 3060,
-    idx: 318, name: "Student Available Income (StAI)", path: "/FPS/student/Available_Income_StAI", 
-    validate: _validate_options, allow_blank: true,
-    options: [
-      {op: "range", "min":"-99999999999999","max":"999999999999999"},
-    ],
-    note: [
-        "-99999999999999 to 999999999999999",
-        "Blank"
-    ]};
-
-const field_319 = {len: 15, pos_start: 3060, pos_end: 3075,
-    idx: 319, name: "Student Contribution from Income", alias: "SCI", path: "/FPS/student/Contribution_from_Income", 
-    validate: _validate_options, allow_blank: true,
-    options: [
-      {op: "range", "min":"-99999999999999","max":"999999999999999"},
-    ],
-    note: [
-        "-99999999999999 to 999999999999999",
-        "Blank"
-    ]};
-
-const field_320 = {len: 15, pos_start: 3075, pos_end: 3090,
-    idx: 320, name: "Student Adjusted Available Income", alias: "SAAI", path: "/FPS/student/Adjusted_Available_Income", 
-    validate: _validate_options, allow_blank: true,
-    options: [
-      {op: "range", "min":"-99999999999999","max":"999999999999999"},
-    ],
-    note: [
-        "-99999999999999 to 999999999999999",
-        "Blank"
-    ]};
-
-const field_321 = {len: 15, pos_start: 3090, pos_end: 3105,
-    idx: 321, name: "Total Student Contribution from SAAI", path: "/FPS/student/Total_Contribution_from_SAAI", 
-    validate: _validate_options, allow_blank: true,
-    options: [
-      {op: "range", "min":"-1826","max":"999999999999999"},
-    ],
-    note: [
-        "-1826 to 999999999999999",
-        "Blank"
-    ]};
-
-const field_322 = {len: 7, pos_start: 3105, pos_end: 3112,
-    idx: 322, name: "Parent Discretionary Net Worth", alias: "PDNW", path: "/FPS/parent/Discretionary_Net_Worth", 
-    validate: _validate_options, allow_blank: true,
-    options: [
-      {op: "range", "min":"0","max":"9999999"},
-    ],
-    note: [
-        "0 to 9999999",
-        "Blank"
-    ]};
-
-const field_323 = {len: 7, pos_start: 3112, pos_end: 3119,
-    idx: 323, name: "Parent Net Worth", alias: "PNW", path: "/FPS/parent/Net_Worth", 
-    validate: _validate_options, allow_blank: true,
-    options: [
-      {op: "range", "min":"0","max":"9999999"},
-    ],
-    note: [
-        "0 to 9999999",
-        "Blank"
-    ]};
-
-const field_324 = {len: 12, pos_start: 3119, pos_end: 3131,
-    idx: 324, name: "Parent Asset Protection Allowance", alias: "PAPA", path: "/FPS/parent/Asset_Protection_Allowance", 
-    validate: _validate_options, allow_blank: true,
-    options: [
-      {op: "range", "min":"0","max":"999999999999"},
-    ],
-    note: [
-        "0 to 999999999999",
-        "Blank"
-    ]};
-
-const field_325 = {len: 12, pos_start: 3131, pos_end: 3143,
-    idx: 325, name: "Parent Contribution from Assets", alias: "PCA", path: "/FPS/parent/Contribution_from_Assets", 
-    validate: _validate_options, allow_blank: true,
-    options: [
-      {op: "range", "min":"0","max":"999999999999"},
-    ],
-    note: [
-        "0 to 999999999999",
-        "Blank"
-    ]};
-
-const field_326 = {len: 7, pos_start: 3143, pos_end: 3150,
-    idx: 326, name: "Student Net Worth", alias: "SNW", path: "/FPS/student/Net_Worth", 
-    validate: _validate_options, allow_blank: true,
-    options: [
-      {op: "range", "min":"0","max":"9999999"},
-    ],
-    note: [
-        "0 to 9999999",
-        "Blank"
-    ]};
-
-const field_327 = {len: 12, pos_start: 3150, pos_end: 3162,
-    idx: 327, name: "Student Asset Protection Allowance", alias: "SAPA", path: "/FPS/student/Asset_Protection_Allowance", 
-    validate: _validate_options, allow_blank: true,
-    options: [
-      {op: "range", "min":"0","max":"999999999999"},
-    ],
-    note: [
-        "0 to 999999999999",
-        "Blank"
-    ]};
-
-const field_328 = {len: 12, pos_start: 3162, pos_end: 3174,
-    idx: 328, name: "Student Contribution from Assets", alias: "SCA", path: "/FPS/student/Contribution_from_Assets", 
-    validate: _validate_options, allow_blank: true,
-    options: [
-      {op: "range", "min":"0","max":"999999999999"},
-    ],
-    note: [
-        "0 to 999999999999",
-        "Blank"
-    ]};
-
-const field_329 = {len: 3, pos_start: 3174, pos_end: 3177,
-    idx: 329, name: "Assumed Student Family Size", path: "/FPS/student/Assumed_Family_Size", 
-    validate: _validate_options, allow_blank: true,
-    options: [
-      {op: "range", "min":"1","max":"198"},
-    ],
-    note: [
-        "1 to 198",
-        "Blank"
-    ]};
-
-const field_330 = {len: 3, pos_start: 3177, pos_end: 3180,
-    idx: 330, name: "Assumed Parent Family Size", path: "/FPS/parent/Assumed_Family_Size", 
-    validate: _validate_options, allow_blank: true,
-    options: [
-      {op: "range", "min":"1","max":"297"},
-    ],
-    note: [
-        "1 to 297",
-        "Blank"
-    ]};
-
-
-const section__FPS = {
-    section: "FPS Processing Information",
-    path: "/FPS",
-    field_list: [field_268, field_269, field_270, field_271, field_272, field_273, field_274, field_275, field_276, field_277, field_278, field_279, field_280, field_281, field_282, field_283, field_284, field_285, field_286, field_287, field_288, field_289, field_290, field_291, field_292, field_293, field_294, field_295, field_296, field_297, field_298, field_299, field_300, field_301, field_302, field_303, field_304, field_305, field_306, field_307, field_308, field_309, field_310, field_311, field_312, field_313, field_314, field_315, field_316, field_317, field_318, field_319, field_320, field_321, field_322, field_323, field_324, field_325, field_326, field_327, field_328, field_329, field_330],
-};
-
-
 //*********************************************
 // Section: Correction, Highlight, and Verify Flags
 //
 
-const field_331 = {len: 3, pos_start: 3180, pos_end: 3183,
-    idx: 331, name: "Student First Name Correction, Highlight, and Verify flags", path: "/correction/student/First_Name", 
+const field_316 = {len: 3, pos_start: 3180, pos_end: 3183,
+    idx: 316, name: "Student First Name Correction, Highlight, and Verify flags", path: "/correction/student/First_Name", 
     validate: _validate_correction, empty: "000",
     note: [
         "See description in the Correction, Highlight, and Verify Flags heading above."
     ]};
 
-const field_332 = {len: 3, pos_start: 3183, pos_end: 3186,
-    idx: 332, name: "Student Middle Name Correction, Highlight, and Verify flags", path: "/correction/student/Middle_Name", 
+
+const field_317 = {len: 3, pos_start: 3183, pos_end: 3186,
+    idx: 317, name: "Student Middle Name Correction, Highlight, and Verify flags", path: "/correction/student/Middle_Name", 
     validate: _validate_correction, empty: "000",
     note: [
         "See description in the Correction, Highlight, and Verify Flags heading above."
     ]};
 
-const field_333 = {len: 3, pos_start: 3186, pos_end: 3189,
-    idx: 333, name: "Student Last Name Correction, Highlight, and Verify flags", path: "/correction/student/Last_Name", 
+const field_318 = {len: 3, pos_start: 3186, pos_end: 3189,
+    idx: 318, name: "Student Last Name Correction, Highlight, and Verify flags", path: "/correction/student/Last_Name", 
     validate: _validate_correction, empty: "000",
     note: [
         "See description in the Correction, Highlight, and Verify Flags heading above."
     ]};
 
-const field_334 = {len: 3, pos_start: 3189, pos_end: 3192,
-    idx: 334, name: "Student Suffix Correction, Highlight, and Verify flags", path: "/correction/student/Suffix", 
+const field_319 = {len: 3, pos_start: 3189, pos_end: 3192,
+    idx: 319, name: "Student Suffix Correction, Highlight, and Verify flags", path: "/correction/student/Suffix", 
     validate: _validate_correction, empty: "000",
     note: [
         "See description in the Correction, Highlight, and Verify Flags heading above."
     ]};
 
-const field_335 = {len: 3, pos_start: 3192, pos_end: 3195,
-    idx: 335, name: "Student Date of Birth Correction, Highlight, and Verify flags", path: "/correction/student/Date_of_Birth", 
+const field_320 = {len: 3, pos_start: 3192, pos_end: 3195,
+    idx: 320, name: "Student Date of Birth Correction, Highlight, and Verify flags", path: "/correction/student/Date_of_Birth", 
     validate: _validate_correction, empty: "000",
     note: [
         "See description in the Correction, Highlight, and Verify Flags heading above."
     ]};
 
-const field_336 = {len: 3, pos_start: 3195, pos_end: 3198,
-    idx: 336, name: "Student Social Security Number Correction, Highlight, and Verify flags", path: "/correction/student/Social_Security_Number", 
+const field_321 = {len: 3, pos_start: 3195, pos_end: 3198,
+    idx: 321, name: "Student Social Security Number Correction, Highlight, and Verify flags", path: "/correction/student/Social_Security_Number", 
     validate: _validate_correction, empty: "000",
     note: [
         "See description in the Correction, Highlight, and Verify Flags heading above."
     ]};
 
-const field_337 = {len: 3, pos_start: 3198, pos_end: 3201,
-    idx: 337, name: "Student ITIN Correction, Highlight, and Verify flags", path: "/correction/student/ITIN", 
+const field_322 = {len: 3, pos_start: 3198, pos_end: 3201,
+    idx: 322, name: "Student ITIN Correction, Highlight, and Verify flags", path: "/correction/student/ITIN", 
     validate: _validate_correction, empty: "000",
     note: [
         "See description in the Correction, Highlight, and Verify Flags heading above."
     ]};
 
-const field_338 = {len: 3, pos_start: 3201, pos_end: 3204,
-    idx: 338, name: "Student Phone Number Correction, Highlight, and Verify flags", path: "/correction/student/Phone_Number", 
+const field_323 = {len: 3, pos_start: 3201, pos_end: 3204,
+    idx: 323, name: "Student Phone Number Correction, Highlight, and Verify flags", path: "/correction/student/Phone_Number", 
     validate: _validate_correction, empty: "000",
     note: [
         "See description in the Correction, Highlight, and Verify Flags heading above."
     ]};
 
-const field_339 = {len: 3, pos_start: 3204, pos_end: 3207,
-    idx: 339, name: "Student Email Address Correction, Highlight, and Verify Flags", path: "/correction/student/Email_Address", 
+const field_324 = {len: 3, pos_start: 3204, pos_end: 3207,
+    idx: 324, name: "Student Email Address Correction, Highlight, and Verify Flags", path: "/correction/student/Email_Address", 
     validate: _validate_correction, empty: "000",
     note: [
         "See description in the Correction, Highlight, and Verify Flags heading above."
     ]};
 
-const field_340 = {len: 3, pos_start: 3207, pos_end: 3210,
-    idx: 340, name: "Student Street Address Correction, Highlight, and Verify Flags", path: "/correction/student/Street_Address", 
+const field_325 = {len: 3, pos_start: 3207, pos_end: 3210,
+    idx: 325, name: "Student Street Address Correction, Highlight, and Verify Flags", path: "/correction/student/Street_Address", 
     validate: _validate_correction, empty: "000",
     note: [
         "See description in the Correction, Highlight, and Verify Flags heading above."
     ]};
 
-const field_341 = {len: 3, pos_start: 3210, pos_end: 3213,
-    idx: 341, name: "Student City Correction, Highlight, and Verify Flags", path: "/correction/student/City", 
+const field_326 = {len: 3, pos_start: 3210, pos_end: 3213,
+    idx: 326, name: "Student City Correction, Highlight, and Verify Flags", path: "/correction/student/City", 
     validate: _validate_correction, empty: "000",
     note: [
         "See description in the Correction, Highlight, and Verify Flags heading above."
     ]};
 
-const field_342 = {len: 3, pos_start: 3213, pos_end: 3216,
-    idx: 342, name: "Student State Correction, Highlight, and Verify Flags", path: "/correction/student/State", 
+const field_327 = {len: 3, pos_start: 3213, pos_end: 3216,
+    idx: 327, name: "Student State Correction, Highlight, and Verify Flags", path: "/correction/student/State", 
     validate: _validate_correction, empty: "000",
     note: [
         "See description in the Correction, Highlight, and Verify Flags heading above."
     ]};
 
-const field_343 = {len: 3, pos_start: 3216, pos_end: 3219,
-    idx: 343, name: "Student Zip Code Correction, Highlight, and Verify Flags", path: "/correction/student/Zip_Code", 
+const field_328 = {len: 3, pos_start: 3216, pos_end: 3219,
+    idx: 328, name: "Student Zip Code Correction, Highlight, and Verify Flags", path: "/correction/student/Zip_Code", 
     validate: _validate_correction, empty: "000",
     note: [
         "See description in the Correction, Highlight, and Verify Flags heading above."
     ]};
 
-const field_344 = {len: 3, pos_start: 3219, pos_end: 3222,
-    idx: 344, name: "Student Country Correction, Highlight, and Verify Flags", path: "/correction/student/Country", 
+const field_329 = {len: 3, pos_start: 3219, pos_end: 3222,
+    idx: 329, name: "Student Country Correction, Highlight, and Verify Flags", path: "/correction/student/Country", 
+    validate: _validate_correction, empty: "000",
+    note: [
+        "See description in the Correction, Highlight, and Verify Flags heading above."
+    ]};
+
+const field_330 = {len: 3, pos_start: 3222, pos_end: 3225,
+    idx: 330, name: "Student Marital Status Correction, Highlight, and Verify Flags", path: "/correction/student/Marital_Status", 
+    validate: _validate_correction, empty: "000",
+    note: [
+        "See description in the Correction, Highlight, and Verify Flags heading above."
+    ]};
+
+const field_331 = {len: 3, pos_start: 3225, pos_end: 3228,
+    idx: 331, name: "Student Grade Level in College 2026–27 Correction, Highlight, and Verify Flags", path: "/correction/student/Grade_Level_in_College", 
+    validate: _validate_correction, empty: "000",
+    note: [
+        "See description in the Correction, Highlight, and Verify Flags heading above."
+    ]};
+
+const field_332 = {len: 3, pos_start: 3228, pos_end: 3231,
+    idx: 332, name: "Student First Bachelor's Degree Before 2026–27 School Year Correction, Highlight, and Verify Flags", path: "/correction/student/First_Bachelors_Degree_Before_School_Year", 
+    validate: _validate_correction, empty: "000",
+    note: [
+        "See description in the Correction, Highlight, and Verify Flags heading above."
+    ]};
+
+const field_333 = {len: 3, pos_start: 3231, pos_end: 3234,
+    idx: 333, name: "Student Pursuing Teacher Certification? Correction, Highlight, and Verify Flags", path: "/correction/student/Pursuing_Teacher_Certification", 
+    validate: _validate_correction, empty: "000",
+    note: [
+        "See description in the Correction, Highlight, and Verify Flags heading above."
+    ]};
+
+const field_334 = {len: 3, pos_start: 3234, pos_end: 3237,
+    idx: 334, name: "Student Active Duty? Correction, Highlight, and Verify Flags", path: "/correction/student/Active_Duty", 
+    validate: _validate_correction, empty: "000",
+    note: [
+        "See description in the Correction, Highlight, and Verify Flags heading above."
+    ]};
+
+const field_335 = {len: 3, pos_start: 3237, pos_end: 3240,
+    idx: 335, name: "Student Veteran? Correction, Highlight, and Verify Flags", path: "/correction/student/Veteran", 
+    validate: _validate_correction, empty: "000",
+    note: [
+        "See description in the Correction, Highlight, and Verify Flags heading above."
+    ]};
+
+const field_336 = {len: 3, pos_start: 3240, pos_end: 3243,
+    idx: 336, name: "Student Child or Other Dependents? Correction, Highlight, and Verify Flags", path: "/correction/student/Child_or_Other_Dependents", 
+    validate: _validate_correction, empty: "000",
+    note: [
+        "See description in the Correction, Highlight, and Verify Flags heading above."
+    ]};
+
+const field_337 = {len: 3, pos_start: 3243, pos_end: 3246,
+    idx: 337, name: "Student Parents Deceased? Correction, Highlight, and Verify Flags", path: "/correction/student/Parents_Deceased", 
+    validate: _validate_correction, empty: "000",
+    note: [
+        "See description in the Correction, Highlight, and Verify Flags heading above."
+    ]};
+
+const field_338 = {len: 3, pos_start: 3246, pos_end: 3249,
+    idx: 338, name: "Student Ward of Court? Correction, Highlight, and Verify Flags", path: "/correction/student/Ward_of_Court", 
+    validate: _validate_correction, empty: "000",
+    note: [
+        "See description in the Correction, Highlight, and Verify Flags heading above."
+    ]};
+
+const field_339 = {len: 3, pos_start: 3249, pos_end: 3252,
+    idx: 339, name: "Student In Foster Care? Correction, Highlight, and Verify Flags", path: "/correction/student/In_Foster_Care", 
+    validate: _validate_correction, empty: "000",
+    note: [
+        "See description in the Correction, Highlight, and Verify Flags heading above."
+    ]};
+
+const field_340 = {len: 3, pos_start: 3252, pos_end: 3255,
+    idx: 340, name: "Student Emancipated Minor? Correction, Highlight, and Verify Flags", path: "/correction/student/Emancipated_Minor", 
+    validate: _validate_correction, empty: "000",
+    note: [
+        "See description in the Correction, Highlight, and Verify Flags heading above."
+    ]};
+
+const field_341 = {len: 3, pos_start: 3255, pos_end: 3258,
+    idx: 341, name: "Student Legal Guardianship? Correction, Highlight, and Verify Flags", path: "/correction/student/Legal_Guardianship", 
+    validate: _validate_correction, empty: "000",
+    note: [
+        "See description in the Correction, Highlight, and Verify Flags heading above."
+    ]};
+
+const field_342 = {len: 3, pos_start: 3258, pos_end: 3261,
+    idx: 342, name: "Student None of the above (Personal Circumstances) Correction, Highlight, and Verify Flags", path: "/correction/student/None_of_the_above_Personal_Circumstances", 
+    validate: _validate_correction, empty: "000",
+    note: [
+        "See description in the Correction, Highlight, and Verify Flags heading above."
+    ]};
+
+const field_343 = {len: 3, pos_start: 3261, pos_end: 3264,
+    idx: 343, name: "Student Unaccompanied Homeless Youth, or is Unaccompanied, At Risk of Homelessness, and Self-Supporting? Correction, Highlight, and Verify Flags", path: "/correction/student/Unaccompanied_Homeless_Youth_or_is_Unaccompanied_At_Risk_of_Homelessness_and_Self_Supporting", 
+    validate: _validate_correction, empty: "000",
+    note: [
+        "See description in the Correction, Highlight, and Verify Flags heading above."
+    ]};
+
+const field_344 = {len: 3, pos_start: 3264, pos_end: 3267,
+    idx: 344, name: "Student Unaccompanied and Homeless (General)? Correction, Highlight, and Verify Flags", path: "/correction/student/Unaccompanied_and_Homeless_General", 
     validate: _validate_correction, empty: "000",
     note: [
         "See description in the Correction, Highlight, and Verify Flags heading above."
