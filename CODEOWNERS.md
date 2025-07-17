@@ -1,1 +1,3 @@
-# CODEOWNERS
+# CODEOWNERS 
+* @sierrabrandtFSA 
+* @ChrisCummingsUSDS

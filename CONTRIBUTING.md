@@ -12,25 +12,25 @@ We encourage you to read this project's CONTRIBUTING policy (you are here), its
 
 ## Approach & Design
 
-  [fafsa_spec_2025_26]: https://fsapartners.ed.gov/knowledge-center/library/handbooks-manuals-or-guides/2024-08-23/2025-26-fafsa-specifications-guide-september-2024-update
-  [spec_2025_26_vol_4_xlsx]: https://fsapartners.ed.gov/sites/default/files/2024-08/202526ISIRRecLayout.xlsx
-  [isir-module]: ./js/isir-module-2025-2026.js
-  [isir-viewer]: ./isir-viewer-2025-2026.html
+  [fafsa_spec_2026_27]: https://fsapartners.ed.gov/knowledge-center/library/handbooks-manuals-or-guides/2025-02-26/2026-27-fafsa-specifications-guide-july-2025-update
+  [spec_2026_27_vol_4_xlsx]: https://fsapartners.ed.gov/sites/default/files/2025-07/202627ISIRRecLayout.xlsx
+  [isir-module]: ./js/isir-module-2026-2027.js
+  [isir-viewer]: ./isir-viewer-2026-2027.html
 
-Using the sections and fields detailed in the [2025–26 ISIR Record Layout in Excel Format][spec_2025_26_vol_4_xlsx], 
-the JavaScript source of [`isir-module-2025-2026.js`][isir-module] is automatically generated for every field.
+Using the sections and fields detailed in the [2026–27 ISIR Record Layout in Excel Format][spec_2026_27_vol_4_xlsx], 
+the JavaScript source of [`isir-module-2026-2027.js`][isir-module] is automatically generated for every field.
 
 Each ISIR record field is specified by start postion, stop position, and length, as well as notes on how to interpret the data specific to each field. 
 Note that the specification uses a `1`-based position offset, whereas JavaScript uses a zero based index.
 
-The [`isir-module-2025-2026.js`][isir-module] module is a copy of the generated JavaScript module from the Excel specification.
-The module is then embedded in [`isir-viewer-2025-2026.html`][isir-viewer] for reading individual ISIR fields.
+The [`isir-module-2026-2027.js`][isir-module] module is a copy of the generated JavaScript module from the Excel specification.
+The module is then embedded in [`isir-viewer-2026-2027.html`][isir-viewer] for reading individual ISIR fields.
 
 
-### ISIR technical specification for FAFSA 2025-26
+### ISIR technical specification for FAFSA 2026-27
 
-Using published [2025–26 FAFSA Specifications Guide][fafsa_spec_2025_26] specification, 
-_Volume 4A – Record Layouts_, [2025–26 ISIR Record Layout in Excel Format][spec_2025_26_vol_4_xlsx]
+Using published [2026–27 FAFSA Specifications Guide][fafsa_spec_2026_27] specification, 
+_Volume 4A – Record Layouts_, [2026–27 ISIR Record Layout in Excel Format][spec_2026_27_vol_4_xlsx]
 
 
 ### Building dependencies
