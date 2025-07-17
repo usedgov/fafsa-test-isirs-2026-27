@@ -2,7 +2,7 @@
 // Module for ISIR record field read, validation, and update
 //
 // Definitions for sections and fields is generated (transpiled)
-// from the [2025–26 ISIR Record Layout in Excel Format](https://fsapartners.ed.gov/sites/default/files/2024-08/202526ISIRRecLayout.xlsx)
+// from the [2026–27 ISIR Record Layout in Excel Format](https://fsapartners.ed.gov/sites/default/files/2025-02/2026-27ISIRRecLayout.xlsx)
 // definition of ISIR Layout Volume 4 specification.
 //
 
@@ -20,6 +20,7 @@ const valid_state_codes = {
   'CT': 1, // Connecticut
   'DE': 1, // Delaware
   'DC': 1, // District of Columbia
+  'FC': 1, // Foreign Country
   'FM': 1, // Federated States of Micronesia
   'FL': 1, // Florida
   'GA': 1, // Georgia
@@ -93,10 +94,6 @@ const valid_state_codes = {
   // Canada and Mexico state codes
   'CN': 1, // Canada
   'MX': 1, // Mexico
-
-  // FC for Foreign Country as State Code per table 4-4 
-  // of Volume 4, Record Layouts and Processing Codes
-  'FC': 1, // Foreign Country
 };
 
 const _validate_country_codes = (sz_value) => 1 === valid_country_codes[sz_value];
@@ -223,6 +220,7 @@ const valid_country_codes = {
   'KI': 1, // Kiribati
   'KP': 1, // Korea, Democratic People's Republic Of
   'KR': 1, // Korea, Republic Of
+  'XK': 1, // Kosovo
   'KW': 1, // Kuwait
   'KG': 1, // Kyrgyzstan
   'LA': 1, // Lao People's Democratic Republic
@@ -230,6 +228,7 @@ const valid_country_codes = {
   'LB': 1, // Lebanon
   'LS': 1, // Lesotho
   'LR': 1, // Liberia
+  'LY': 1, // Libya
   'LI': 1, // Liechtenstein
   'LT': 1, // Lithuania
   'LU': 1, // Luxembourg
@@ -348,7 +347,7 @@ const valid_country_codes = {
   'VI': 1, // Virgin Islands, U.S.
   'WF': 1, // Wallis And Futuna
   'EH': 1, // Western Sahara
-  'YD': 1, // Yemen
+  'YE': 1, // Yemen
   'ZM': 1, // Zambia
   'ZW': 1, // Zimbabwe
 };
