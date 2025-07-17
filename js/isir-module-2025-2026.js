@@ -5185,288 +5185,289 @@ const field_344 = {len: 3, pos_start: 3264, pos_end: 3267,
         "See description in the Correction, Highlight, and Verify Flags heading above."
     ]};
 
-const field_345 = {len: 3, pos_start: 3222, pos_end: 3225,
-    idx: 345, name: "Student Marital Status Correction, Highlight, and Verify Flags", path: "/correction/student/Marital_Status", 
+const field_345 = {len: 3, pos_start: 3267, pos_end: 3270,
+    idx: 345, name: "Student Unaccompanied and Homeless (HS)? Correction, Highlight, and Verify Flags", path: "/correction/student/Unaccompanied_and_Homeless_HS", 
     validate: _validate_correction, empty: "000",
     note: [
         "See description in the Correction, Highlight, and Verify Flags heading above."
     ]};
 
-const field_346 = {len: 3, pos_start: 3225, pos_end: 3228,
-    idx: 346, name: "Student Grade Level in College 2025–26 Correction, Highlight, and Verify Flags", path: "/correction/student/Grade_Level_in_College", 
+const field_346 = {len: 3, pos_start: 3270, pos_end: 3273,
+    idx: 346, name: "Student Unaccompanied and Homeless (TRIO)? Correction, Highlight, and Verify Flags", path: "/correction/student/Unaccompanied_and_Homeless_TRIO", 
     validate: _validate_correction, empty: "000",
     note: [
         "See description in the Correction, Highlight, and Verify Flags heading above."
     ]};
 
-const field_347 = {len: 3, pos_start: 3228, pos_end: 3231,
-    idx: 347, name: "Student First Bachelor's Degree Before 2025–26 School Year Correction, Highlight, and Verify Flags", path: "/correction/student/First_Bachelors_Degree_Before_School_Year", 
+const field_347 = {len: 3, pos_start: 3273, pos_end: 3276,
+    idx: 347, name: "Student Unaccompanied and Homeless (FAA)? Correction, Highlight, and Verify Flags", path: "/correction/student/Unaccompanied_and_Homeless_FAA", 
     validate: _validate_correction, empty: "000",
     note: [
         "See description in the Correction, Highlight, and Verify Flags heading above."
     ]};
 
-const field_348 = {len: 3, pos_start: 3231, pos_end: 3234,
-    idx: 348, name: "Student Pursuing Teacher Certification? Correction, Highlight, and Verify Flags", path: "/correction/student/Pursuing_Teacher_Certification", 
+const field_348 = {len: 3, pos_start: 3276, pos_end: 3279,
+    idx: 348, name: "Student Homelessness: None of the above Correction, Highlight, and Verify Flags", path: "/correction/student/Homelessness_None_of_the_above", 
     validate: _validate_correction, empty: "000",
     note: [
         "See description in the Correction, Highlight, and Verify Flags heading above."
     ]};
 
-const field_349 = {len: 3, pos_start: 3234, pos_end: 3237,
-    idx: 349, name: "Student Active Duty? Correction, Highlight, and Verify Flags", path: "/correction/student/Active_Duty", 
+const field_349 = {len: 3, pos_start: 3279, pos_end: 3282,
+    idx: 349, name: "Student Has Unusual Circumstance Correction, Highlight, and Verify Flags", path: "/correction/student/Has_Unusual_Circumstance", 
     validate: _validate_correction, empty: "000",
     note: [
         "See description in the Correction, Highlight, and Verify Flags heading above."
     ]};
 
-const field_350 = {len: 3, pos_start: 3237, pos_end: 3240,
-    idx: 350, name: "Student Veteran? Correction, Highlight, and Verify Flags", path: "/correction/student/Veteran", 
+const field_350 = {len: 3, pos_start: 3282, pos_end: 3285,
+    idx: 350, name: "Student Unsub Only Correction, Highlight, and Verify Flags", path: "/correction/student/Unsub_Only", 
     validate: _validate_correction, empty: "000",
     note: [
         "See description in the Correction, Highlight, and Verify Flags heading above."
     ]};
 
-const field_351 = {len: 3, pos_start: 3240, pos_end: 3243,
-    idx: 351, name: "Student Child or Other Dependents? Correction, Highlight, and Verify Flags", path: "/correction/student/Child_or_Other_Dependents", 
+const field_351 = {len: 3, pos_start: 3285, pos_end: 3288,
+    idx: 351, name: "Student Updated Family Size Correction, Highlight, and Verify Flags", path: "/correction/student/Updated_Family_Size", 
     validate: _validate_correction, empty: "000",
     note: [
         "See description in the Correction, Highlight, and Verify Flags heading above."
     ]};
 
-const field_352 = {len: 3, pos_start: 3243, pos_end: 3246,
-    idx: 352, name: "Student Parents Deceased? Correction, Highlight, and Verify Flags", path: "/correction/student/Parents_Deceased", 
+const field_352 = {len: 3, pos_start: 3288, pos_end: 3291,
+    idx: 352, name: "Student Number in College Correction, Highlight, and Verify Flags", path: "/correction/student/Number_in_College", 
     validate: _validate_correction, empty: "000",
     note: [
         "See description in the Correction, Highlight, and Verify Flags heading above."
     ]};
 
-const field_353 = {len: 3, pos_start: 3246, pos_end: 3249,
-    idx: 353, name: "Student Ward of Court? Correction, Highlight, and Verify Flags", path: "/correction/student/Ward_of_Court", 
+const field_353 = {len: 3, pos_start: 3291, pos_end: 3294,
+    idx: 353, name: "Student Citizenship Status Correction, Highlight, and Verify Flags", path: "/correction/student/Citizenship_Status", 
     validate: _validate_correction, empty: "000",
     note: [
         "See description in the Correction, Highlight, and Verify Flags heading above."
     ]};
 
-const field_354 = {len: 3, pos_start: 3249, pos_end: 3252,
-    idx: 354, name: "Student In Foster Care? Correction, Highlight, and Verify Flags", path: "/correction/student/In_Foster_Care", 
+const field_354 = {len: 3, pos_start: 3294, pos_end: 3297,
+    idx: 354, name: "Student A-Number Correction, Highlight, and Verify Flags", path: "/correction/student/A_Number", 
     validate: _validate_correction, empty: "000",
     note: [
         "See description in the Correction, Highlight, and Verify Flags heading above."
     ]};
 
-const field_355 = {len: 3, pos_start: 3252, pos_end: 3255,
-    idx: 355, name: "Student Emancipated Minor? Correction, Highlight, and Verify Flags", path: "/correction/student/Emancipated_Minor", 
+const field_355 = {len: 3, pos_start: 3297, pos_end: 3300,
+    idx: 355, name: "Student State of Legal Residence Correction, Highlight, and Verify Flags", path: "/correction/student/State_of_Legal_Residence", 
     validate: _validate_correction, empty: "000",
     note: [
         "See description in the Correction, Highlight, and Verify Flags heading above."
     ]};
 
-const field_356 = {len: 3, pos_start: 3255, pos_end: 3258,
-    idx: 356, name: "Student Legal Guardianship? Correction, Highlight, and Verify Flags", path: "/correction/student/Legal_Guardianship", 
+const field_356 = {len: 3, pos_start: 3300, pos_end: 3303,
+    idx: 356, name: "Student Legal Residence Date Correction, Highlight, and Verify Flags", path: "/correction/student/Legal_Residence_Date", 
     validate: _validate_correction, empty: "000",
     note: [
         "See description in the Correction, Highlight, and Verify Flags heading above."
     ]};
 
-const field_357 = {len: 3, pos_start: 3258, pos_end: 3261,
-    idx: 357, name: "Student None of the above (Personal Circumstances) Correction, Highlight, and Verify Flags", path: "/correction/student/None_of_the_above_Personal_Circumstances", 
+const field_357 = {len: 3, pos_start: 3303, pos_end: 3306,
+    idx: 357, name: "Student Either Parent Attend College Correction, Highlight, and Verify Flags", path: "/correction/student/Either_Parent_Attend_College", 
     validate: _validate_correction, empty: "000",
     note: [
         "See description in the Correction, Highlight, and Verify Flags heading above."
     ]};
 
-const field_358 = {len: 3, pos_start: 3261, pos_end: 3264,
-    idx: 358, name: "Student Unaccompanied Homeless Youth, or is Unaccompanied, At Risk of Homelessness, and Self-Supporting? Correction, Highlight, and Verify Flags", path: "/correction/student/Unaccompanied_Homeless_Youth_or_is_Unaccompanied_At_Risk_of_Homelessness_and_Self_Supporting", 
+const field_358 = {len: 3, pos_start: 3306, pos_end: 3309,
+    idx: 358, name: "Student Parent Killed in the Line of Duty Correction, Highlight, and Verify Flags", path: "/correction/student/Parent_Killed_in_the_Line_of_Duty", 
     validate: _validate_correction, empty: "000",
     note: [
         "See description in the Correction, Highlight, and Verify Flags heading above."
     ]};
 
-const field_359 = {len: 3, pos_start: 3264, pos_end: 3267,
-    idx: 359, name: "Student Unaccompanied and Homeless (General)? Correction, Highlight, and Verify Flags", path: "/correction/student/Unaccompanied_and_Homeless_General", 
+const field_359 = {len: 3, pos_start: 3309, pos_end: 3312,
+    idx: 359, name: "Student High School Completion Status Correction, Highlight, and Verify Flags", path: "/correction/student/High_School_Completion_Status", 
     validate: _validate_correction, empty: "000",
     note: [
         "See description in the Correction, Highlight, and Verify Flags heading above."
     ]};
 
-const field_360 = {len: 3, pos_start: 3267, pos_end: 3270,
-    idx: 360, name: "Student Unaccompanied and Homeless (HS)? Correction, Highlight, and Verify Flags", path: "/correction/student/Unaccompanied_and_Homeless_HS", 
+const field_360 = {len: 3, pos_start: 3312, pos_end: 3315,
+    idx: 360, name: "Student High School Name Correction, Highlight, and Verify Flags", path: "/correction/student/High_School_Name", 
     validate: _validate_correction, empty: "000",
     note: [
         "See description in the Correction, Highlight, and Verify Flags heading above."
     ]};
 
-const field_361 = {len: 3, pos_start: 3270, pos_end: 3273,
-    idx: 361, name: "Student Unaccompanied and Homeless (TRIO)? Correction, Highlight, and Verify Flags", path: "/correction/student/Unaccompanied_and_Homeless_TRIO", 
+const field_361 = {len: 3, pos_start: 3315, pos_end: 3318,
+    idx: 361, name: "Student High School City Correction, Highlight, and Verify Flags", path: "/correction/student/High_School_City", 
     validate: _validate_correction, empty: "000",
     note: [
         "See description in the Correction, Highlight, and Verify Flags heading above."
     ]};
 
-const field_362 = {len: 3, pos_start: 3273, pos_end: 3276,
-    idx: 362, name: "Student Unaccompanied and Homeless (FAA)? Correction, Highlight, and Verify Flags", path: "/correction/student/Unaccompanied_and_Homeless_FAA", 
+const field_362 = {len: 3, pos_start: 3318, pos_end: 3321,
+    idx: 362, name: "Student High School State Correction, Highlight, and Verify Flags", path: "/correction/student/High_School_State", 
     validate: _validate_correction, empty: "000",
     note: [
         "See description in the Correction, Highlight, and Verify Flags heading above."
     ]};
 
-const field_363 = {len: 3, pos_start: 3276, pos_end: 3279,
-    idx: 363, name: "Student Homelessness: None of the above Correction, Highlight, and Verify Flags", path: "/correction/student/Homelessness_None_of_the_above", 
+
+const field_363 = {len: 3, pos_start: 3321, pos_end: 3324,
+    idx: 363, name: "Student High School Equivalent Diploma Name Correction, Highlight, and Verify Flags", path: "/correction/student/High_School_Equivalent_Diploma_Name", 
     validate: _validate_correction, empty: "000",
     note: [
         "See description in the Correction, Highlight, and Verify Flags heading above."
     ]};
 
-const field_364 = {len: 3, pos_start: 3279, pos_end: 3282,
-    idx: 364, name: "Student Has Unusual Circumstance Correction, Highlight, and Verify Flags", path: "/correction/student/Has_Unusual_Circumstance", 
+const field_364 = {len: 3, pos_start: 3324, pos_end: 3327,
+    idx: 364, name: "Student High School Equivalent Diploma State Correction, Highlight, and Verify Flags", path: "/correction/student/High_School_Equivalent_Diploma_State", 
     validate: _validate_correction, empty: "000",
     note: [
         "See description in the Correction, Highlight, and Verify Flags heading above."
     ]};
 
-const field_365 = {len: 3, pos_start: 3282, pos_end: 3285,
-    idx: 365, name: "Student Unsub Only Correction, Highlight, and Verify Flags", path: "/correction/student/Unsub_Only", 
+const field_365 = {len: 3, pos_start: 3327, pos_end: 3330,
+    idx: 365, name: "Student Received EITC? Correction, Highlight, and Verify Flags", path: "/correction/student/Received_EITC", 
     validate: _validate_correction, empty: "000",
     note: [
         "See description in the Correction, Highlight, and Verify Flags heading above."
     ]};
 
-const field_366 = {len: 3, pos_start: 3285, pos_end: 3288,
-    idx: 366, name: "Student Updated Family Size Correction, Highlight, and Verify Flags", path: "/correction/student/Updated_Family_Size", 
+const field_366 = {len: 3, pos_start: 3330, pos_end: 3333,
+    idx: 366, name: "Student Received Federal Housing Assistance? Correction, Highlight, and Verify Flags", path: "/correction/student/Received_Federal_Housing_Assistance", 
     validate: _validate_correction, empty: "000",
     note: [
         "See description in the Correction, Highlight, and Verify Flags heading above."
     ]};
 
-const field_367 = {len: 3, pos_start: 3288, pos_end: 3291,
-    idx: 367, name: "Student Number in College Correction, Highlight, and Verify Flags", path: "/correction/student/Number_in_College", 
+const field_367 = {len: 3, pos_start: 3333, pos_end: 3336,
+    idx: 367, name: "Student Received Free/Reduced Price Lunch? Correction, Highlight, and Verify Flags", path: "/correction/student/Received_FreeReduced_Price_Lunch", 
     validate: _validate_correction, empty: "000",
     note: [
         "See description in the Correction, Highlight, and Verify Flags heading above."
     ]};
 
-const field_368 = {len: 3, pos_start: 3291, pos_end: 3294,
-    idx: 368, name: "Student Citizenship Status Correction, Highlight, and Verify Flags", path: "/correction/student/Citizenship_Status", 
+const field_368 = {len: 3, pos_start: 3336, pos_end: 3339,
+    idx: 368, name: "Student Received Medicaid? Correction, Highlight, and Verify Flags", path: "/correction/student/Received_Medicaid", 
     validate: _validate_correction, empty: "000",
     note: [
         "See description in the Correction, Highlight, and Verify Flags heading above."
     ]};
 
-const field_369 = {len: 3, pos_start: 3294, pos_end: 3297,
-    idx: 369, name: "Student A-Number Correction, Highlight, and Verify Flags", path: "/correction/student/A_Number", 
+const field_369 = {len: 3, pos_start: 3339, pos_end: 3342,
+    idx: 369, name: "Student Received Refundable Credit for 36B Health Plan? Correction, Highlight, and Verify Flags", path: "/correction/student/Received_Refundable_Credit_for_36B_Health_Plan", 
     validate: _validate_correction, empty: "000",
     note: [
         "See description in the Correction, Highlight, and Verify Flags heading above."
     ]};
 
-const field_370 = {len: 3, pos_start: 3297, pos_end: 3300,
-    idx: 370, name: "Student State of Legal Residence Correction, Highlight, and Verify Flags", path: "/correction/student/State_of_Legal_Residence", 
+const field_370 = {len: 3, pos_start: 3342, pos_end: 3345,
+    idx: 370, name: "Student Received SNAP? Correction, Highlight, and Verify Flags", path: "/correction/student/Received_SNAP", 
     validate: _validate_correction, empty: "000",
     note: [
         "See description in the Correction, Highlight, and Verify Flags heading above."
     ]};
 
-const field_371 = {len: 3, pos_start: 3300, pos_end: 3303,
-    idx: 371, name: "Student Legal Residence Date Correction, Highlight, and Verify Flags", path: "/correction/student/Legal_Residence_Date", 
+const field_371 = {len: 3, pos_start: 3345, pos_end: 3348,
+    idx: 371, name: "Student Received Supplemental Security Income? Correction, Highlight, and Verify Flags", path: "/correction/student/Received_Supplemental_Security_Income", 
     validate: _validate_correction, empty: "000",
     note: [
         "See description in the Correction, Highlight, and Verify Flags heading above."
     ]};
 
-const field_372 = {len: 3, pos_start: 3303, pos_end: 3306,
-    idx: 372, name: "Student Either Parent Attend College Correction, Highlight, and Verify Flags", path: "/correction/student/Either_Parent_Attend_College", 
+const field_372 = {len: 3, pos_start: 3348, pos_end: 3351,
+    idx: 372, name: "Student Received TANF? Correction, Highlight, and Verify Flags", path: "/correction/student/Received_TANF", 
     validate: _validate_correction, empty: "000",
     note: [
         "See description in the Correction, Highlight, and Verify Flags heading above."
     ]};
 
-const field_373 = {len: 3, pos_start: 3306, pos_end: 3309,
-    idx: 373, name: "Student Parent Killed in the Line of Duty Correction, Highlight, and Verify Flags", path: "/correction/student/Parent_Killed_in_the_Line_of_Duty", 
+const field_373 = {len: 3, pos_start: 3351, pos_end: 3354,
+    idx: 373, name: "Student Received WIC? Correction, Highlight, and Verify Flags", path: "/correction/student/Received_WIC", 
     validate: _validate_correction, empty: "000",
     note: [
         "See description in the Correction, Highlight, and Verify Flags heading above."
     ]};
 
-const field_374 = {len: 3, pos_start: 3309, pos_end: 3312,
-    idx: 374, name: "Student High School Completion Status Correction, Highlight, and Verify Flags", path: "/correction/student/High_School_Completion_Status", 
+const field_374 = {len: 3, pos_start: 3354, pos_end: 3357,
+    idx: 374, name: "Student None of the above (Federal Benefits) Correction, Highlight, and Verify Flags", path: "/correction/student/None_of_the_above_Federal_Benefits", 
     validate: _validate_correction, empty: "000",
     note: [
         "See description in the Correction, Highlight, and Verify Flags heading above."
     ]};
 
-const field_375 = {len: 3, pos_start: 3312, pos_end: 3315,
-    idx: 375, name: "Student High School Name Correction, Highlight, and Verify Flags", path: "/correction/student/High_School_Name", 
+const field_375 = {len: 3, pos_start: 3357, pos_end: 3360,
+    idx: 375, name: "Student Filed 1040 or 1040NR? Correction, Highlight, and Verify Flags", path: "/correction/student/Filed_1040_or_1040NR", 
     validate: _validate_correction, empty: "000",
     note: [
         "See description in the Correction, Highlight, and Verify Flags heading above."
     ]};
 
-const field_376 = {len: 3, pos_start: 3315, pos_end: 3318,
-    idx: 376, name: "Student High School City Correction, Highlight, and Verify Flags", path: "/correction/student/High_School_City", 
+const field_376 = {len: 3, pos_start: 3360, pos_end: 3363,
+    idx: 376, name: "Student Filed Non-U.S. Tax Return? Correction, Highlight, and Verify Flags", path: "/correction/student/Filed_Non_US_Tax_Return", 
     validate: _validate_correction, empty: "000",
     note: [
         "See description in the Correction, Highlight, and Verify Flags heading above."
     ]};
 
-const field_377 = {len: 3, pos_start: 3318, pos_end: 3321,
-    idx: 377, name: "Student High School State Correction, Highlight, and Verify Flags", path: "/correction/student/High_School_State", 
+const field_377 = {len: 3, pos_start: 3363, pos_end: 3366,
+    idx: 377, name: "Student Filed Joint Return With Current Spouse? Correction, Highlight, and Verify Flags", path: "/correction/student/Filed_Joint_Return_With_Current_Spouse", 
     validate: _validate_correction, empty: "000",
     note: [
         "See description in the Correction, Highlight, and Verify Flags heading above."
     ]};
 
-const field_378 = {len: 3, pos_start: 3321, pos_end: 3324,
-    idx: 378, name: "Student High School Equivalent Diploma Name Correction, Highlight, and Verify Flags", path: "/correction/student/High_School_Equivalent_Diploma_Name", 
+const field_378 = {len: 3, pos_start: 3366, pos_end: 3369,
+    idx: 378, name: "Student Tax Return Filing Status Correction, Highlight, and Verify Flags", path: "/correction/student/Tax_Return_Filing_Status", 
     validate: _validate_correction, empty: "000",
     note: [
         "See description in the Correction, Highlight, and Verify Flags heading above."
     ]};
 
-const field_379 = {len: 3, pos_start: 3324, pos_end: 3327,
-    idx: 379, name: "Student High School Equivalent Diploma State Correction, Highlight, and Verify Flags", path: "/correction/student/High_School_Equivalent_Diploma_State", 
+const field_379 = {len: 3, pos_start: 3369, pos_end: 3372,
+    idx: 379, name: "Student Income Earned from Work Correction, Highlight, and Verify Flags", path: "/correction/student/Income_Earned_from_Work", 
     validate: _validate_correction, empty: "000",
     note: [
         "See description in the Correction, Highlight, and Verify Flags heading above."
     ]};
 
-const field_380 = {len: 3, pos_start: 3327, pos_end: 3330,
-    idx: 380, name: "Student Received EITC? Correction, Highlight, and Verify Flags", path: "/correction/student/Received_EITC", 
+const field_380 = {len: 3, pos_start: 3372, pos_end: 3375,
+    idx: 380, name: "Student Tax Exempt Interest Income Correction, Highlight, and Verify Flags", path: "/correction/student/Tax_Exempt_Interest_Income", 
     validate: _validate_correction, empty: "000",
     note: [
         "See description in the Correction, Highlight, and Verify Flags heading above."
     ]};
 
-const field_381 = {len: 3, pos_start: 3330, pos_end: 3333,
-    idx: 381, name: "Student Received Federal Housing Assistance? Correction, Highlight, and Verify Flags", path: "/correction/student/Received_Federal_Housing_Assistance", 
+const field_381 = {len: 3, pos_start: 3375, pos_end: 3378,
+    idx: 381, name: "Student Untaxed Portions of IRA Distributions Correction, Highlight, and Verify Flags", path: "/correction/student/Untaxed_Portions_of_IRA_Distributions", 
     validate: _validate_correction, empty: "000",
     note: [
         "See description in the Correction, Highlight, and Verify Flags heading above."
     ]};
 
-const field_382 = {len: 3, pos_start: 3333, pos_end: 3336,
-    idx: 382, name: "Student Received Free/Reduced Price Lunch? Correction, Highlight, and Verify Flags", path: "/correction/student/Received_FreeReduced_Price_Lunch", 
+const field_382 = {len: 3, pos_start: 3378, pos_end: 3381,
+    idx: 382, name: "Student IRA Rollover Correction, Highlight, and Verify Flags", path: "/correction/student/IRA_Rollover", 
     validate: _validate_correction, empty: "000",
     note: [
         "See description in the Correction, Highlight, and Verify Flags heading above."
     ]};
 
-const field_383 = {len: 3, pos_start: 3336, pos_end: 3339,
-    idx: 383, name: "Student Received Medicaid? Correction, Highlight, and Verify Flags", path: "/correction/student/Received_Medicaid", 
+const field_383 = {len: 3, pos_start: 3381, pos_end: 3384,
+    idx: 383, name: "Student Untaxed Portions of Pensions Correction, Highlight, and Verify Flags", path: "/correction/student/Untaxed_Portions_of_Pensions", 
     validate: _validate_correction, empty: "000",
     note: [
         "See description in the Correction, Highlight, and Verify Flags heading above."
     ]};
 
-const field_384 = {len: 3, pos_start: 3339, pos_end: 3342,
-    idx: 384, name: "Student Received Refundable Credit for 36B Health Plan? Correction, Highlight, and Verify Flags", path: "/correction/student/Received_Refundable_Credit_for_36B_Health_Plan", 
+const field_384 = {len: 3, pos_start: 3384, pos_end: 3387,
+    idx: 384, name: "Student Pension Rollover Correction, Highlight, and Verify Flags", path: "/correction/student/Pension_Rollover", 
     validate: _validate_correction, empty: "000",
     note: [
         "See description in the Correction, Highlight, and Verify Flags heading above."
     ]};
 
-const field_385 = {len: 3, pos_start: 3342, pos_end: 3345,
-    idx: 385, name: "Student Received SNAP? Correction, Highlight, and Verify Flags", path: "/correction/student/Received_SNAP", 
+const field_385 = {len: 3, pos_start: 3387, pos_end: 3390,
+    idx: 385, name: "Student Adjusted Gross Income Correction, Highlight, and Verify Flags", path: "/correction/student/Adjusted_Gross_Income", 
     validate: _validate_correction, empty: "000",
     note: [
         "See description in the Correction, Highlight, and Verify Flags heading above."
