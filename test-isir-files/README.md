@@ -14,7 +14,6 @@ Note: Some files may be too large to view within GitHub. Please refer to the pro
 
 | Filename | Description |
 |----------|-------------|
-TODO: Link to the publish announcement
-| [`applications_2627 ISIR test file_07142025.txt`](./applications_2627 ISIR test file_07142025.txt) | [ISIRs published to be published in July][ea_isirs_2025-07-14] containing initial (01) transactions |
+| [`applications_2627 ISIR test file_07142025.txt`](./applications_2627 ISIR test file_07142025.txt) | [ISIRs published to be published on July 17th][ea_isirs_2025-07-17] containing initial (01) transactions |
 
- [ea_isirs_2025-07-14]: https://fsapartners.ed.gov/knowledge-center/library/handbooks-manuals-or-guides/2025-02-26/2026-27-fafsa-specifications-guide-july-2025-update
+ [ea_isirs_2025-07-17]: https://fsapartners.ed.gov/knowledge-center/library/electronic-announcements/2025-07-17/2026-27-test-isir-data-file-available
