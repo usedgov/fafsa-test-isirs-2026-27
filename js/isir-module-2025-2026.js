@@ -4870,8 +4870,16 @@ const field_305 = {len: 12, pos_start: 2853, pos_end: 2865,
         "Blank"
     ]};
 
-const field_306 = {len: 15, pos_start: 2865, pos_end: 2880,
-    idx: 306, name: "Total Parent Allowances Against Income", path: "/FPS/parent/Total_Allowances_Against_Income", 
+const field_306 = {len: 240, pos_start: 2865, pos_end: 3105,
+    idx: 306, name: null, 
+    extra: "Filler",
+    non_content: true,
+    note: [
+        "For Federal Student Aid use only"
+    ]};
+
+const field_307 = {len: 7, pos_start: 3105, pos_end: 3112,
+    idx: 322, name: "Parent Discretionary Net Worth", alias: "PDNW", path: "/FPS/parent/Discretionary_Net_Worth",
     validate: _validate_options, allow_blank: true,
     options: [
       {op: "range", "min":"0","max":"999999999999999"},
@@ -4881,102 +4889,91 @@ const field_306 = {len: 15, pos_start: 2865, pos_end: 2880,
         "Blank"
     ]};
 
-const field_307 = {len: 15, pos_start: 2880, pos_end: 2895,
-    idx: 307, name: "Parent Payroll Tax Allowance", path: "/FPS/parent/Payroll_Tax_Allowance", 
+const field_308 = {len: 7, pos_start: 3112, pos_end: 3119,
+    idx: 308, name: "Parent Net Worth", alias: "PNW", path: "/FPS/parent/Net_Worth", 
     validate: _validate_options, allow_blank: true,
     options: [
-      {op: "range", "min":"0","max":"999999999999999"},
+      {op: "range", "min":"0","max":"9999999"},
     ],
     note: [
-        "0 to 999999999999999",
+        "0 to 9999999",
         "Blank"
     ]};
 
-const field_308 = {len: 15, pos_start: 2895, pos_end: 2910,
-    idx: 308, name: "Parent Income Protection Allowance", alias: "IPA", path: "/FPS/parent/Income_Protection_Allowance", 
+const field_309 = {len: 12, pos_start: 3118, pos_end: 3131,
+    idx: 309, name: "Parent Asset Protection Allowance", alias: "PAPA", path: "/FPS/parent/Asset_Protection_Allowance", 
     validate: _validate_options, allow_blank: true,
     options: [
-      {op: "range", "min":"0","max":"999999999999999"},
+      {op: "range", "min":"0","max":"999999999999"},
     ],
     note: [
-        "0 to 999999999999999",
+        "0 to 999999999999",
         "Blank"
     ]};
 
-const field_309 = {len: 15, pos_start: 2910, pos_end: 2925,
-    idx: 309, name: "Parent Employment Expense Allowance", alias: "PEEA", path: "/FPS/parent/Employment_Expense_Allowance", 
+const field_310 = {len: 12, pos_start: 3131, pos_end: 3143,
+    idx: 310, name: "Parent Contribution from Assets", alias: "PCA", path: "/FPS/parent/Contribution_from_Assets", 
     validate: _validate_options, allow_blank: true,
     options: [
-      {op: "range", "min":"0","max":"999999999999999"},
+      {op: "range", "min":"0","max":"999999999999"},
     ],
     note: [
-        "0 to 999999999999999",
+        "0 to 999999999999",
         "Blank"
     ]};
 
-const field_310 = {len: 15, pos_start: 2925, pos_end: 2940,
-    idx: 310, name: "Parent Available Income", alias: "PAI", path: "/FPS/parent/Available_Income", 
+const field_311 = {len: 7, pos_start: 3143, pos_end: 3150,
+    idx: 311, name: "Student Net Worth", alias: "SNW", path: "/FPS/student/Net_Worth", 
     validate: _validate_options, allow_blank: true,
     options: [
-      {op: "range", "min":"-99999999999999","max":"999999999999999"},
+      {op: "range", "min":"0","max":"9999999"},
     ],
     note: [
-        "-99999999999999 to 999999999999999",
+        "0 to 9999999",
         "Blank"
     ]};
 
-const field_311 = {len: 15, pos_start: 2940, pos_end: 2955,
-    idx: 311, name: "Parent Adjusted Available Income", alias: "PAAI", path: "/FPS/parent/Adjusted_Available_Income", 
+const field_312 = {len: 12, pos_start: 3150, pos_end: 3162,
+    idx: 312, name: "Student Asset Protection Allowance", alias: "SAPA", path: "/FPS/student/Asset_Protection_Allowance", 
     validate: _validate_options, allow_blank: true,
     options: [
-      {op: "range", "min":"-99999999999999","max":"999999999999999"},
+      {op: "range", "min":"0","max":"999999999999"},
     ],
     note: [
-        "-99999999999999 to 999999999999999",
+        "0 to 999999999999",
         "Blank"
     ]};
 
-const field_312 = {len: 15, pos_start: 2955, pos_end: 2970,
-    idx: 312, name: "Parent Contribution", alias: "PC", path: "/FPS/parent/Contribution", 
+const field_313 = {len: 12, pos_start: 3162, pos_end: 3174,
+    idx: 313, name: "Student Contribution from Assets", alias: "SCA", path: "/FPS/student/Contribution_from_Assets", 
     validate: _validate_options, allow_blank: true,
     options: [
-      {op: "range", "min":"-1826","max":"999999999999999"},
+      {op: "range", "min":"0","max":"999999999999"},
     ],
     note: [
-        "-1826 to 999999999999999",
+        "0 to 999999999999",
         "Blank"
     ]};
 
-const field_313 = {len: 15, pos_start: 2970, pos_end: 2985,
-    idx: 313, name: "Student Payroll Tax Allowance", path: "/FPS/student/Payroll_Tax_Allowance", 
+const field_314 = {len: 3, pos_start: 3174, pos_end: 3177,
+    idx: 314, name: "Assumed Student Family Size", path: "/FPS/student/Assumed_Family_Size", 
     validate: _validate_options, allow_blank: true,
     options: [
-      {op: "range", "min":"0","max":"999999999999999"},
+      {op: "range", "min":"1","max":"198"},
     ],
     note: [
-        "0 to 999999999999999",
+        "1 to 198",
         "Blank"
     ]};
 
-const field_314 = {len: 15, pos_start: 2985, pos_end: 3000,
-    idx: 314, name: "Student Income Protection Allowance", alias: "IPA", path: "/FPS/student/Income_Protection_Allowance", 
+const field_315 = {len: 3, pos_start: 3177, pos_end: 3180,
+    idx: 315, name: "Assumed Parent Family Size", path: "/FPS/parent/Assumed_Family_Size", 
     validate: _validate_options, allow_blank: true,
     options: [
-      {op: "range", "min":"0","max":"999999999999999"},
+      {op: "range", "min":"1","max":"297"},
     ],
     note: [
-        "0 to 999999999999999",
-        "Blank"
-    ]};
-
-const field_315 = {len: 15, pos_start: 3000, pos_end: 3015,
-    idx: 315, name: "Student Allowance for Parents’ Negative Adjusted Available Income", path: "/FPS/student/Allowance_for_Parents_Negative_Adjusted_Available_Income", 
-    validate: _validate_options, allow_blank: true,
-    options: [
-      {op: "range", "min":"0","max":"999999999999999"},
-    ],
-    note: [
-        "0 to 999999999999999",
+        "1 to 297",
         "Blank"
     ]};
 
