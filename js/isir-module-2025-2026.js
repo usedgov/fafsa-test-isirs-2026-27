@@ -6278,71 +6278,71 @@ const field_500 = {len: 3, pos_start: 3732, pos_end: 3735,
         "See description in the Correction, Highlight, and Verify Flags heading above."
     ]};
 
-const field_501 = {len: 3, pos_start: 3690, pos_end: 3693,
-    idx: 501, name: "Parent Tax Return Filing Status Correction, Highlight, and Verify Flags", path: "/correction/parent/Tax_Return_Filing_Status", 
+const field_501 = {len: 3, pos_start: 3735, pos_end: 3738,
+    idx: 501, name: "Parent Foreign Earned Income Exclusion Correction, Highlight, and Verify Flags", path: "/correction/parent/Foreign_Earned_Income_Exclusion", 
     validate: _validate_correction, empty: "000",
     note: [
         "See description in the Correction, Highlight, and Verify Flags heading above."
     ]};
 
-const field_502 = {len: 3, pos_start: 3693, pos_end: 3696,
-    idx: 502, name: "Parent Income Earned from Work Correction, Highlight, and Verify Flags", path: "/correction/parent/Income_Earned_from_Work", 
+const field_502 = {len: 3, pos_start: 3738, pos_end: 3741,
+    idx: 502, name: "Parent Child Support Received Correction, Highlight, and Verify Flags", path: "/correction/parent/Child_Support_Received", 
     validate: _validate_correction, empty: "000",
     note: [
         "See description in the Correction, Highlight, and Verify Flags heading above."
     ]};
 
-const field_503 = {len: 3, pos_start: 3696, pos_end: 3699,
-    idx: 503, name: "Parent Tax Exempt Interest Income Correction, Highlight, and Verify Flags", path: "/correction/parent/Tax_Exempt_Interest_Income", 
+const field_503 = {len: 3, pos_start: 3741, pos_end: 3744,
+    idx: 503, name: "Parent Net Worth of Current Investments Correction, Highlight, and Verify Flags", path: "/correction/parent/Net_Worth_of_Current_Investments", 
     validate: _validate_correction, empty: "000",
     note: [
         "See description in the Correction, Highlight, and Verify Flags heading above."
     ]};
 
-const field_504 = {len: 3, pos_start: 3699, pos_end: 3702,
-    idx: 504, name: "Parent Untaxed Portions of IRA Distributions Correction, Highlight, and Verify Flags", path: "/correction/parent/Untaxed_Portions_of_IRA_Distributions", 
+const field_504 = {len: 3, pos_start: 3744, pos_end: 3747,
+    idx: 504, name: "Parent Total of Cash, Savings, and Checking Accounts Correction, Highlight, and Verify Flags", path: "/correction/parent/Total_of_Cash_Savings_and_Checking_Accounts", 
     validate: _validate_correction, empty: "000",
     note: [
         "See description in the Correction, Highlight, and Verify Flags heading above."
     ]};
 
-const field_505 = {len: 3, pos_start: 3702, pos_end: 3705,
-    idx: 505, name: "Parent IRA Rollover Correction, Highlight, and Verify Flags", path: "/correction/parent/IRA_Rollover", 
+const field_505 = {len: 3, pos_start: 3747, pos_end: 3750,
+    idx: 505, name: "Parent Net Worth of Businesses and Investment Farms Correction, Highlight, and Verify Flags", path: "/correction/parent/Net_Worth_of_Businesses_and_Investment_Farms", 
     validate: _validate_correction, empty: "000",
     note: [
         "See description in the Correction, Highlight, and Verify Flags heading above."
     ]};
 
-const field_506 = {len: 3, pos_start: 3705, pos_end: 3708,
-    idx: 506, name: "Parent Untaxed Portions of Pensions Correction, Highlight, and Verify Flags", path: "/correction/parent/Untaxed_Portions_of_Pensions", 
+const field_506 = {len: 3, pos_start: 3750, pos_end: 3753,
+    idx: 506, name: "Parent Consent to Retrieve and Disclose FTI Correction, Highlight, and Verify Flags", path: "/correction/parent/Consent_to_Retrieve_and_Disclose_FTI", 
     validate: _validate_correction, empty: "000",
     note: [
         "See description in the Correction, Highlight, and Verify Flags heading above."
     ]};
 
-const field_507 = {len: 3, pos_start: 3708, pos_end: 3711,
-    idx: 507, name: "Parent Pension Rollover Correction, Highlight, and Verify Flags", path: "/correction/parent/Pension_Rollover", 
+const field_507 = {len: 3, pos_start: 3753, pos_end: 3756,
+    idx: 507, name: "Parent Signature Correction, Highlight, and Verify Flags", path: "/correction/parent/Signature", 
     validate: _validate_correction, empty: "000",
     note: [
         "See description in the Correction, Highlight, and Verify Flags heading above."
     ]};
 
-const field_508 = {len: 3, pos_start: 3711, pos_end: 3714,
-    idx: 508, name: "Parent Adjusted Gross Income Correction, Highlight, and Verify Flags", path: "/correction/parent/Adjusted_Gross_Income", 
+const field_508 = {len: 3, pos_start: 3756, pos_end: 3759,
+    idx: 508, name: "Parent Signature Date Correction, Highlight, and Verify Flags", path: "/correction/parent/Signature_Date", 
     validate: _validate_correction, empty: "000",
     note: [
         "See description in the Correction, Highlight, and Verify Flags heading above."
     ]};
 
-const field_509 = {len: 3, pos_start: 3714, pos_end: 3717,
-    idx: 509, name: "Parent Income Tax Paid Correction, Highlight, and Verify Flags", path: "/correction/parent/Income_Tax_Paid", 
+const field_509 = {len: 3, pos_start: 3759, pos_end: 3762,
+    idx: 509, name: "Parent Spouse or Partner First Name Correction, Highlight, and Verify Flags", path: "/correction/other_parent/First_Name", 
     validate: _validate_correction, empty: "000",
     note: [
         "See description in the Correction, Highlight, and Verify Flags heading above."
     ]};
 
-const field_510 = {len: 3, pos_start: 3717, pos_end: 3720,
-    idx: 510, name: "Parent Earned Income Tax Credit Received During Tax Year? Correction, Highlight, and Verify Flags", path: "/correction/parent/Earned_Income_Tax_Credit_Received_During_Tax_Year", 
+const field_510 = {len: 3, pos_start: 3762, pos_end: 3765,
+    idx: 510, name: "Parent Spouse or Partner Middle Name Correction, Highlight, and Verify Flags", path: "/correction/other_parent/Middle_Name", 
     validate: _validate_correction, empty: "000",
     note: [
         "See description in the Correction, Highlight, and Verify Flags heading above."
