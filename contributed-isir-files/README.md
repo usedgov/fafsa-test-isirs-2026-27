@@ -2,7 +2,7 @@
 
 This folder contains test ISIRs that have been contributed to this repository by colleges, third-party servicers, and software vendors.
 
-These ISIRs should be considered draft data and should not be expected to receive ongoing support. We recommend using a tool such as the lightweight [`isir-viewer-2025-2026.html`](../isir-viewer-2025-2026.html) tool to view field-level validation results for these contributed ISIRs.
+These ISIRs should be considered draft data and should not be expected to receive ongoing support. We recommend using a tool such as the lightweight [`isir-viewer-2026-2027.html`](../isir-viewer-2026-2027.html) tool to view field-level validation results for these contributed ISIRs.
 * To download a file: select the file, and on the resulting page click the "Download raw file" button in the upper right menu.
 
 You are able to submit your own test ISIRs for publishing in this repository by submitting a pull request.
