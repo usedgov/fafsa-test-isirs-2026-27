@@ -503,9 +503,9 @@ function _validate_options(sz_value, field) {
 const field_1 = {len: 1, pos_start: 0, pos_end: 1,
     idx: 1, name: null, 
     validate: _validate_expect,
-    expect: "6", non_content: true,
+    expect: "7", non_content: true,
     note: [
-        "6, will always be “6” (for 2025–26)"
+        "7, will always be “7” (for 2026–27)"
     ]};
 
 const field_2 = {len: 36, pos_start: 1, pos_end: 37,
@@ -594,11 +594,11 @@ const field_8 = {len: 8, pos_start: 113, pos_end: 121,
     idx: 8, name: "Application Receipt Date", path: "/transaction/Application_Receipt_Date", 
     validate: _validate_date, allow_blank: true,
     options: [
-      {op: "date_range", "min":"20241001","max":"20260630"},
+      {op: "date_range", "min":"20250803","max":"20270630"},
     ],
     note: [
         "Format is CCYYMMDD",
-        "20241001 to 20260630",
+        "20250803 to 20270630",
         "Blank"
     ]};
 
@@ -656,22 +656,22 @@ const field_12 = {len: 8, pos_start: 124, pos_end: 132,
     idx: 12, name: "Transaction Receipt Date", path: "/transaction/Receipt_Date", 
     validate: _validate_date,
     options: [
-      {op: "date_range", "min":"20241001","max":"20260930"},
+      {op: "date_range", "min":"20250803","max":"20270930"},
     ],
     note: [
         "Format is CCYYMMDD",
-        "20241001 to 20260930"
+        "20250803 to 20270930"
     ]};
 
 const field_13 = {len: 8, pos_start: 132, pos_end: 140,
     idx: 13, name: "Transaction Process Date", path: "/transaction/Process_Date", 
     validate: _validate_date,
     options: [
-      {op: "date_range", "min":"20241001","max":"20260930"},
+      {op: "date_range", "min":"20250803","max":"20270930"},
     ],
     note: [
         "Format is CCYYMMDD",
-        "20241001 to 20260930"
+        "20250803 to 20270930"
     ]};
 
 const field_14 = {len: 30, pos_start: 140, pos_end: 170,
@@ -927,13 +927,13 @@ const field_29 = {len: 8, pos_start: 337, pos_end: 345,
     idx: 29, name: "Date of Birth", path: "/student/identity/Date_of_Birth", fafsa_category: ["1e"], 
     validate: _validate_date, allow_blank: true,
     options: [
-      {op: "range", "min":"19000101","max":"20251231"},
+      {op: "range", "min":"19000101","max":"20250722"},
       {op: "date_range", "min":false,"max":false},
     ],
     note: [
         "19000101 to current date",
         "Numeric within valid range.",
-        "Format is CCYYMMDD where MM is 01 to 12, (CC is 19 and YY is 00 to 99) or (CC is 20 and YY is 00 to 25). Valid day range depending on month (see table below).",
+        "Format is CCYYMMDD where MM is 01 to 12, (CC is 19 and YY is 00 to 99) or (CC is 20 and YY is 00 to 27). Valid day range depending on month (see table below).",
         "Month Valid Day Range",
         " 01: 01-31",
         " 02: 01 to 28 (unless year is divisible by 4 for non-centurial years or 400 for centurial years, then 01 to 29 is valid)",
@@ -1110,7 +1110,7 @@ const field_40 = {len: 1, pos_start: 557, pos_end: 558,
     ]};
 
 const field_41 = {len: 1, pos_start: 558, pos_end: 559,
-    idx: 41, name: "Grade Level in College 2025–26", path: "/student/non_financial/Grade_Level_in_College", fafsa_category: ["4a","Student College or Career School Plans"], 
+    idx: 41, name: "Grade Level in College 2026–27", path: "/student/non_financial/Grade_Level_in_College", fafsa_category: ["4a","Student College or Career School Plans"], 
     validate: _validate_options, allow_blank: true,
     options: [
       {op: "enum", options: {
@@ -1129,7 +1129,7 @@ const field_41 = {len: 1, pos_start: 558, pos_end: 559,
     ]};
 
 const field_42 = {len: 1, pos_start: 559, pos_end: 560,
-    idx: 42, name: "First Bachelor's Degree Before 2025–26 School Year", path: "/student/non_financial/First_Bachelors_Degree_Before_School_Year", fafsa_category: ["4b"], 
+    idx: 42, name: "First Bachelor's Degree Before 2026–27 School Year", path: "/student/non_financial/First_Bachelors_Degree_Before_School_Year", fafsa_category: ["4b"], 
     validate: _validate_options, allow_blank: true,
     options: [
       {op: "enum", options: {
@@ -1386,7 +1386,7 @@ const field_60 = {len: 1, pos_start: 577, pos_end: 578,
     ]};
 
 const field_61 = {len: 2, pos_start: 578, pos_end: 580,
-    idx: 61, name: "Revised Family Size", path: "/student/non_financial/Revised_Family_Size", fafsa_category: ["9","Family Size"], 
+    idx: 61, name: "Updated Family Size", path: "/student/non_financial/Updated_Family_Size", fafsa_category: ["9","Family Size"], 
     validate: _validate_options, allow_blank: true,
     options: [
       {op: "range", "min":"0","max":"99"},
@@ -2414,13 +2414,13 @@ const field_136 = {len: 8, pos_start: 1149, pos_end: 1157,
     idx: 136, name: "Date of Birth", path: "/student_spouse/identity/Date_of_Birth", fafsa_category: ["25e"], 
     validate: _validate_date, allow_blank: true,
     options: [
-      {op: "range", "min":"19000101","max":"20251231"},
+      {op: "range", "min":"19000101","max":"20250722"},
       {op: "date_range", "min":false,"max":false},
     ],
     note: [
         "19000101 to current date",
         "Numeric within valid range.",
-        "Format is CCYYMMDD where MM is 01 to 12, (CC is 19 and YY is 00 to 99) or (CC is 20 and YY is 00 to 25). Valid day range depending on month (see table below).",
+        "Format is CCYYMMDD where MM is 01 to 12, (CC is 19 and YY is 00 to 99) or (CC is 20 and YY is 00 to 27). Valid day range depending on month (see table below).",
         "Month Valid Day Range",
         " 01\t01-31",
         " 02\t01 to 28 (unless year is divisible by 4 for non-centurial years or 400 for centurial years, then 01 to 29 is valid)",
@@ -2806,11 +2806,11 @@ const field_164 = {len: 8, pos_start: 1452, pos_end: 1460,
     idx: 164, name: "Signature Date", path: "/student_spouse/consent/Signature_Date", fafsa_category: ["29c"], 
     validate: _validate_date, allow_blank: true,
     options: [
-      {op: "date_range", "min":"20241001","max":"20260930"},
+      {op: "date_range", "min":"20250803","max":"20270930"},
     ],
     note: [
         "Format is CCYYMMDD",
-        "20241001 to 20260930",
+        "20250803 to 20270930",
         "Blank"
     ]};
 
@@ -2885,13 +2885,13 @@ const field_170 = {len: 8, pos_start: 1605, pos_end: 1613,
     idx: 170, name: "Date of Birth", path: "/parent/identity/Date_of_Birth", fafsa_category: ["30e"], 
     validate: _validate_date, allow_blank: true,
     options: [
-      {op: "range", "min":"19000101","max":"20251231"},
+      {op: "range", "min":"19000101","max":"20250722"},
       {op: "date_range", "min":false,"max":false},
     ],
     note: [
         "19000101 to current date",
         "Numeric within valid range.",
-        "Format is CCYYMMDD where MM is 01 to 12, (CC is 19 and YY is 00 to 99) or (CC is 20 and YY is 00 to 25). Valid day range depending on month (see table below).",
+        "Format is CCYYMMDD where MM is 01 to 12, (CC is 19 and YY is 00 to 99) or (CC is 20 and YY is 00 to 27). Valid day range depending on month (see table below).",
         "Month Valid Day Range",
         " 01\t01-31",
         " 02\t01 to 28 (unless year is divisible by 4 for non-centurial years or 400 for centurial years, then 01 to 29 is valid)",
@@ -3583,11 +3583,11 @@ const field_220 = {len: 8, pos_start: 1968, pos_end: 1976,
     idx: 220, name: "Signature Date", path: "/parent/consent/Signature_Date", fafsa_category: ["41c"], 
     validate: _validate_date, allow_blank: true,
     options: [
-      {op: "date_range", "min":"20241001","max":"20260930"},
+      {op: "date_range", "min":"20250803","max":"20270930"},
     ],
     note: [
         "Format is CCYYMMDD",
-        "20241001 to 20260930",
+        "20250803 to 20270930",
         "Blank"
     ]};
 
@@ -3662,13 +3662,13 @@ const field_226 = {len: 8, pos_start: 2121, pos_end: 2129,
     idx: 226, name: "Date of Birth", path: "/other_parent/identity/Date_of_Birth", fafsa_category: ["42e"], 
     validate: _validate_date, allow_blank: true,
     options: [
-      {op: "range", "min":"19000101","max":"20251231"},
+      {op: "range", "min":"19000101","max":"20250722"},
       {op: "date_range", "min":false,"max":false},
     ],
     note: [
         "19000101 to current date",
         "Numeric within valid range.",
-        "Format is CCYYMMDD where MM is 01 to 12, (CC is 19 and YY is 00 to 99) or (CC is 20 and YY is 00 to 25). Valid day range depending on month (see table below).",
+        "Format is CCYYMMDD where MM is 01 to 12, (CC is 19 and YY is 00 to 99) or (CC is 20 and YY is 00 to 27). Valid day range depending on month (see table below).",
         "Month Valid Day Range",
         " 01\t01-31",
         " 02\t01 to 28 (unless year is divisible by 4 for non-centurial years or 400 for centurial years, then 01 to 29 is valid)",
@@ -4063,11 +4063,11 @@ const field_254 = {len: 8, pos_start: 2424, pos_end: 2432,
     idx: 254, name: "Signature Date", path: "/other_parent/consent/Signature_Date", fafsa_category: ["46c"], 
     validate: _validate_date, allow_blank: true,
     options: [
-      {op: "date_range", "min":"20241001","max":"20260930"},
+      {op: "date_range", "min":"20250803","max":"20270930"},
     ],
     note: [
         "Format is CCYYMMDD",
-        "20241001 to 20260930",
+        "20250803 to 20270930",
         "Blank"
     ]};
 
@@ -4225,11 +4225,11 @@ const field_266 = {len: 8, pos_start: 2683, pos_end: 2691,
     idx: 266, name: "Signature Date", path: "/preparer/Signature_Date", fafsa_category: ["49b"], 
     validate: _validate_date, allow_blank: true,
     options: [
-      {op: "date_range", "min":"20241001","max":"20260930"},
+      {op: "date_range", "min":"20250803","max":"20270930"},
     ],
     note: [
         "Format is CCYYMMDD",
-        "20241001 to 20260930",
+        "20250803 to 20270930",
         "Blank"
     ]};
 
@@ -4309,11 +4309,11 @@ const field_272 = {len: 8, pos_start: 2745, pos_end: 2753,
     idx: 272, name: "Student Date Consent Granted", path: "/FPS/student/Date_Consent_Granted", 
     validate: _validate_date, allow_blank: true,
     options: [
-      {op: "range", "min":"19000101","max":"20261231"},
+      {op: "range", "min":"19000101","max":"20271231"},
       {op: "date_range", "min":false,"max":false},
     ],
     note: [
-        "Numeric within valid date range; 19000101 to 20261231",
+        "Numeric within valid date range; 19000101 to 20271231",
         "Format is CCYYMMDD",
         "Blank"
     ]};
@@ -4322,11 +4322,11 @@ const field_273 = {len: 8, pos_start: 2753, pos_end: 2761,
     idx: 273, name: "Student Spouse Date Consent Granted", path: "/FPS/student_spouse/Date_Consent_Granted", 
     validate: _validate_date, allow_blank: true,
     options: [
-      {op: "range", "min":"19000101","max":"20261231"},
+      {op: "range", "min":"19000101","max":"20271231"},
       {op: "date_range", "min":false,"max":false},
     ],
     note: [
-        "Numeric within valid date range; 19000101 to 20261231",
+        "Numeric within valid date range; 19000101 to 20271231",
         "Format is CCYYMMDD",
         "Blank"
     ]};
@@ -4335,11 +4335,11 @@ const field_274 = {len: 8, pos_start: 2761, pos_end: 2769,
     idx: 274, name: "Parent Date Consent Granted", path: "/FPS/parent/Date_Consent_Granted", 
     validate: _validate_date, allow_blank: true,
     options: [
-      {op: "range", "min":"19000101","max":"20261231"},
+      {op: "range", "min":"19000101","max":"20271231"},
       {op: "date_range", "min":false,"max":false},
     ],
     note: [
-        "Numeric within valid date range; 19000101 to 20261231",
+        "Numeric within valid date range; 19000101 to 20271231",
         "Format is CCYYMMDD",
         "Blank"
     ]};
@@ -4348,11 +4348,11 @@ const field_275 = {len: 8, pos_start: 2769, pos_end: 2777,
     idx: 275, name: "Parent Spouse or Partner Date Consent Granted", path: "/FPS/other_parent/Date_Consent_Granted", 
     validate: _validate_date, allow_blank: true,
     options: [
-      {op: "range", "min":"19000101","max":"20261231"},
+      {op: "range", "min":"19000101","max":"20271231"},
       {op: "date_range", "min":false,"max":false},
     ],
     note: [
-        "Numeric within valid date range; 19000101 to 20261231",
+        "Numeric within valid date range; 19000101 to 20271231",
         "Format is CCYYMMDD",
         "Blank"
     ]};
