@@ -7682,8 +7682,8 @@ const field_600 = {len: 6, pos_start: 4595, pos_end: 4601,
         "Blank"
     ]};
 
-const field_616 = {len: 1, pos_start: 4601, pos_end: 4602,
-    idx: 616, name: "NSLDS Defaulted Loan Change Flag", path: "/NSLDS/Defaulted_Loan_Change_Flag", 
+const field_601 = {len: 1, pos_start: 4601, pos_end: 4602,
+    idx: 601, name: "NSLDS Defaulted Loan Change Flag", path: "/NSLDS/Defaulted_Loan_Change_Flag", 
     validate: _validate_options, allow_blank: true,
     options: [
       {op: "enum", options: {
@@ -7697,8 +7697,8 @@ const field_616 = {len: 1, pos_start: 4601, pos_end: 4602,
         "Blank"
     ]};
 
-const field_617 = {len: 1, pos_start: 4602, pos_end: 4603,
-    idx: 617, name: "NSLDS Fraud Loan Change Flag", path: "/NSLDS/Fraud_Loan_Change_Flag", 
+const field_602 = {len: 1, pos_start: 4602, pos_end: 4603,
+    idx: 602, name: "NSLDS Fraud Loan Change Flag", path: "/NSLDS/Fraud_Loan_Change_Flag", 
     validate: _validate_options, allow_blank: true,
     options: [
       {op: "enum", options: {
@@ -7712,8 +7712,8 @@ const field_617 = {len: 1, pos_start: 4602, pos_end: 4603,
         "Blank"
     ]};
 
-const field_618 = {len: 1, pos_start: 4603, pos_end: 4604,
-    idx: 618, name: "NSLDS Discharged Loan Change Flag", path: "/NSLDS/Discharged_Loan_Change_Flag", 
+const field_603 = {len: 1, pos_start: 4603, pos_end: 4604,
+    idx: 603, name: "NSLDS Discharged Loan Change Flag", path: "/NSLDS/Discharged_Loan_Change_Flag", 
     validate: _validate_options, allow_blank: true,
     options: [
       {op: "enum", options: {
@@ -7727,8 +7727,8 @@ const field_618 = {len: 1, pos_start: 4603, pos_end: 4604,
         "Blank"
     ]};
 
-const field_619 = {len: 1, pos_start: 4604, pos_end: 4605,
-    idx: 619, name: "NSLDS Loan Satisfactory Repayment Change Flag", path: "/NSLDS/loan/Satisfactory_Repayment_Change_Flag", 
+const field_604 = {len: 1, pos_start: 4604, pos_end: 4605,
+    idx: 604, name: "NSLDS Loan Satisfactory Repayment Change Flag", path: "/NSLDS/loan/Satisfactory_Repayment_Change_Flag", 
     validate: _validate_options, allow_blank: true,
     options: [
       {op: "enum", options: {
@@ -7742,8 +7742,8 @@ const field_619 = {len: 1, pos_start: 4604, pos_end: 4605,
         "Blank"
     ]};
 
-const field_620 = {len: 1, pos_start: 4605, pos_end: 4606,
-    idx: 620, name: "NSLDS Active Bankruptcy Change Flag", path: "/NSLDS/Active_Bankruptcy_Change_Flag", 
+const field_605 = {len: 1, pos_start: 4605, pos_end: 4606,
+    idx: 605, name: "NSLDS Active Bankruptcy Change Flag", path: "/NSLDS/Active_Bankruptcy_Change_Flag", 
     validate: _validate_options, allow_blank: true,
     options: [
       {op: "enum", options: {
@@ -7757,8 +7757,8 @@ const field_620 = {len: 1, pos_start: 4605, pos_end: 4606,
         "Blank"
     ]};
 
-const field_621 = {len: 1, pos_start: 4606, pos_end: 4607,
-    idx: 621, name: "NSLDS TEACH Grant to Loan Conversion Change Flag", path: "/NSLDS/teach/grant/to_Loan_Conversion_Change_Flag", 
+const field_606 = {len: 1, pos_start: 4606, pos_end: 4607,
+    idx: 606, name: "NSLDS TEACH Grant to Loan Conversion Change Flag", path: "/NSLDS/teach/grant/to_Loan_Conversion_Change_Flag", 
     validate: _validate_options, allow_blank: true,
     options: [
       {op: "enum", options: {
@@ -7772,8 +7772,8 @@ const field_621 = {len: 1, pos_start: 4606, pos_end: 4607,
         "Blank"
     ]};
 
-const field_622 = {len: 1, pos_start: 4607, pos_end: 4608,
-    idx: 622, name: "NSLDS Overpayments Change Flag", path: "/NSLDS/Overpayments_Change_Flag", 
+const field_607 = {len: 1, pos_start: 4607, pos_end: 4608,
+    idx: 607, name: "NSLDS Overpayments Change Flag", path: "/NSLDS/Overpayments_Change_Flag", 
     validate: _validate_options, allow_blank: true,
     options: [
       {op: "enum", options: {
@@ -7787,8 +7787,8 @@ const field_622 = {len: 1, pos_start: 4607, pos_end: 4608,
         "Blank"
     ]};
 
-const field_623 = {len: 1, pos_start: 4608, pos_end: 4609,
-    idx: 623, name: "NSLDS Aggregate Loan Change Flag", path: "/NSLDS/aggregate/Loan_Change_Flag", 
+const field_608 = {len: 1, pos_start: 4608, pos_end: 4609,
+    idx: 608, name: "NSLDS Aggregate Loan Change Flag", path: "/NSLDS/aggregate/Loan_Change_Flag", 
     validate: _validate_options, allow_blank: true,
     options: [
       {op: "enum", options: {
@@ -7802,8 +7802,8 @@ const field_623 = {len: 1, pos_start: 4608, pos_end: 4609,
         "Blank"
     ]};
 
-const field_624 = {len: 1, pos_start: 4609, pos_end: 4610,
-    idx: 624, name: "NSLDS Perkins Loan Change Flag", path: "/NSLDS/perkins/Loan_Change_Flag", 
+const field_609 = {len: 1, pos_start: 4609, pos_end: 4610,
+    idx: 609, name: "NSLDS Perkins Loan Change Flag", path: "/NSLDS/perkins/Loan_Change_Flag", 
     validate: _validate_options, allow_blank: true,
     options: [
       {op: "enum", options: {
@@ -7817,8 +7817,8 @@ const field_624 = {len: 1, pos_start: 4609, pos_end: 4610,
         "Blank"
     ]};
 
-const field_625 = {len: 1, pos_start: 4610, pos_end: 4611,
-    idx: 625, name: "NSLDS Pell Payment Change Flag", path: "/NSLDS/pell_grant/Payment_Change_Flag", 
+const field_610 = {len: 1, pos_start: 4610, pos_end: 4611,
+    idx: 610, name: "NSLDS Pell Payment Change Flag", path: "/NSLDS/pell_grant/Payment_Change_Flag", 
     validate: _validate_options, allow_blank: true,
     options: [
       {op: "enum", options: {
@@ -7832,8 +7832,8 @@ const field_625 = {len: 1, pos_start: 4610, pos_end: 4611,
         "Blank"
     ]};
 
-const field_626 = {len: 1, pos_start: 4611, pos_end: 4612,
-    idx: 626, name: "NSLDS TEACH Grant Change Flag", path: "/NSLDS/teach/grant/Change_Flag", 
+const field_611 = {len: 1, pos_start: 4611, pos_end: 4612,
+    idx: 611, name: "NSLDS TEACH Grant Change Flag", path: "/NSLDS/teach/grant/Change_Flag", 
     validate: _validate_options, allow_blank: true,
     options: [
       {op: "enum", options: {
@@ -7847,8 +7847,8 @@ const field_626 = {len: 1, pos_start: 4611, pos_end: 4612,
         "Blank"
     ]};
 
-const field_627 = {len: 1, pos_start: 4612, pos_end: 4613,
-    idx: 627, name: "NSLDS Additional Pell Flag", path: "/NSLDS/Additional_Pell_Flag", 
+const field_612 = {len: 1, pos_start: 4612, pos_end: 4613,
+    idx: 612, name: "NSLDS Additional Pell Flag", path: "/NSLDS/Additional_Pell_Flag", 
     validate: _validate_options, allow_blank: true,
     options: [
       {op: "enum", options: {
@@ -7862,8 +7862,8 @@ const field_627 = {len: 1, pos_start: 4612, pos_end: 4613,
         "Blank"
     ]};
 
-const field_628 = {len: 1, pos_start: 4613, pos_end: 4614,
-    idx: 628, name: "NSLDS Additional Loans Flag", path: "/NSLDS/Additional_Loans_Flag", 
+const field_613 = {len: 1, pos_start: 4613, pos_end: 4614,
+    idx: 613, name: "NSLDS Additional Loans Flag", path: "/NSLDS/Additional_Loans_Flag", 
     validate: _validate_options, allow_blank: true,
     options: [
       {op: "enum", options: {
@@ -7877,8 +7877,8 @@ const field_628 = {len: 1, pos_start: 4613, pos_end: 4614,
         "Blank"
     ]};
 
-const field_629 = {len: 1, pos_start: 4614, pos_end: 4615,
-    idx: 629, name: "NSLDS Additional TEACH Grant Flag", path: "/NSLDS/Additional_TEACH_Grant_Flag", 
+const field_614 = {len: 1, pos_start: 4614, pos_end: 4615,
+    idx: 614, name: "NSLDS Additional TEACH Grant Flag", path: "/NSLDS/Additional_TEACH_Grant_Flag", 
     validate: _validate_options, allow_blank: true,
     options: [
       {op: "enum", options: {
@@ -7892,8 +7892,8 @@ const field_629 = {len: 1, pos_start: 4614, pos_end: 4615,
         "Blank"
     ]};
 
-const field_630 = {len: 1, pos_start: 4615, pos_end: 4616,
-    idx: 630, name: "NSLDS Direct Loan Master Prom Note Flag", path: "/NSLDS/Direct_Loan_Master_Prom_Note_Flag", 
+const field_615 = {len: 1, pos_start: 4615, pos_end: 4616,
+    idx: 615, name: "NSLDS Direct Loan Master Prom Note Flag", path: "/NSLDS/Direct_Loan_Master_Prom_Note_Flag", 
     validate: _validate_options,
     options: [
       {op: "enum", options: {
@@ -7912,8 +7912,8 @@ const field_630 = {len: 1, pos_start: 4615, pos_end: 4616,
         "Blank = No data from NSLDS"
     ]};
 
-const field_631 = {len: 1, pos_start: 4616, pos_end: 4617,
-    idx: 631, name: "NSLDS Direct Loan PLUS Master Prom Note Flag", path: "/NSLDS/Direct_Loan_PLUS_Master_Prom_Note_Flag", 
+const field_616 = {len: 1, pos_start: 4616, pos_end: 4617,
+    idx: 616, name: "NSLDS Direct Loan PLUS Master Prom Note Flag", path: "/NSLDS/Direct_Loan_PLUS_Master_Prom_Note_Flag", 
     extra: ["This flag indicates the status of the Master Promissory Note for the parent who has borrowed a PLUS loan on behalf of this student."],
     validate: _validate_options,
     options: [
@@ -7935,8 +7935,8 @@ const field_631 = {len: 1, pos_start: 4616, pos_end: 4617,
         "Blank = No data from NSLDS"
     ]};
 
-const field_632 = {len: 1, pos_start: 4617, pos_end: 4618,
-    idx: 632, name: "NSLDS Direct Loan Graduate PLUS Master Prom Note Flag", path: "/NSLDS/Direct_Loan_Graduate_PLUS_Master_Prom_Note_Flag", 
+const field_617 = {len: 1, pos_start: 4617, pos_end: 4618,
+    idx: 617, name: "NSLDS Direct Loan Graduate PLUS Master Prom Note Flag", path: "/NSLDS/Direct_Loan_Graduate_PLUS_Master_Prom_Note_Flag", 
     extra: ["This flag indicates the status of the Master Promissory Note for the graduate student who has borrowed a PLUS loan."],
     validate: _validate_options,
     options: [
@@ -7958,8 +7958,8 @@ const field_632 = {len: 1, pos_start: 4617, pos_end: 4618,
         "Blank = No data from NSLDS"
     ]};
 
-const field_633 = {len: 1, pos_start: 4618, pos_end: 4619,
-    idx: 633, name: "NSLDS Undergraduate Subsidized Loan Limit Flag", path: "/NSLDS/Undergraduate_Subsidized_Loan_Limit_Flag", 
+const field_618 = {len: 1, pos_start: 4618, pos_end: 4619,
+    idx: 618, name: "NSLDS Undergraduate Subsidized Loan Limit Flag", path: "/NSLDS/Undergraduate_Subsidized_Loan_Limit_Flag", 
     validate: _validate_options, allow_blank: true,
     options: [
       {op: "enum", options: {
@@ -7977,8 +7977,8 @@ const field_633 = {len: 1, pos_start: 4618, pos_end: 4619,
         "Blank"
     ]};
 
-const field_634 = {len: 1, pos_start: 4619, pos_end: 4620,
-    idx: 634, name: "NSLDS Undergraduate Combined Loan Limit Flag", path: "/NSLDS/Undergraduate_Combined_Loan_Limit_Flag", 
+const field_619 = {len: 1, pos_start: 4619, pos_end: 4620,
+    idx: 619, name: "NSLDS Undergraduate Combined Loan Limit Flag", path: "/NSLDS/Undergraduate_Combined_Loan_Limit_Flag", 
     validate: _validate_options, allow_blank: true,
     options: [
       {op: "enum", options: {
@@ -7996,8 +7996,8 @@ const field_634 = {len: 1, pos_start: 4619, pos_end: 4620,
         "Blank"
     ]};
 
-const field_635 = {len: 1, pos_start: 4620, pos_end: 4621,
-    idx: 635, name: "NSLDS Graduate Subsidized Loan Limit Flag", path: "/NSLDS/Graduate_Subsidized_Loan_Limit_Flag", 
+const field_620 = {len: 1, pos_start: 4620, pos_end: 4621,
+    idx: 620, name: "NSLDS Graduate Subsidized Loan Limit Flag", path: "/NSLDS/Graduate_Subsidized_Loan_Limit_Flag", 
     validate: _validate_options, allow_blank: true,
     options: [
       {op: "enum", options: {
@@ -8015,8 +8015,8 @@ const field_635 = {len: 1, pos_start: 4620, pos_end: 4621,
         "Blank"
     ]};
 
-const field_636 = {len: 1, pos_start: 4621, pos_end: 4622,
-    idx: 636, name: "NSLDS Graduate Combined Loan Limit Flag", path: "/NSLDS/Graduate_Combined_Loan_Limit_Flag", 
+const field_621 = {len: 1, pos_start: 4621, pos_end: 4622,
+    idx: 621, name: "NSLDS Graduate Combined Loan Limit Flag", path: "/NSLDS/Graduate_Combined_Loan_Limit_Flag", 
     validate: _validate_options, allow_blank: true,
     options: [
       {op: "enum", options: {
@@ -8034,8 +8034,8 @@ const field_636 = {len: 1, pos_start: 4621, pos_end: 4622,
         "Blank"
     ]};
 
-const field_637 = {len: 1, pos_start: 4622, pos_end: 4623,
-    idx: 637, name: "NSLDS Pell Lifetime Limit Flag", path: "/NSLDS/pell_grant/Lifetime_Limit_Flag", 
+const field_622 = {len: 1, pos_start: 4622, pos_end: 4623,
+    idx: 622, name: "NSLDS LEU Limit Flag", path: "/NSLDS/pell_grant/Lifetime_Limit_Flag", 
     validate: _validate_options, allow_blank: true,
     options: [
       {op: "enum", options: {
@@ -8053,8 +8053,8 @@ const field_637 = {len: 1, pos_start: 4622, pos_end: 4623,
         "Blank"
     ]};
 
-const field_638 = {len: 7, pos_start: 4623, pos_end: 4630,
-    idx: 638, name: "NSLDS Pell Lifetime Eligibility Used", path: "/NSLDS/pell_grant/Lifetime_Eligibility_Used", 
+const field_623 = {len: 7, pos_start: 4623, pos_end: 4630,
+    idx: 623, name: "NSLDS Pell Lifetime Eligibility Used", path: "/NSLDS/pell_grant/Lifetime_Eligibility_Used", 
     validate: _validate_fixed_decimal,
     "divisor":100000,
     note: [
@@ -8065,8 +8065,8 @@ const field_638 = {len: 7, pos_start: 4623, pos_end: 4630,
         "Example: 01.00000 is 0100.000%"
     ]};
 
-const field_639 = {len: 1, pos_start: 4630, pos_end: 4631,
-    idx: 639, name: "NSLDS SULA Flag", path: "/NSLDS/SULA_Flag", 
+const field_624 = {len: 1, pos_start: 4630, pos_end: 4631,
+    idx: 624, name: "NSLDS SULA Flag", path: "/NSLDS/SULA_Flag", 
     validate: _validate_options, allow_blank: true,
     options: [
       {op: "enum", options: {
@@ -8080,8 +8080,8 @@ const field_639 = {len: 1, pos_start: 4630, pos_end: 4631,
         "Blank"
     ]};
 
-const field_640 = {len: 6, pos_start: 4631, pos_end: 4637,
-    idx: 640, name: "NSLDS Subsidized Limit Eligiblity Used", path: "/NSLDS/Subsidized_Limit_Eligiblity_Used", 
+const field_625 = {len: 6, pos_start: 4631, pos_end: 4637,
+    idx: 625, name: "NSLDS Subsidized Limit Eligiblity Used", path: "/NSLDS/Subsidized_Limit_Eligiblity_Used", 
     validate: _validate_fixed_decimal,
     "divisor":1000,
     note: [
@@ -8091,8 +8091,8 @@ const field_640 = {len: 6, pos_start: 4631, pos_end: 4637,
         "“v” is an implied decimal and is not included in the output"
     ]};
 
-const field_641 = {len: 1, pos_start: 4637, pos_end: 4638,
-    idx: 641, name: "NSLDS Unusual Enrollment History Flag", path: "/NSLDS/Unusual_Enrollment_History_Flag", 
+const field_626 = {len: 1, pos_start: 4637, pos_end: 4638,
+    idx: 626, name: "NSLDS Unusual Enrollment History Flag", path: "/NSLDS/Unusual_Enrollment_History_Flag", 
     validate: _validate_options,
     options: [
       {op: "enum", options: {
@@ -8109,16 +8109,16 @@ const field_641 = {len: 1, pos_start: 4637, pos_end: 4638,
         "Blank = Record not sent for match"
     ]};
 
-const field_642 = {len: 20, pos_start: 4638, pos_end: 4658,
-    idx: 642, name: null, 
+const field_627 = {len: 20, pos_start: 4638, pos_end: 4658,
+    idx: 627, name: null, 
     extra: "Filler",
     non_content: true, 
     note: [
         "For Federal Student Aid use only"
     ]};
 
-const field_643 = {len: 2, pos_start: 4658, pos_end: 4660,
-    idx: 643, name: "NSLDS Pell Sequence Number (1)", path: "/NSLDS/pell_grant/by_index/1/Sequence_Number", 
+const field_628 = {len: 2, pos_start: 4658, pos_end: 4660,
+    idx: 628, name: "NSLDS Pell Sequence Number (1)", path: "/NSLDS/pell_grant/by_index/1/Sequence_Number", 
     validate: _validate_options, allow_blank: true,
     options: [
       {op: "range", "min":"01","max":"03"},
@@ -8128,8 +8128,8 @@ const field_643 = {len: 2, pos_start: 4658, pos_end: 4660,
         "Blank"
     ]};
 
-const field_644 = {len: 3, pos_start: 4660, pos_end: 4663,
-    idx: 644, name: "NSLDS Pell Verification Flag (1)", path: "/NSLDS/pell_grant/by_index/1/Verification_Flag", 
+const field_629 = {len: 3, pos_start: 4660, pos_end: 4663,
+    idx: 629, name: "NSLDS Pell Verification Flag (1)", path: "/NSLDS/pell_grant/by_index/1/Verification_Flag", 
     validate: _validate_options, allow_blank: true,
     options: [
       {op: "alpha", },
@@ -8143,8 +8143,8 @@ const field_644 = {len: 3, pos_start: 4660, pos_end: 4663,
         "Blank"
     ]};
 
-const field_645 = {len: 6, pos_start: 4663, pos_end: 4669,
-    idx: 645, name: "NSLDS SAI (1)", path: "/NSLDS/SAI/1", 
+const field_630 = {len: 6, pos_start: 4663, pos_end: 4669,
+    idx: 630, name: "NSLDS SAI (1)", path: "/NSLDS/SAI/1", 
     validate: _validate_options, allow_blank: true,
     options: [
       {op: "range", "min":"-1500","max":"999999"},
@@ -8158,8 +8158,8 @@ const field_645 = {len: 6, pos_start: 4663, pos_end: 4669,
         "Blank"
     ]};
 
-const field_646 = {len: 8, pos_start: 4669, pos_end: 4677,
-    idx: 646, name: "NSLDS Pell School Code (1)", path: "/NSLDS/pell_grant/by_index/1/School_Code", 
+const field_631 = {len: 8, pos_start: 4669, pos_end: 4677,
+    idx: 631, name: "NSLDS Pell School Code (1)", path: "/NSLDS/pell_grant/by_index/1/School_Code", 
     validate: _validate_options, allow_blank: true,
     options: [
       {op: "numeric", },
@@ -8173,8 +8173,8 @@ const field_646 = {len: 8, pos_start: 4669, pos_end: 4677,
         "Blank"
     ]};
 
-const field_647 = {len: 2, pos_start: 4677, pos_end: 4679,
-    idx: 647, name: "NSLDS Pell Transaction Number (1)", path: "/NSLDS/pell_grant/by_index/1/Transaction_Number", 
+const field_632 = {len: 2, pos_start: 4677, pos_end: 4679,
+    idx: 632, name: "NSLDS Pell Transaction Number (1)", path: "/NSLDS/pell_grant/by_index/1/Transaction_Number", 
     validate: _validate_options, allow_blank: true,
     options: [
       {op: "numeric", },
@@ -8184,8 +8184,8 @@ const field_647 = {len: 2, pos_start: 4677, pos_end: 4679,
         "Blank"
     ]};
 
-const field_648 = {len: 8, pos_start: 4679, pos_end: 4687,
-    idx: 648, name: "NSLDS Pell Disbursement Date (1)", path: "/NSLDS/pell_grant/by_index/1/Disbursement_Date", 
+const field_633 = {len: 8, pos_start: 4679, pos_end: 4687,
+    idx: 633, name: "NSLDS Pell Last Disbursement Date (1)", path: "/NSLDS/pell_grant/by_index/1/Disbursement_Date", 
     validate: _validate_options, allow_blank: true,
     options: [
       {op: "date", },
@@ -8199,8 +8199,8 @@ const field_648 = {len: 8, pos_start: 4679, pos_end: 4687,
         "Blank"
     ]};
 
-const field_649 = {len: 6, pos_start: 4687, pos_end: 4693,
-    idx: 649, name: "NSLDS Pell Scheduled Amount (1)", path: "/NSLDS/pell_grant/by_index/1/Scheduled_Amount", 
+const field_634 = {len: 6, pos_start: 4687, pos_end: 4693,
+    idx: 634, name: "NSLDS Pell Scheduled Amount (1)", path: "/NSLDS/pell_grant/by_index/1/Scheduled_Amount", 
     extra: ["Whole dollar amount with leading zeros."],
     validate: _validate_options, allow_blank: true,
     options: [
@@ -8211,8 +8211,8 @@ const field_649 = {len: 6, pos_start: 4687, pos_end: 4693,
         "Blank"
     ]};
 
-const field_650 = {len: 6, pos_start: 4693, pos_end: 4699,
-    idx: 650, name: "NSLDS Pell Amount Paid to Date (1)", path: "/NSLDS/pell_grant/by_index/1/Amount_Paid_to_Date", 
+const field_635 = {len: 6, pos_start: 4693, pos_end: 4699,
+    idx: 635, name: "NSLDS Pell Amount Paid to Date (1)", path: "/NSLDS/pell_grant/by_index/1/Amount_Paid_to_Date", 
     extra: ["Whole dollar amount with leading zeros"],
     validate: _validate_options, allow_blank: true,
     options: [
@@ -8223,7 +8223,7 @@ const field_650 = {len: 6, pos_start: 4693, pos_end: 4699,
         "Blank"
     ]};
 
-const field_651 = {len: 7, pos_start: 4699, pos_end: 4706,
+const field_636 = {len: 7, pos_start: 4699, pos_end: 4706,
     idx: 651, name: "NSLDS Pell Percent Eligibility Used Decimal (1)", path: "/NSLDS/pell_grant/by_index/1/Percent_Eligibility_Used_Decimal", 
     extra: ["Percent with four decimal places assumed for example, 50% - 0500000."],
     validate: _validate_options, allow_blank: true,
@@ -8235,8 +8235,8 @@ const field_651 = {len: 7, pos_start: 4699, pos_end: 4706,
         "Blank"
     ]};
 
-const field_652 = {len: 6, pos_start: 4706, pos_end: 4712,
-    idx: 652, name: "NSLDS Pell Award Amount (1)", path: "/NSLDS/pell_grant/by_index/1/Award_Amount", 
+const field_637 = {len: 6, pos_start: 4706, pos_end: 4712,
+    idx: 637, name: "NSLDS Pell Award Amount (1)", path: "/NSLDS/pell_grant/by_index/1/Award_Amount", 
     extra: ["Whole dollar amount with leading zeros."],
     validate: _validate_options, allow_blank: true,
     options: [
@@ -8247,8 +8247,8 @@ const field_652 = {len: 6, pos_start: 4706, pos_end: 4712,
         "Blank"
     ]};
 
-const field_653 = {len: 1, pos_start: 4712, pos_end: 4713,
-    idx: 653, name: "NSLDS Additional Eligibility Indicator (1)", path: "/NSLDS/additional_eligiblity_indicators/1", 
+const field_638 = {len: 1, pos_start: 4712, pos_end: 4713,
+    idx: 638, name: "NSLDS Additional Eligibility Indicator (1)", path: "/NSLDS/additional_eligiblity_indicators/1", 
     validate: _validate_options, allow_blank: true,
     options: [
       {op: "enum", options: {
@@ -8262,15 +8262,15 @@ const field_653 = {len: 1, pos_start: 4712, pos_end: 4713,
         "Blank"
     ]};
 
-const field_654 = {len: 20, pos_start: 4713, pos_end: 4733,
-    idx: 654, name: null, 
+const field_639 = {len: 20, pos_start: 4713, pos_end: 4733,
+    idx: 639, name: null, 
     extra: "Filler",
     non_content: true, 
     note: [
         "For Federal Student Aid use only"
     ]};
 
-const field_655 = {len: 2, pos_start: 4733, pos_end: 4735,
+const field_640 = {len: 2, pos_start: 4733, pos_end: 4735,
     idx: 655, name: "NSLDS Pell Sequence Number (2)", path: "/NSLDS/pell_grant/by_index/2/Sequence_Number", 
     validate: _validate_options, allow_blank: true,
     options: [
@@ -8281,8 +8281,8 @@ const field_655 = {len: 2, pos_start: 4733, pos_end: 4735,
         "Blank"
     ]};
 
-const field_656 = {len: 3, pos_start: 4735, pos_end: 4738,
-    idx: 656, name: "NSLDS Pell Verification Flag (2)", path: "/NSLDS/pell_grant/by_index/2/Verification_Flag", 
+const field_641 = {len: 3, pos_start: 4735, pos_end: 4738,
+    idx: 641, name: "NSLDS Pell Verification Flag (2)", path: "/NSLDS/pell_grant/by_index/2/Verification_Flag", 
     validate: _validate_options, allow_blank: true,
     options: [
       {op: "alpha", },
@@ -8296,8 +8296,8 @@ const field_656 = {len: 3, pos_start: 4735, pos_end: 4738,
         "Blank"
     ]};
 
-const field_657 = {len: 6, pos_start: 4738, pos_end: 4744,
-    idx: 657, name: "NSLDS SAI (2)", path: "/NSLDS/SAI/2", 
+const field_642 = {len: 6, pos_start: 4738, pos_end: 4744,
+    idx: 642, name: "NSLDS SAI (2)", path: "/NSLDS/SAI/2", 
     validate: _validate_options, allow_blank: true,
     options: [
       {op: "range", "min":"-1500","max":"999999"},
@@ -8311,8 +8311,8 @@ const field_657 = {len: 6, pos_start: 4738, pos_end: 4744,
         "Blank"
     ]};
 
-const field_658 = {len: 8, pos_start: 4744, pos_end: 4752,
-    idx: 658, name: "NSLDS Pell School Code (2)", path: "/NSLDS/pell_grant/by_index/2/School_Code", 
+const field_643 = {len: 8, pos_start: 4744, pos_end: 4752,
+    idx: 643, name: "NSLDS Pell School Code (2)", path: "/NSLDS/pell_grant/by_index/2/School_Code", 
     validate: _validate_options, allow_blank: true,
     options: [
       {op: "numeric", },
@@ -8326,8 +8326,8 @@ const field_658 = {len: 8, pos_start: 4744, pos_end: 4752,
         "Blank"
     ]};
 
-const field_659 = {len: 2, pos_start: 4752, pos_end: 4754,
-    idx: 659, name: "NSLDS Pell Transaction Number (2)", path: "/NSLDS/pell_grant/by_index/2/Transaction_Number", 
+const field_644 = {len: 2, pos_start: 4752, pos_end: 4754,
+    idx: 644, name: "NSLDS Pell Transaction Number (2)", path: "/NSLDS/pell_grant/by_index/2/Transaction_Number", 
     validate: _validate_options, allow_blank: true,
     options: [
       {op: "numeric", },
@@ -8337,8 +8337,8 @@ const field_659 = {len: 2, pos_start: 4752, pos_end: 4754,
         "Blank"
     ]};
 
-const field_660 = {len: 8, pos_start: 4754, pos_end: 4762,
-    idx: 660, name: "NSLDS Pell Last Disbursement Date (2)", path: "/NSLDS/pell_grant/by_index/2/Last_Disbursement_Date", 
+const field_645 = {len: 8, pos_start: 4754, pos_end: 4762,
+    idx: 645, name: "NSLDS Pell Last Disbursement Date (2)", path: "/NSLDS/pell_grant/by_index/2/Last_Disbursement_Date", 
     validate: _validate_options, allow_blank: true,
     options: [
       {op: "date", },
@@ -8352,8 +8352,8 @@ const field_660 = {len: 8, pos_start: 4754, pos_end: 4762,
         "Blank"
     ]};
 
-const field_661 = {len: 6, pos_start: 4762, pos_end: 4768,
-    idx: 661, name: "NSLDS Pell Scheduled Amount (2)", path: "/NSLDS/pell_grant/by_index/2/Scheduled_Amount", 
+const field_646 = {len: 6, pos_start: 4762, pos_end: 4768,
+    idx: 646, name: "NSLDS Pell Scheduled Amount (2)", path: "/NSLDS/pell_grant/by_index/2/Scheduled_Amount", 
     extra: ["Whole dollar amount with leading zeros."],
     validate: _validate_options, allow_blank: true,
     options: [
@@ -8364,8 +8364,8 @@ const field_661 = {len: 6, pos_start: 4762, pos_end: 4768,
         "Blank"
     ]};
 
-const field_662 = {len: 6, pos_start: 4768, pos_end: 4774,
-    idx: 662, name: "NSLDS Pell Amount Paid to Date (2)", path: "/NSLDS/pell_grant/by_index/2/Amount_Paid_to_Date", 
+const field_647 = {len: 6, pos_start: 4768, pos_end: 4774,
+    idx: 647, name: "NSLDS Pell Amount Paid to Date (2)", path: "/NSLDS/pell_grant/by_index/2/Amount_Paid_to_Date", 
     extra: ["Whole dollar amount with leading zeros"],
     validate: _validate_options, allow_blank: true,
     options: [
@@ -8376,8 +8376,8 @@ const field_662 = {len: 6, pos_start: 4768, pos_end: 4774,
         "Blank"
     ]};
 
-const field_663 = {len: 7, pos_start: 4774, pos_end: 4781,
-    idx: 663, name: "NSLDS Pell Percent Eligibility Used Decimal (2)", path: "/NSLDS/pell_grant/by_index/2/Percent_Eligibility_Used_Decimal", 
+const field_648 = {len: 7, pos_start: 4774, pos_end: 4781,
+    idx: 648, name: "NSLDS Pell Percent Eligibility Used Decimal (2)", path: "/NSLDS/pell_grant/by_index/2/Percent_Eligibility_Used_Decimal", 
     extra: ["Percent with four decimal places assumed for example, 50% - 0500000."],
     validate: _validate_options, allow_blank: true,
     options: [
@@ -8388,8 +8388,8 @@ const field_663 = {len: 7, pos_start: 4774, pos_end: 4781,
         "Blank"
     ]};
 
-const field_664 = {len: 6, pos_start: 4781, pos_end: 4787,
-    idx: 664, name: "NSLDS Pell Award Amount (2)", path: "/NSLDS/pell_grant/by_index/2/Award_Amount", 
+const field_649 = {len: 6, pos_start: 4781, pos_end: 4787,
+    idx: 649, name: "NSLDS Pell Award Amount (2)", path: "/NSLDS/pell_grant/by_index/2/Award_Amount", 
     extra: ["Whole dollar amount with leading zeros."],
     validate: _validate_options, allow_blank: true,
     options: [
@@ -8400,8 +8400,8 @@ const field_664 = {len: 6, pos_start: 4781, pos_end: 4787,
         "Blank"
     ]};
 
-const field_665 = {len: 1, pos_start: 4787, pos_end: 4788,
-    idx: 665, name: "NSLDS Additional Eligibility Indicator (2)", path: "/NSLDS/additional_eligiblity_indicators/2", 
+const field_650 = {len: 1, pos_start: 4787, pos_end: 4788,
+    idx: 650, name: "NSLDS Additional Eligibility Indicator (2)", path: "/NSLDS/additional_eligiblity_indicators/2", 
     validate: _validate_options, allow_blank: true,
     options: [
       {op: "enum", options: {
@@ -8414,16 +8414,16 @@ const field_665 = {len: 1, pos_start: 4787, pos_end: 4788,
         "Blank"
     ]};
 
-const field_666 = {len: 20, pos_start: 4788, pos_end: 4808,
-    idx: 666, name: null, 
+const field_651 = {len: 20, pos_start: 4788, pos_end: 4808,
+    idx: 651, name: null, 
     extra: "Filler",
     non_content: true, 
     note: [
         "For Federal Student Aid use only"
     ]};
 
-const field_667 = {len: 2, pos_start: 4808, pos_end: 4810,
-    idx: 667, name: "NSLDS Pell Sequence Number (3)", path: "/NSLDS/pell_grant/by_index/3/Sequence_Number", 
+const field_652 = {len: 2, pos_start: 4808, pos_end: 4810,
+    idx: 652, name: "NSLDS Pell Sequence Number (3)", path: "/NSLDS/pell_grant/by_index/3/Sequence_Number", 
     validate: _validate_options, allow_blank: true,
     options: [
       {op: "range", "min":"01","max":"03"},
@@ -8433,8 +8433,8 @@ const field_667 = {len: 2, pos_start: 4808, pos_end: 4810,
         "Blank"
     ]};
 
-const field_668 = {len: 3, pos_start: 4810, pos_end: 4813,
-    idx: 668, name: "NSLDS Pell Verification Flag (3)", path: "/NSLDS/pell_grant/by_index/3/Verification_Flag", 
+const field_653 = {len: 3, pos_start: 4810, pos_end: 4813,
+    idx: 653, name: "NSLDS Pell Verification Flag (3)", path: "/NSLDS/pell_grant/by_index/3/Verification_Flag", 
     validate: _validate_options, allow_blank: true,
     options: [
       {op: "alpha", },
@@ -8448,8 +8448,8 @@ const field_668 = {len: 3, pos_start: 4810, pos_end: 4813,
         "Blank"
     ]};
 
-const field_669 = {len: 6, pos_start: 4813, pos_end: 4819,
-    idx: 669, name: "NSLDS SAI (3)", path: "/NSLDS/SAI/3", 
+const field_654 = {len: 6, pos_start: 4813, pos_end: 4819,
+    idx: 654, name: "NSLDS SAI (3)", path: "/NSLDS/SAI/3", 
     validate: _validate_options, allow_blank: true,
     options: [
       {op: "range", "min":"-1500","max":"999999"},
@@ -8463,8 +8463,8 @@ const field_669 = {len: 6, pos_start: 4813, pos_end: 4819,
         "Blank"
     ]};
 
-const field_670 = {len: 8, pos_start: 4819, pos_end: 4827,
-    idx: 670, name: "NSLDS Pell School Code (3)", path: "/NSLDS/pell_grant/by_index/3/School_Code", 
+const field_655 = {len: 8, pos_start: 4819, pos_end: 4827,
+    idx: 655, name: "NSLDS Pell School Code (3)", path: "/NSLDS/pell_grant/by_index/3/School_Code", 
     validate: _validate_options, allow_blank: true,
     options: [
       {op: "numeric", },
@@ -8478,8 +8478,8 @@ const field_670 = {len: 8, pos_start: 4819, pos_end: 4827,
         "Blank"
     ]};
 
-const field_671 = {len: 2, pos_start: 4827, pos_end: 4829,
-    idx: 671, name: "NSLDS Pell Transaction Number (3)", path: "/NSLDS/pell_grant/by_index/3/Transaction_Number", 
+const field_656 = {len: 2, pos_start: 4827, pos_end: 4829,
+    idx: 656, name: "NSLDS Pell Transaction Number (3)", path: "/NSLDS/pell_grant/by_index/3/Transaction_Number", 
     validate: _validate_options, allow_blank: true,
     options: [
       {op: "numeric", },
@@ -8489,8 +8489,8 @@ const field_671 = {len: 2, pos_start: 4827, pos_end: 4829,
         "Blank"
     ]};
 
-const field_672 = {len: 8, pos_start: 4829, pos_end: 4837,
-    idx: 672, name: "NSLDS Pell Last Disbursement Date (3)", path: "/NSLDS/pell_grant/by_index/3/Last_Disbursement_Date", 
+const field_657 = {len: 8, pos_start: 4829, pos_end: 4837,
+    idx: 657, name: "NSLDS Pell Last Disbursement Date (3)", path: "/NSLDS/pell_grant/by_index/3/Last_Disbursement_Date", 
     validate: _validate_options, allow_blank: true,
     options: [
       {op: "date", },
@@ -8504,8 +8504,8 @@ const field_672 = {len: 8, pos_start: 4829, pos_end: 4837,
         "Blank"
     ]};
 
-const field_673 = {len: 6, pos_start: 4837, pos_end: 4843,
-    idx: 673, name: "NSLDS Pell Scheduled Amount (3)", path: "/NSLDS/pell_grant/by_index/3/Scheduled_Amount", 
+const field_658 = {len: 6, pos_start: 4837, pos_end: 4843,
+    idx: 658, name: "NSLDS Pell Scheduled Amount (3)", path: "/NSLDS/pell_grant/by_index/3/Scheduled_Amount", 
     extra: ["Whole dollar amount with leading zeros."],
     validate: _validate_options, allow_blank: true,
     options: [
@@ -8516,8 +8516,8 @@ const field_673 = {len: 6, pos_start: 4837, pos_end: 4843,
         "Blank"
     ]};
 
-const field_674 = {len: 6, pos_start: 4843, pos_end: 4849,
-    idx: 674, name: "NSLDS Pell Amount Paid to Date (3)", path: "/NSLDS/pell_grant/by_index/3/Amount_Paid_to_Date", 
+const field_659 = {len: 6, pos_start: 4843, pos_end: 4849,
+    idx: 659, name: "NSLDS Pell Amount Paid to Date (3)", path: "/NSLDS/pell_grant/by_index/3/Amount_Paid_to_Date", 
     extra: ["Whole dollar amount with leading zeros"],
     validate: _validate_options, allow_blank: true,
     options: [
@@ -8528,8 +8528,8 @@ const field_674 = {len: 6, pos_start: 4843, pos_end: 4849,
         "Blank"
     ]};
 
-const field_675 = {len: 7, pos_start: 4849, pos_end: 4856,
-    idx: 675, name: "NSLDS Pell Percent Eligibility Used Decimal (3)", path: "/NSLDS/pell_grant/by_index/3/Percent_Eligibility_Used_Decimal", 
+const field_660 = {len: 7, pos_start: 4849, pos_end: 4856,
+    idx: 660, name: "NSLDS Pell Percent Eligibility Used Decimal (3)", path: "/NSLDS/pell_grant/by_index/3/Percent_Eligibility_Used_Decimal", 
     extra: ["Percent with four decimal places assumed for example, 50% - 0500000."],
     validate: _validate_options, allow_blank: true,
     options: [
@@ -8540,8 +8540,8 @@ const field_675 = {len: 7, pos_start: 4849, pos_end: 4856,
         "Blank"
     ]};
 
-const field_676 = {len: 6, pos_start: 4856, pos_end: 4862,
-    idx: 676, name: "NSLDS Pell Award Amount (3)", path: "/NSLDS/pell_grant/by_index/3/Award_Amount", 
+const field_661 = {len: 6, pos_start: 4856, pos_end: 4862,
+    idx: 661, name: "NSLDS Pell Award Amount (3)", path: "/NSLDS/pell_grant/by_index/3/Award_Amount", 
     extra: ["Whole dollar amount with leading zeros."],
     validate: _validate_options, allow_blank: true,
     options: [
@@ -8552,8 +8552,8 @@ const field_676 = {len: 6, pos_start: 4856, pos_end: 4862,
         "Blank"
     ]};
 
-const field_677 = {len: 1, pos_start: 4862, pos_end: 4863,
-    idx: 677, name: "NSLDS Additional Eligibility Indicator (3)", path: "/NSLDS/additional_eligiblity_indicators/3", 
+const field_662 = {len: 1, pos_start: 4862, pos_end: 4863,
+    idx: 662, name: "NSLDS Additional Eligibility Indicator (3)", path: "/NSLDS/additional_eligiblity_indicators/3", 
     validate: _validate_options, allow_blank: true,
     options: [
       {op: "enum", options: {
@@ -8567,16 +8567,16 @@ const field_677 = {len: 1, pos_start: 4862, pos_end: 4863,
         "Blank"
     ]};
 
-const field_678 = {len: 20, pos_start: 4863, pos_end: 4883,
-    idx: 678, name: null, 
+const field_663 = {len: 20, pos_start: 4863, pos_end: 4883,
+    idx: 663, name: null, 
     extra: "Filler",
     non_content: true, 
     note: [
         "For Federal Student Aid use only"
     ]};
 
-const field_679 = {len: 2, pos_start: 4883, pos_end: 4885,
-    idx: 679, name: "NSLDS TEACH Grant Sequence (1)", path: "/NSLDS/teach/grant/by_index/1/Sequence", 
+const field_664 = {len: 2, pos_start: 4883, pos_end: 4885,
+    idx: 664, name: "NSLDS TEACH Grant Sequence (1)", path: "/NSLDS/teach/grant/by_index/1/Sequence", 
     validate: _validate_options, allow_blank: true,
     options: [
       {op: "range", "min":"01","max":"03"},
@@ -8586,8 +8586,8 @@ const field_679 = {len: 2, pos_start: 4883, pos_end: 4885,
         "Blank"
     ]};
 
-const field_680 = {len: 8, pos_start: 4885, pos_end: 4893,
-    idx: 680, name: "NSLDS TEACH Grant School Code (1)", path: "/NSLDS/teach/grant/by_index/1/School_Code", 
+const field_665 = {len: 8, pos_start: 4885, pos_end: 4893,
+    idx: 665, name: "NSLDS TEACH Grant School Code (1)", path: "/NSLDS/teach/grant/by_index/1/School_Code", 
     validate: _validate_options, allow_blank: true,
     options: [
       {op: "numeric", },
@@ -8597,8 +8597,8 @@ const field_680 = {len: 8, pos_start: 4885, pos_end: 4893,
         "Blank"
     ]};
 
-const field_681 = {len: 2, pos_start: 4893, pos_end: 4895,
-    idx: 681, name: "NSLDS TEACH Grant Transaction Number (1)", path: "/NSLDS/teach/grant/by_index/1/Transaction_Number", 
+const field_666 = {len: 2, pos_start: 4893, pos_end: 4895,
+    idx: 666, name: "NSLDS TEACH Grant Transaction Number (1)", path: "/NSLDS/teach/grant/by_index/1/Transaction_Number", 
     validate: _validate_options, allow_blank: true,
     options: [
       {op: "numeric", },
@@ -8608,8 +8608,8 @@ const field_681 = {len: 2, pos_start: 4893, pos_end: 4895,
         "Blank"
     ]};
 
-const field_682 = {len: 8, pos_start: 4895, pos_end: 4903,
-    idx: 682, name: "NSLDS TEACH Grant Last Disbursement Date (1)", path: "/NSLDS/teach/grant/by_index/1/Last_Disbursement_Date", 
+const field_667 = {len: 8, pos_start: 4895, pos_end: 4903,
+    idx: 667, name: "NSLDS TEACH Grant Last Disbursement Date (1)", path: "/NSLDS/teach/grant/by_index/1/Last_Disbursement_Date", 
     validate: _validate_options, allow_blank: true,
     options: [
       {op: "date", },
@@ -8623,8 +8623,8 @@ const field_682 = {len: 8, pos_start: 4895, pos_end: 4903,
         "Blank"
     ]};
 
-const field_683 = {len: 6, pos_start: 4903, pos_end: 4909,
-    idx: 683, name: "NSLDS TEACH Grant Scheduled Amount (1)", path: "/NSLDS/teach/grant/by_index/1/Scheduled_Amount", 
+const field_668 = {len: 6, pos_start: 4903, pos_end: 4909,
+    idx: 668, name: "NSLDS TEACH Grant Scheduled Amount (1)", path: "/NSLDS/teach/grant/by_index/1/Scheduled_Amount", 
     extra: ["Whole dollar amount with leading zeros."],
     validate: _validate_options, allow_blank: true,
     options: [
@@ -8635,8 +8635,8 @@ const field_683 = {len: 6, pos_start: 4903, pos_end: 4909,
         "Blank"
     ]};
 
-const field_684 = {len: 6, pos_start: 4909, pos_end: 4915,
-    idx: 684, name: "NSLDS TEACH Grant Amount Paid to Date (1)", path: "/NSLDS/teach/grant/by_index/1/Amount_Paid_to_Date", 
+const field_669 = {len: 6, pos_start: 4909, pos_end: 4915,
+    idx: 669, name: "NSLDS TEACH Grant Amount Paid to Date (1)", path: "/NSLDS/teach/grant/by_index/1/Amount_Paid_to_Date", 
     extra: ["Whole dollar amount with leading zeros."],
     validate: _validate_options, allow_blank: true,
     options: [
@@ -8647,8 +8647,8 @@ const field_684 = {len: 6, pos_start: 4909, pos_end: 4915,
         "Blank"
     ]};
 
-const field_685 = {len: 6, pos_start: 4915, pos_end: 4921,
-    idx: 685, name: "NSLDS TEACH Grant Award Amount (1)", path: "/NSLDS/teach/grant/by_index/1/Award_Amount", 
+const field_670 = {len: 6, pos_start: 4915, pos_end: 4921,
+    idx: 670, name: "NSLDS TEACH Grant Award Amount (1)", path: "/NSLDS/teach/grant/by_index/1/Award_Amount", 
     extra: ["Whole dollar amount with leading zeros."],
     validate: _validate_options, allow_blank: true,
     options: [
@@ -8659,8 +8659,8 @@ const field_685 = {len: 6, pos_start: 4915, pos_end: 4921,
         "Blank"
     ]};
 
-const field_686 = {len: 1, pos_start: 4921, pos_end: 4922,
-    idx: 686, name: "NSLDS TEACH Grant Academic Year Level (1)", path: "/NSLDS/teach/grant/by_index/1/Academic_Year_Level", 
+const field_671 = {len: 1, pos_start: 4921, pos_end: 4922,
+    idx: 671, name: "NSLDS TEACH Grant Academic Year Level (1)", path: "/NSLDS/teach/grant/by_index/1/Academic_Year_Level", 
     validate: _validate_options, allow_blank: true,
     options: [
       {op: "numeric", },
@@ -8670,8 +8670,8 @@ const field_686 = {len: 1, pos_start: 4921, pos_end: 4922,
         "Blank"
     ]};
 
-const field_687 = {len: 4, pos_start: 4922, pos_end: 4926,
-    idx: 687, name: "NSLDS TEACH Grant Award Year (1)", path: "/NSLDS/teach/grant/by_index/1/Award_Year", 
+const field_672 = {len: 4, pos_start: 4922, pos_end: 4926,
+    idx: 672, name: "NSLDS TEACH Grant Award Year (1)", path: "/NSLDS/teach/grant/by_index/1/Award_Year", 
     validate: _validate_options, allow_blank: true,
     options: [
       {op: "numeric", },
@@ -8681,8 +8681,8 @@ const field_687 = {len: 4, pos_start: 4922, pos_end: 4926,
         "Blank"
     ]};
 
-const field_688 = {len: 1, pos_start: 4926, pos_end: 4927,
-    idx: 688, name: "NSLDS TEACH Grant Loan Conversion Flag (1)", path: "/NSLDS/teach/grant/by_index/1/Loan_Conversion_Flag", 
+const field_673 = {len: 1, pos_start: 4926, pos_end: 4927,
+    idx: 673, name: "NSLDS TEACH Grant Loan Conversion Flag (1)", path: "/NSLDS/teach/grant/by_index/1/Loan_Conversion_Flag", 
     validate: _validate_options, allow_blank: true,
     options: [
       {op: "enum", options: {
@@ -8696,8 +8696,8 @@ const field_688 = {len: 1, pos_start: 4926, pos_end: 4927,
         "Blank"
     ]};
 
-const field_689 = {len: 4, pos_start: 4927, pos_end: 4931,
-    idx: 689, name: "NSLDS TEACH Grant Discharge Code (1)", path: "/NSLDS/teach/grant/by_index/1/Discharge_Code", 
+const field_674 = {len: 4, pos_start: 4927, pos_end: 4931,
+    idx: 674, name: "NSLDS TEACH Grant Discharge Code (1)", path: "/NSLDS/teach/grant/by_index/1/Discharge_Code", 
     validate: _validate_options, allow_blank: true,
     options: [
       {op: "enum", options: {
@@ -8711,8 +8711,8 @@ const field_689 = {len: 4, pos_start: 4927, pos_end: 4931,
         "Blank"
     ]};
 
-const field_690 = {len: 6, pos_start: 4931, pos_end: 4937,
-    idx: 690, name: "NSLDS TEACH Grant Discharge Amount (1)", path: "/NSLDS/teach/grant/by_index/1/Discharge_Amount", 
+const field_675 = {len: 6, pos_start: 4931, pos_end: 4937,
+    idx: 675, name: "NSLDS TEACH Grant Discharge Amount (1)", path: "/NSLDS/teach/grant/by_index/1/Discharge_Amount", 
     validate: _validate_options, allow_blank: true,
     options: [
       {op: "range", "min":"000000","max":"999999"},
@@ -8726,8 +8726,8 @@ const field_690 = {len: 6, pos_start: 4931, pos_end: 4937,
         "Blank"
     ]};
 
-const field_691 = {len: 6, pos_start: 4937, pos_end: 4943,
-    idx: 691, name: "NSLDS-TEACH Grant Adjusted Disbursement (1)", path: "/NSLDS/teach/grant/by_index/1/Adjusted_Disbursement", 
+const field_676 = {len: 6, pos_start: 4937, pos_end: 4943,
+    idx: 676, name: "NSLDS TEACH Grant Adjusted Disbursement (1)", path: "/NSLDS/teach/grant/by_index/1/Adjusted_Disbursement", 
     validate: _validate_options, allow_blank: true,
     options: [
       {op: "range", "min":"000000","max":"999999"},
@@ -8741,16 +8741,16 @@ const field_691 = {len: 6, pos_start: 4937, pos_end: 4943,
         "Blank"
     ]};
 
-const field_692 = {len: 20, pos_start: 4943, pos_end: 4963,
-    idx: 692, name: null, 
+const field_677 = {len: 20, pos_start: 4943, pos_end: 4963,
+    idx: 677, name: null, 
     extra: "Filler",
     non_content: true, 
     note: [
         "For Federal Student Aid use only"
     ]};
 
-const field_693 = {len: 2, pos_start: 4963, pos_end: 4965,
-    idx: 693, name: "NSLDS TEACH Grant Sequence (2)", path: "/NSLDS/teach/grant/by_index/2/Sequence", 
+const field_678 = {len: 2, pos_start: 4963, pos_end: 4965,
+    idx: 678, name: "NSLDS TEACH Grant Sequence (2)", path: "/NSLDS/teach/grant/by_index/2/Sequence", 
     validate: _validate_options, allow_blank: true,
     options: [
       {op: "range", "min":"01","max":"03"},
@@ -8760,8 +8760,8 @@ const field_693 = {len: 2, pos_start: 4963, pos_end: 4965,
         "Blank"
     ]};
 
-const field_694 = {len: 8, pos_start: 4965, pos_end: 4973,
-    idx: 694, name: "NSLDS TEACH Grant School Code (2)", path: "/NSLDS/teach/grant/by_index/2/School_Code", 
+const field_679 = {len: 8, pos_start: 4965, pos_end: 4973,
+    idx: 679, name: "NSLDS TEACH Grant School Code (2)", path: "/NSLDS/teach/grant/by_index/2/School_Code", 
     validate: _validate_options, allow_blank: true,
     options: [
       {op: "numeric", },
@@ -8771,8 +8771,8 @@ const field_694 = {len: 8, pos_start: 4965, pos_end: 4973,
         "Blank"
     ]};
 
-const field_695 = {len: 2, pos_start: 4973, pos_end: 4975,
-    idx: 695, name: "NSLDS TEACH Grant Transaction Number (2)", path: "/NSLDS/teach/grant/by_index/2/Transaction_Number", 
+const field_680 = {len: 2, pos_start: 4973, pos_end: 4975,
+    idx: 680, name: "NSLDS TEACH Grant Transaction Number (2)", path: "/NSLDS/teach/grant/by_index/2/Transaction_Number", 
     validate: _validate_options, allow_blank: true,
     options: [
       {op: "numeric", },
@@ -8782,8 +8782,8 @@ const field_695 = {len: 2, pos_start: 4973, pos_end: 4975,
         "Blank"
     ]};
 
-const field_696 = {len: 8, pos_start: 4975, pos_end: 4983,
-    idx: 696, name: "NSLDS TEACH Grant Last Disbursement Date (2)", path: "/NSLDS/teach/grant/by_index/2/Last_Disbursement_Date", 
+const field_681 = {len: 8, pos_start: 4975, pos_end: 4983,
+    idx: 681, name: "NSLDS TEACH Grant Last Disbursement Date (2)", path: "/NSLDS/teach/grant/by_index/2/Last_Disbursement_Date", 
     validate: _validate_options, allow_blank: true,
     options: [
       {op: "date", },
@@ -8797,8 +8797,8 @@ const field_696 = {len: 8, pos_start: 4975, pos_end: 4983,
         "Blank"
     ]};
 
-const field_697 = {len: 6, pos_start: 4983, pos_end: 4989,
-    idx: 697, name: "NSLDS TEACH Grant Scheduled Amount (2)", path: "/NSLDS/teach/grant/by_index/2/Scheduled_Amount", 
+const field_682 = {len: 6, pos_start: 4983, pos_end: 4989,
+    idx: 682, name: "NSLDS TEACH Grant Scheduled Amount (2)", path: "/NSLDS/teach/grant/by_index/2/Scheduled_Amount", 
     validate: _validate_options, allow_blank: true,
     options: [
       {op: "numeric", },
@@ -8808,8 +8808,8 @@ const field_697 = {len: 6, pos_start: 4983, pos_end: 4989,
         "Blank"
     ]};
 
-const field_698 = {len: 6, pos_start: 4989, pos_end: 4995,
-    idx: 698, name: "NSLDS TEACH Grant Amount Paid to Date (2)", path: "/NSLDS/teach/grant/by_index/2/Amount_Paid_to_Date", 
+const field_683 = {len: 6, pos_start: 4989, pos_end: 4995,
+    idx: 683, name: "NSLDS TEACH Grant Amount Paid to Date (2)", path: "/NSLDS/teach/grant/by_index/2/Amount_Paid_to_Date", 
     validate: _validate_options, allow_blank: true,
     options: [
       {op: "numeric", },
@@ -8819,8 +8819,8 @@ const field_698 = {len: 6, pos_start: 4989, pos_end: 4995,
         "Blank"
     ]};
 
-const field_699 = {len: 6, pos_start: 4995, pos_end: 5001,
-    idx: 699, name: "NSLDS TEACH Grant Award Amount (2)", path: "/NSLDS/teach/grant/by_index/2/Award_Amount", 
+const field_684 = {len: 6, pos_start: 4995, pos_end: 5001,
+    idx: 684, name: "NSLDS TEACH Grant Award Amount (2)", path: "/NSLDS/teach/grant/by_index/2/Award_Amount", 
     validate: _validate_options, allow_blank: true,
     options: [
       {op: "numeric", },
@@ -8830,8 +8830,8 @@ const field_699 = {len: 6, pos_start: 4995, pos_end: 5001,
         "Blank"
     ]};
 
-const field_700 = {len: 1, pos_start: 5001, pos_end: 5002,
-    idx: 700, name: "NSLDS TEACH Grant Academic Year Level (2)", path: "/NSLDS/teach/grant/by_index/2/Academic_Year_Level", 
+const field_685 = {len: 1, pos_start: 5001, pos_end: 5002,
+    idx: 685, name: "NSLDS TEACH Grant Academic Year Level (2)", path: "/NSLDS/teach/grant/by_index/2/Academic_Year_Level", 
     validate: _validate_options, allow_blank: true,
     options: [
       {op: "numeric", },
@@ -8841,8 +8841,8 @@ const field_700 = {len: 1, pos_start: 5001, pos_end: 5002,
         "Blank"
     ]};
 
-const field_701 = {len: 4, pos_start: 5002, pos_end: 5006,
-    idx: 701, name: "NSLDS TEACH Grant Award Year (2)", path: "/NSLDS/teach/grant/by_index/2/Award_Year", 
+const field_686 = {len: 4, pos_start: 5002, pos_end: 5006,
+    idx: 686, name: "NSLDS TEACH Grant Award Year (2)", path: "/NSLDS/teach/grant/by_index/2/Award_Year", 
     validate: _validate_options, allow_blank: true,
     options: [
       {op: "numeric", },
@@ -8852,8 +8852,8 @@ const field_701 = {len: 4, pos_start: 5002, pos_end: 5006,
         "Blank"
     ]};
 
-const field_702 = {len: 1, pos_start: 5006, pos_end: 5007,
-    idx: 702, name: "NSLDS TEACH Grant Loan Conversion Flag (2)", path: "/NSLDS/teach/grant/by_index/2/Loan_Conversion_Flag", 
+const field_687 = {len: 1, pos_start: 5006, pos_end: 5007,
+    idx: 687, name: "NSLDS TEACH Grant Loan Conversion Flag (2)", path: "/NSLDS/teach/grant/by_index/2/Loan_Conversion_Flag", 
     validate: _validate_options, allow_blank: true,
     options: [
       {op: "enum", options: {
@@ -8867,8 +8867,8 @@ const field_702 = {len: 1, pos_start: 5006, pos_end: 5007,
         "Blank"
     ]};
 
-const field_703 = {len: 4, pos_start: 5007, pos_end: 5011,
-    idx: 703, name: "NSLDS TEACH Grant Discharge Code (2)", path: "/NSLDS/teach/grant/by_index/2/Discharge_Code", 
+const field_688 = {len: 4, pos_start: 5007, pos_end: 5011,
+    idx: 688, name: "NSLDS TEACH Grant Discharge Code (2)", path: "/NSLDS/teach/grant/by_index/2/Discharge_Code", 
     validate: _validate_options, allow_blank: true,
     options: [
       {op: "enum", options: {
@@ -8882,8 +8882,8 @@ const field_703 = {len: 4, pos_start: 5007, pos_end: 5011,
         "Blank"
     ]};
 
-const field_704 = {len: 6, pos_start: 5011, pos_end: 5017,
-    idx: 704, name: "NSLDS TEACH Grant Discharge Amount (2)", path: "/NSLDS/teach/grant/by_index/2/Discharge_Amount", 
+const field_689 = {len: 6, pos_start: 5011, pos_end: 5017,
+    idx: 689, name: "NSLDS TEACH Grant Discharge Amount (2)", path: "/NSLDS/teach/grant/by_index/2/Discharge_Amount", 
     validate: _validate_options, allow_blank: true,
     options: [
       {op: "range", "min":"000000","max":"999999"},
@@ -8897,8 +8897,8 @@ const field_704 = {len: 6, pos_start: 5011, pos_end: 5017,
         "Blank"
     ]};
 
-const field_705 = {len: 6, pos_start: 5017, pos_end: 5023,
-    idx: 705, name: "NSLDS-TEACH Grant Adjusted Disbursement (2)", path: "/NSLDS/teach/grant/by_index/2/Adjusted_Disbursement", 
+const field_690 = {len: 6, pos_start: 5017, pos_end: 5023,
+    idx: 690, name: "NSLDS TEACH Grant Adjusted Disbursement (2)", path: "/NSLDS/teach/grant/by_index/2/Adjusted_Disbursement", 
     validate: _validate_options, allow_blank: true,
     options: [
       {op: "range", "min":"000000","max":"999999"},
@@ -8912,16 +8912,16 @@ const field_705 = {len: 6, pos_start: 5017, pos_end: 5023,
         "Blank"
     ]};
 
-const field_706 = {len: 20, pos_start: 5023, pos_end: 5043,
-    idx: 706, name: null, 
+const field_691 = {len: 20, pos_start: 5023, pos_end: 5043,
+    idx: 691, name: null, 
     extra: "Filler",
     non_content: true, 
     note: [
         "For Federal Student Aid use only"
     ]};
 
-const field_707 = {len: 2, pos_start: 5043, pos_end: 5045,
-    idx: 707, name: "NSLDS TEACH Grant Sequence (3)", path: "/NSLDS/teach/grant/by_index/3/Sequence", 
+const field_692 = {len: 2, pos_start: 5043, pos_end: 5045,
+    idx: 692, name: "NSLDS TEACH Grant Sequence (3)", path: "/NSLDS/teach/grant/by_index/3/Sequence", 
     validate: _validate_options, allow_blank: true,
     options: [
       {op: "range", "min":"01","max":"03"},
@@ -8931,8 +8931,8 @@ const field_707 = {len: 2, pos_start: 5043, pos_end: 5045,
         "Blank"
     ]};
 
-const field_708 = {len: 8, pos_start: 5045, pos_end: 5053,
-    idx: 708, name: "NSLDS TEACH Grant School Code (3)", path: "/NSLDS/teach/grant/by_index/3/School_Code", 
+const field_693 = {len: 8, pos_start: 5045, pos_end: 5053,
+    idx: 693, name: "NSLDS TEACH Grant School Code (3)", path: "/NSLDS/teach/grant/by_index/3/School_Code", 
     validate: _validate_options, allow_blank: true,
     options: [
       {op: "numeric", },
@@ -8942,8 +8942,8 @@ const field_708 = {len: 8, pos_start: 5045, pos_end: 5053,
         "Blank"
     ]};
 
-const field_709 = {len: 2, pos_start: 5053, pos_end: 5055,
-    idx: 709, name: "NSLDS TEACH Grant Transaction Number (3)", path: "/NSLDS/teach/grant/by_index/3/Transaction_Number", 
+const field_694 = {len: 2, pos_start: 5053, pos_end: 5055,
+    idx: 694, name: "NSLDS TEACH Grant Transaction Number (3)", path: "/NSLDS/teach/grant/by_index/3/Transaction_Number", 
     validate: _validate_options, allow_blank: true,
     options: [
       {op: "numeric", },
@@ -8953,8 +8953,8 @@ const field_709 = {len: 2, pos_start: 5053, pos_end: 5055,
         "Blank"
     ]};
 
-const field_710 = {len: 8, pos_start: 5055, pos_end: 5063,
-    idx: 710, name: "NSLDS TEACH Grant Last Disbursement Date (3)", path: "/NSLDS/teach/grant/by_index/3/Last_Disbursement_Date", 
+const field_695 = {len: 8, pos_start: 5055, pos_end: 5063,
+    idx: 695, name: "NSLDS TEACH Grant Last Disbursement Date (3)", path: "/NSLDS/teach/grant/by_index/3/Last_Disbursement_Date", 
     validate: _validate_options, allow_blank: true,
     options: [
       {op: "date", },
@@ -8968,8 +8968,8 @@ const field_710 = {len: 8, pos_start: 5055, pos_end: 5063,
         "Blank"
     ]};
 
-const field_711 = {len: 6, pos_start: 5063, pos_end: 5069,
-    idx: 711, name: "NSLDS TEACH Grant Scheduled Amount (3)", path: "/NSLDS/teach/grant/by_index/3/Scheduled_Amount", 
+const field_696 = {len: 6, pos_start: 5063, pos_end: 5069,
+    idx: 696, name: "NSLDS TEACH Grant Scheduled Amount (3)", path: "/NSLDS/teach/grant/by_index/3/Scheduled_Amount", 
     validate: _validate_options, allow_blank: true,
     options: [
       {op: "numeric", },
@@ -8979,8 +8979,8 @@ const field_711 = {len: 6, pos_start: 5063, pos_end: 5069,
         "Blank"
     ]};
 
-const field_712 = {len: 6, pos_start: 5069, pos_end: 5075,
-    idx: 712, name: "NSLDS TEACH Grant Amount Paid to Date (3)", path: "/NSLDS/teach/grant/by_index/3/Amount_Paid_to_Date", 
+const field_697 = {len: 6, pos_start: 5069, pos_end: 5075,
+    idx: 697, name: "NSLDS TEACH Grant Amount Paid to Date (3)", path: "/NSLDS/teach/grant/by_index/3/Amount_Paid_to_Date", 
     validate: _validate_options, allow_blank: true,
     options: [
       {op: "numeric", },
@@ -8990,8 +8990,8 @@ const field_712 = {len: 6, pos_start: 5069, pos_end: 5075,
         "Blank"
     ]};
 
-const field_713 = {len: 6, pos_start: 5075, pos_end: 5081,
-    idx: 713, name: "NSLDS TEACH Grant Award Amount (3)", path: "/NSLDS/teach/grant/by_index/3/Award_Amount", 
+const field_698 = {len: 6, pos_start: 5075, pos_end: 5081,
+    idx: 698, name: "NSLDS TEACH Grant Award Amount (3)", path: "/NSLDS/teach/grant/by_index/3/Award_Amount", 
     validate: _validate_options, allow_blank: true,
     options: [
       {op: "numeric", },
@@ -9001,8 +9001,8 @@ const field_713 = {len: 6, pos_start: 5075, pos_end: 5081,
         "Blank"
     ]};
 
-const field_714 = {len: 1, pos_start: 5081, pos_end: 5082,
-    idx: 714, name: "NSLDS TEACH Grant Academic Year Level (3)", path: "/NSLDS/teach/grant/by_index/3/Academic_Year_Level", 
+const field_699 = {len: 1, pos_start: 5081, pos_end: 5082,
+    idx: 699, name: "NSLDS TEACH Grant Academic Year Level (3)", path: "/NSLDS/teach/grant/by_index/3/Academic_Year_Level", 
     validate: _validate_options, allow_blank: true,
     options: [
       {op: "numeric", },
@@ -9012,8 +9012,8 @@ const field_714 = {len: 1, pos_start: 5081, pos_end: 5082,
         "Blank"
     ]};
 
-const field_715 = {len: 4, pos_start: 5082, pos_end: 5086,
-    idx: 715, name: "NSLDS TEACH Grant Award Year (3)", path: "/NSLDS/teach/grant/by_index/3/Award_Year", 
+const field_700 = {len: 4, pos_start: 5082, pos_end: 5086,
+    idx: 700, name: "NSLDS TEACH Grant Award Year (3)", path: "/NSLDS/teach/grant/by_index/3/Award_Year", 
     validate: _validate_options, allow_blank: true,
     options: [
       {op: "numeric", },
