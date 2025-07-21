@@ -9023,8 +9023,8 @@ const field_700 = {len: 4, pos_start: 5082, pos_end: 5086,
         "Blank"
     ]};
 
-const field_716 = {len: 1, pos_start: 5086, pos_end: 5087,
-    idx: 716, name: "NSLDS TEACH Grant Loan Conversion Flag (3)", path: "/NSLDS/teach/grant/by_index/3/Loan_Conversion_Flag", 
+const field_701 = {len: 1, pos_start: 5086, pos_end: 5087,
+    idx: 701, name: "NSLDS TEACH Grant Loan Conversion Flag (3)", path: "/NSLDS/teach/grant/by_index/3/Loan_Conversion_Flag", 
     validate: _validate_options, allow_blank: true,
     options: [
       {op: "enum", options: {
@@ -9038,8 +9038,8 @@ const field_716 = {len: 1, pos_start: 5086, pos_end: 5087,
         "Blank"
     ]};
 
-const field_717 = {len: 4, pos_start: 5087, pos_end: 5091,
-    idx: 717, name: "NSLDS TEACH Grant Discharge Code (3)", path: "/NSLDS/teach/grant/by_index/3/Discharge_Code", 
+const field_702 = {len: 4, pos_start: 5087, pos_end: 5091,
+    idx: 702, name: "NSLDS TEACH Grant Discharge Code (3)", path: "/NSLDS/teach/grant/by_index/3/Discharge_Code", 
     validate: _validate_options, allow_blank: true,
     options: [
       {op: "enum", options: {
@@ -9053,8 +9053,8 @@ const field_717 = {len: 4, pos_start: 5087, pos_end: 5091,
         "Blank"
     ]};
 
-const field_718 = {len: 6, pos_start: 5091, pos_end: 5097,
-    idx: 718, name: "NSLDS TEACH Grant Discharge Amount (3)", path: "/NSLDS/teach/grant/by_index/3/Discharge_Amount", 
+const field_703 = {len: 6, pos_start: 5091, pos_end: 5097,
+    idx: 703, name: "NSLDS TEACH Grant Discharge Amount (3)", path: "/NSLDS/teach/grant/by_index/3/Discharge_Amount", 
     validate: _validate_options, allow_blank: true,
     options: [
       {op: "range", "min":"000000","max":"999999"},
@@ -9068,8 +9068,8 @@ const field_718 = {len: 6, pos_start: 5091, pos_end: 5097,
         "Blank"
     ]};
 
-const field_719 = {len: 6, pos_start: 5097, pos_end: 5103,
-    idx: 719, name: "NSLDS-TEACH Grant Adjusted Disbursement (3)", path: "/NSLDS/teach/grant/by_index/3/Adjusted_Disbursement", 
+const field_704 = {len: 6, pos_start: 5097, pos_end: 5103,
+    idx: 704, name: "NSLDS TEACH Grant Adjusted Disbursement (3)", path: "/NSLDS/teach/grant/by_index/3/Adjusted_Disbursement", 
     validate: _validate_options, allow_blank: true,
     options: [
       {op: "range", "min":"000000","max":"999999"},
@@ -9083,16 +9083,16 @@ const field_719 = {len: 6, pos_start: 5097, pos_end: 5103,
         "Blank"
     ]};
 
-const field_720 = {len: 20, pos_start: 5103, pos_end: 5123,
-    idx: 720, name: null, 
+const field_705 = {len: 20, pos_start: 5103, pos_end: 5123,
+    idx: 705, name: null, 
     extra: "Filler",
     non_content: true, 
     note: [
         "For Federal Student Aid use only"
     ]};
 
-const field_721 = {len: 2, pos_start: 5123, pos_end: 5125,
-    idx: 721, name: "NSLDS Loan Sequence Number (1)", path: "/NSLDS/loan/by_index/1/Sequence_Number", 
+const field_706 = {len: 2, pos_start: 5123, pos_end: 5125,
+    idx: 706, name: "NSLDS Loan Sequence Number (1)", path: "/NSLDS/loan/by_index/1/Sequence_Number", 
     validate: _validate_options, allow_blank: true,
     options: [
       {op: "range", "min":"01","max":"06"},
@@ -9102,8 +9102,8 @@ const field_721 = {len: 2, pos_start: 5123, pos_end: 5125,
         "Blank"
     ]};
 
-const field_722 = {len: 1, pos_start: 5125, pos_end: 5126,
-    idx: 722, name: "NSLDS Loan Defaulted Recent Indicator (1)", path: "/NSLDS/loan/by_index/1/Defaulted_Recent_Indicator", 
+const field_707 = {len: 1, pos_start: 5125, pos_end: 5126,
+    idx: 707, name: "NSLDS Loan Defaulted Recent Indicator (1)", path: "/NSLDS/loan/by_index/1/Defaulted_Recent_Indicator", 
     validate: _validate_options, allow_blank: true,
     options: [
       {op: "enum", options: {
@@ -9121,8 +9121,8 @@ const field_722 = {len: 1, pos_start: 5125, pos_end: 5126,
         "Blank"
     ]};
 
-const field_723 = {len: 1, pos_start: 5126, pos_end: 5127,
-    idx: 723, name: "NSLDS Loan Change Flag (1)", path: "/NSLDS/loan/by_index/1/Change_Flag", 
+const field_708 = {len: 1, pos_start: 5126, pos_end: 5127,
+    idx: 708, name: "NSLDS Loan Change Flag (1)", path: "/NSLDS/loan/by_index/1/Change_Flag", 
     validate: _validate_options, allow_blank: true,
     options: [
       {op: "enum", options: {
@@ -9136,8 +9136,8 @@ const field_723 = {len: 1, pos_start: 5126, pos_end: 5127,
         "Blank"
     ]};
 
-const field_724 = {len: 2, pos_start: 5127, pos_end: 5129,
-    idx: 724, name: "NSLDS Loan Type Code (1)", path: "/NSLDS/loan/by_index/1/Type_Code", 
+const field_709 = {len: 2, pos_start: 5127, pos_end: 5129,
+    idx: 709, name: "NSLDS Loan Type Code (1)", path: "/NSLDS/loan/by_index/1/Type_Code", 
     validate: _validate_options, allow_blank: true,
     options: [
       {op: "alphanumeric", },
@@ -9148,8 +9148,8 @@ const field_724 = {len: 2, pos_start: 5127, pos_end: 5129,
         "See “NSLDS Loan Program Codes” in the FAFSA® Specifications Guide, Volume 4B, Processing Codes"
     ]};
 
-const field_725 = {len: 6, pos_start: 5129, pos_end: 5135,
-    idx: 725, name: "NSLDS Loan Net Amount (1)", path: "/NSLDS/loan/by_index/1/Net_Amount", 
+const field_710 = {len: 6, pos_start: 5129, pos_end: 5135,
+    idx: 710, name: "NSLDS Loan Net Amount (1)", path: "/NSLDS/loan/by_index/1/Net_Amount", 
     validate: _validate_options, allow_blank: true,
     options: [
       {op: "range", "min":"000000","max":"999999"},
@@ -9159,8 +9159,8 @@ const field_725 = {len: 6, pos_start: 5129, pos_end: 5135,
         "Blank"
     ]};
 
-const field_726 = {len: 2, pos_start: 5135, pos_end: 5137,
-    idx: 726, name: "NSLDS Loan Current Status Code (1)", path: "/NSLDS/loan/by_index/1/Current_Status_Code", 
+const field_711 = {len: 2, pos_start: 5135, pos_end: 5137,
+    idx: 711, name: "NSLDS Loan Current Status Code (1)", path: "/NSLDS/loan/by_index/1/Current_Status_Code", 
     validate: _validate_options, allow_blank: true,
     options: [
       {op: "alphanumeric", },
@@ -9171,8 +9171,8 @@ const field_726 = {len: 2, pos_start: 5135, pos_end: 5137,
         "See “NSLDS Loan Current Status Codes” in the FAFSA® Specifications Guide, Volume 4B, Processing Codes"
     ]};
 
-const field_727 = {len: 8, pos_start: 5137, pos_end: 5145,
-    idx: 727, name: "NSLDS Loan Current Status Date (1)", path: "/NSLDS/loan/by_index/1/Current_Status_Date", 
+const field_712 = {len: 8, pos_start: 5137, pos_end: 5145,
+    idx: 712, name: "NSLDS Loan Current Status Date (1)", path: "/NSLDS/loan/by_index/1/Current_Status_Date", 
     validate: _validate_date, allow_blank: true,
     options: [
       {op: "enum", options: {
@@ -9186,8 +9186,8 @@ const field_727 = {len: 8, pos_start: 5137, pos_end: 5145,
         "Blank"
     ]};
 
-const field_728 = {len: 6, pos_start: 5145, pos_end: 5151,
-    idx: 728, name: "NSLDS Loan Outstanding Principal Balance (1)", path: "/NSLDS/loan/by_index/1/Outstanding_Principal_Balance", 
+const field_713 = {len: 6, pos_start: 5145, pos_end: 5151,
+    idx: 713, name: "NSLDS Loan Outstanding Principal Balance (1)", path: "/NSLDS/loan/by_index/1/Outstanding_Principal_Balance", 
     validate: _validate_options, allow_blank: true,
     options: [
       {op: "range", "min":"000000","max":"999999"},
@@ -9201,8 +9201,8 @@ const field_728 = {len: 6, pos_start: 5145, pos_end: 5151,
         "Blank"
     ]};
 
-const field_729 = {len: 8, pos_start: 5151, pos_end: 5159,
-    idx: 729, name: "NSLDS Loan Outstanding Principal Balance Date (1)", path: "/NSLDS/loan/by_index/1/Outstanding_Principal_Balance_Date", 
+const field_714 = {len: 8, pos_start: 5151, pos_end: 5159,
+    idx: 714, name: "NSLDS Loan Outstanding Principal Balance Date (1)", path: "/NSLDS/loan/by_index/1/Outstanding_Principal_Balance_Date", 
     validate: _validate_options, allow_blank: true,
     options: [
       {op: "date", },
@@ -9216,8 +9216,8 @@ const field_729 = {len: 8, pos_start: 5151, pos_end: 5159,
         "Blank"
     ]};
 
-const field_730 = {len: 8, pos_start: 5159, pos_end: 5167,
-    idx: 730, name: "NSLDS Loan Period Begin Date (1)", path: "/NSLDS/loan/by_index/1/Period_Begin_Date", 
+const field_715 = {len: 8, pos_start: 5159, pos_end: 5167,
+    idx: 715, name: "NSLDS Loan Period Begin Date (1)", path: "/NSLDS/loan/by_index/1/Period_Begin_Date", 
     validate: _validate_options, allow_blank: true,
     options: [
       {op: "date", },
@@ -9231,8 +9231,8 @@ const field_730 = {len: 8, pos_start: 5159, pos_end: 5167,
         "Blank"
     ]};
 
-const field_731 = {len: 8, pos_start: 5167, pos_end: 5175,
-    idx: 731, name: "NSLDS Loan Period End Date (1)", path: "/NSLDS/loan/by_index/1/Period_End_Date", 
+const field_716 = {len: 8, pos_start: 5167, pos_end: 5175,
+    idx: 716, name: "NSLDS Loan Period End Date (1)", path: "/NSLDS/loan/by_index/1/Period_End_Date", 
     validate: _validate_options, allow_blank: true,
     options: [
       {op: "date", },
@@ -9246,8 +9246,8 @@ const field_731 = {len: 8, pos_start: 5167, pos_end: 5175,
         "Blank"
     ]};
 
-const field_732 = {len: 3, pos_start: 5175, pos_end: 5178,
-    idx: 732, name: "NSLDS Loan Guaranty Agency Code (1)", path: "/NSLDS/loan/by_index/1/Guaranty_Agency_Code", 
+const field_717 = {len: 3, pos_start: 5175, pos_end: 5178,
+    idx: 717, name: "NSLDS Loan Guaranty Agency Code (1)", path: "/NSLDS/loan/by_index/1/Guaranty_Agency_Code", 
     validate: _validate_options, allow_blank: true,
     options: [
       {op: "numeric", },
@@ -9261,8 +9261,8 @@ const field_732 = {len: 3, pos_start: 5175, pos_end: 5178,
         "Blank"
     ]};
 
-const field_733 = {len: 3, pos_start: 5178, pos_end: 5181,
-    idx: 733, name: "NSLDS Loan Contact Type (1)", path: "/NSLDS/loan/by_index/1/Contact_Type", 
+const field_718 = {len: 3, pos_start: 5178, pos_end: 5181,
+    idx: 718, name: "NSLDS Loan Contact Type (1)", path: "/NSLDS/loan/by_index/1/Contact_Type", 
     validate: _validate_options, allow_blank: true,
     options: [
       {op: "enum", options: {
@@ -9288,8 +9288,8 @@ const field_733 = {len: 3, pos_start: 5178, pos_end: 5181,
         "Blank"
     ]};
 
-const field_734 = {len: 8, pos_start: 5181, pos_end: 5189,
-    idx: 734, name: "NSLDS Loan School Code (1)", path: "/NSLDS/loan/by_index/1/School_Code", 
+const field_719 = {len: 8, pos_start: 5181, pos_end: 5189,
+    idx: 719, name: "NSLDS Loan School Code (1)", path: "/NSLDS/loan/by_index/1/School_Code", 
     validate: _validate_options, allow_blank: true,
     options: [
       {op: "alphanumeric", },
@@ -9303,8 +9303,8 @@ const field_734 = {len: 8, pos_start: 5181, pos_end: 5189,
         "Blank"
     ]};
 
-const field_735 = {len: 8, pos_start: 5189, pos_end: 5197,
-    idx: 735, name: "NSLDS Loan Contact Code (1)", path: "/NSLDS/loan/by_index/1/Contact_Code", 
+const field_720 = {len: 8, pos_start: 5189, pos_end: 5197,
+    idx: 720, name: "NSLDS Loan Contact Code (1)", path: "/NSLDS/loan/by_index/1/Contact_Code", 
     validate: _validate_options, allow_blank: true,
     options: [
       {op: "alphanumeric", },
@@ -9318,8 +9318,8 @@ const field_735 = {len: 8, pos_start: 5189, pos_end: 5197,
         "Blank"
     ]};
 
-const field_736 = {len: 3, pos_start: 5197, pos_end: 5200,
-    idx: 736, name: "NSLDS Loan Grade Level (1)", path: "/NSLDS/loan/by_index/1/Grade_Level", 
+const field_721 = {len: 3, pos_start: 5197, pos_end: 5200,
+    idx: 721, name: "NSLDS Loan Grade Level (1)", path: "/NSLDS/loan/by_index/1/Grade_Level", 
     validate: _validate_options, allow_blank: true,
     options: [
       {op: "alphanumeric", },
@@ -9333,8 +9333,8 @@ const field_736 = {len: 3, pos_start: 5197, pos_end: 5200,
         "Blank"
     ]};
 
-const field_737 = {len: 1, pos_start: 5200, pos_end: 5201,
-    idx: 737, name: "NSLDS Loan Additional Unsubsidized Flag (1)", path: "/NSLDS/loan/by_index/1/Additional_Unsubsidized_Flag", 
+const field_722 = {len: 1, pos_start: 5200, pos_end: 5201,
+    idx: 722, name: "NSLDS Loan Additional Unsubsidized Flag (1)", path: "/NSLDS/loan/by_index/1/Additional_Unsubsidized_Flag", 
     validate: _validate_options, allow_blank: true,
     options: [
       {op: "enum", options: {
@@ -9352,8 +9352,8 @@ const field_737 = {len: 1, pos_start: 5200, pos_end: 5201,
         "Blank"
     ]};
 
-const field_738 = {len: 1, pos_start: 5201, pos_end: 5202,
-    idx: 738, name: "NSLDS Loan Capitalized Interest Flag (1)", path: "/NSLDS/loan/by_index/1/Capitalized_Interest_Flag", 
+const field_723 = {len: 1, pos_start: 5201, pos_end: 5202,
+    idx: 723, name: "NSLDS Loan Capitalized Interest Flag (1)", path: "/NSLDS/loan/by_index/1/Capitalized_Interest_Flag", 
     validate: _validate_options, allow_blank: true,
     options: [
       {op: "enum", options: {
@@ -9367,8 +9367,8 @@ const field_738 = {len: 1, pos_start: 5201, pos_end: 5202,
         "Blank"
     ]};
 
-const field_739 = {len: 6, pos_start: 5202, pos_end: 5208,
-    idx: 739, name: "NSLDS Loan Disbursement Amount (1)", path: "/NSLDS/loan/by_index/1/Disbursement_Amount", 
+const field_724 = {len: 6, pos_start: 5202, pos_end: 5208,
+    idx: 724, name: "NSLDS Loan Disbursement Amount (1)", path: "/NSLDS/loan/by_index/1/Disbursement_Amount", 
     validate: _validate_options, allow_blank: true,
     options: [
       {op: "range", "min":"000000","max":"999999"},
@@ -9382,8 +9382,8 @@ const field_739 = {len: 6, pos_start: 5202, pos_end: 5208,
         "Blank"
     ]};
 
-const field_740 = {len: 8, pos_start: 5208, pos_end: 5216,
-    idx: 740, name: "NSLDS Loan Disbursement Date (1)", path: "/NSLDS/loan/by_index/1/Disbursement_Date", 
+const field_725 = {len: 8, pos_start: 5208, pos_end: 5216,
+    idx: 725, name: "NSLDS Loan Disbursement Date (1)", path: "/NSLDS/loan/by_index/1/Disbursement_Date", 
     validate: _validate_options, allow_blank: true,
     options: [
       {op: "date", },
@@ -9397,8 +9397,8 @@ const field_740 = {len: 8, pos_start: 5208, pos_end: 5216,
         "Blank"
     ]};
 
-const field_741 = {len: 1, pos_start: 5216, pos_end: 5217,
-    idx: 741, name: "NSLDS Loan Confirmed Loan Subsidy Status (1)", path: "/NSLDS/loan/by_index/1/Confirmed_Loan_Subsidy_Status", 
+const field_726 = {len: 1, pos_start: 5216, pos_end: 5217,
+    idx: 726, name: "NSLDS Loan Confirmed Loan Subsidy Status (1)", path: "/NSLDS/loan/by_index/1/Confirmed_Loan_Subsidy_Status", 
     validate: _validate_options, allow_blank: true,
     options: [
       {op: "enum", options: {
@@ -9414,8 +9414,8 @@ const field_741 = {len: 1, pos_start: 5216, pos_end: 5217,
         "Blank"
     ]};
 
-const field_742 = {len: 8, pos_start: 5217, pos_end: 5225,
-    idx: 742, name: "NSLDS Loan Confirmed Loan Subsidy Status Date (1)", path: "/NSLDS/loan/by_index/1/Confirmed_Loan_Subsidy_Status_Date", 
+const field_727 = {len: 8, pos_start: 5217, pos_end: 5225,
+    idx: 727, name: "NSLDS Loan Subsidy Status Date (1)", path: "/NSLDS/loan/by_index/1/Confirmed_Loan_Subsidy_Status_Date", 
     validate: _validate_options, allow_blank: true,
     options: [
       {op: "date", },
@@ -9429,16 +9429,16 @@ const field_742 = {len: 8, pos_start: 5217, pos_end: 5225,
         "Blank"
     ]};
 
-const field_743 = {len: 20, pos_start: 5225, pos_end: 5245,
-    idx: 743, name: null, 
+const field_728 = {len: 20, pos_start: 5225, pos_end: 5245,
+    idx: 728, name: null, 
     extra: "Filler",
     non_content: true, 
     note: [
         "For Federal Student Aid use only"
     ]};
 
-const field_744 = {len: 2, pos_start: 5245, pos_end: 5247,
-    idx: 744, name: "NSLDS Loan Sequence Number (2)", path: "/NSLDS/loan/by_index/2/Sequence_Number", 
+const field_729 = {len: 2, pos_start: 5245, pos_end: 5247,
+    idx: 729, name: "NSLDS Loan Sequence Number (2)", path: "/NSLDS/loan/by_index/2/Sequence_Number", 
     validate: _validate_options, allow_blank: true,
     options: [
       {op: "range", "min":"01","max":"06"},
@@ -9448,8 +9448,8 @@ const field_744 = {len: 2, pos_start: 5245, pos_end: 5247,
         "Blank"
     ]};
 
-const field_745 = {len: 1, pos_start: 5247, pos_end: 5248,
-    idx: 745, name: "NSLDS Loan Defaulted Recent Indicator (2)", path: "/NSLDS/loan/by_index/2/Defaulted_Recent_Indicator", 
+const field_730 = {len: 1, pos_start: 5247, pos_end: 5248,
+    idx: 730, name: "NSLDS Loan Defaulted Recent Indicator (2)", path: "/NSLDS/loan/by_index/2/Defaulted_Recent_Indicator", 
     validate: _validate_options, allow_blank: true,
     options: [
       {op: "enum", options: {
@@ -9467,8 +9467,8 @@ const field_745 = {len: 1, pos_start: 5247, pos_end: 5248,
         "Blank"
     ]};
 
-const field_746 = {len: 1, pos_start: 5248, pos_end: 5249,
-    idx: 746, name: "NSLDS Loan Change Flag (2)", path: "/NSLDS/loan/by_index/2/Change_Flag", 
+const field_731 = {len: 1, pos_start: 5248, pos_end: 5249,
+    idx: 731, name: "NSLDS Loan Change Flag (2)", path: "/NSLDS/loan/by_index/2/Change_Flag", 
     validate: _validate_options, allow_blank: true,
     options: [
       {op: "enum", options: {
@@ -9482,8 +9482,8 @@ const field_746 = {len: 1, pos_start: 5248, pos_end: 5249,
         "Blank"
     ]};
 
-const field_747 = {len: 2, pos_start: 5249, pos_end: 5251,
-    idx: 747, name: "NSLDS Loan Type Code (2)", path: "/NSLDS/loan/by_index/2/Type_Code", 
+const field_732 = {len: 2, pos_start: 5249, pos_end: 5251,
+    idx: 732, name: "NSLDS Loan Type Code (2)", path: "/NSLDS/loan/by_index/2/Type_Code", 
     validate: _validate_options, allow_blank: true,
     options: [
       {op: "alphanumeric", },
@@ -9494,8 +9494,8 @@ const field_747 = {len: 2, pos_start: 5249, pos_end: 5251,
         "See “NSLDS Loan Program Codes” in the FAFSA® Specifications Guide, Volume 4B, Processing Codes"
     ]};
 
-const field_748 = {len: 6, pos_start: 5251, pos_end: 5257,
-    idx: 748, name: "NSLDS Loan Net Amount (2)", path: "/NSLDS/loan/by_index/2/Net_Amount", 
+const field_733 = {len: 6, pos_start: 5251, pos_end: 5257,
+    idx: 733, name: "NSLDS Loan Net Amount (2)", path: "/NSLDS/loan/by_index/2/Net_Amount", 
     validate: _validate_options, allow_blank: true,
     options: [
       {op: "range", "min":"000000","max":"999999"},
@@ -9505,8 +9505,8 @@ const field_748 = {len: 6, pos_start: 5251, pos_end: 5257,
         "Blank"
     ]};
 
-const field_749 = {len: 2, pos_start: 5257, pos_end: 5259,
-    idx: 749, name: "NSLDS Loan Current Status Code (2)", path: "/NSLDS/loan/by_index/2/Current_Status_Code", 
+const field_734 = {len: 2, pos_start: 5257, pos_end: 5259,
+    idx: 734, name: "NSLDS Loan Current Status Code (2)", path: "/NSLDS/loan/by_index/2/Current_Status_Code", 
     validate: _validate_options, allow_blank: true,
     options: [
       {op: "alphanumeric", },
@@ -9517,8 +9517,8 @@ const field_749 = {len: 2, pos_start: 5257, pos_end: 5259,
         "See “NSLDS Loan Current Status Codes” in the FAFSA® Specifications Guide, Volume 4B, Processing Codes"
     ]};
 
-const field_750 = {len: 8, pos_start: 5259, pos_end: 5267,
-    idx: 750, name: "NSLDS Loan Current Status Date (2)", path: "/NSLDS/loan/by_index/2/Current_Status_Date", 
+const field_735 = {len: 8, pos_start: 5259, pos_end: 5267,
+    idx: 735, name: "NSLDS Loan Current Status Date (2)", path: "/NSLDS/loan/by_index/2/Current_Status_Date", 
     validate: _validate_date, allow_blank: true,
     options: [
       {op: "enum", options: {
@@ -9532,8 +9532,8 @@ const field_750 = {len: 8, pos_start: 5259, pos_end: 5267,
         "Blank"
     ]};
 
-const field_751 = {len: 6, pos_start: 5267, pos_end: 5273,
-    idx: 751, name: "NSLDS Loan Outstanding Principal Balance (2)", path: "/NSLDS/loan/by_index/2/Outstanding_Principal_Balance", 
+const field_736 = {len: 6, pos_start: 5267, pos_end: 5273,
+    idx: 736, name: "NSLDS Loan Outstanding Principal Balance (2)", path: "/NSLDS/loan/by_index/2/Outstanding_Principal_Balance", 
     validate: _validate_options, allow_blank: true,
     options: [
       {op: "range", "min":"000000","max":"999999"},
@@ -9547,8 +9547,8 @@ const field_751 = {len: 6, pos_start: 5267, pos_end: 5273,
         "Blank"
     ]};
 
-const field_752 = {len: 8, pos_start: 5273, pos_end: 5281,
-    idx: 752, name: "NSLDS Loan Outstanding Principal Balance Date (2)", path: "/NSLDS/loan/by_index/2/Outstanding_Principal_Balance_Date", 
+const field_737 = {len: 8, pos_start: 5273, pos_end: 5281,
+    idx: 737, name: "NSLDS Loan Outstanding Principal Balance Date (2)", path: "/NSLDS/loan/by_index/2/Outstanding_Principal_Balance_Date", 
     validate: _validate_options, allow_blank: true,
     options: [
       {op: "date", },
@@ -9562,8 +9562,8 @@ const field_752 = {len: 8, pos_start: 5273, pos_end: 5281,
         "Blank"
     ]};
 
-const field_753 = {len: 8, pos_start: 5281, pos_end: 5289,
-    idx: 753, name: "NSLDS Loan Period Begin Date (2)", path: "/NSLDS/loan/by_index/2/Period_Begin_Date", 
+const field_738 = {len: 8, pos_start: 5281, pos_end: 5289,
+    idx: 738, name: "NSLDS Loan Period Begin Date (2)", path: "/NSLDS/loan/by_index/2/Period_Begin_Date", 
     validate: _validate_options, allow_blank: true,
     options: [
       {op: "date", },
@@ -9577,8 +9577,8 @@ const field_753 = {len: 8, pos_start: 5281, pos_end: 5289,
         "Blank"
     ]};
 
-const field_754 = {len: 8, pos_start: 5289, pos_end: 5297,
-    idx: 754, name: "NSLDS Loan Period End Date (2)", path: "/NSLDS/loan/by_index/2/Period_End_Date", 
+const field_739 = {len: 8, pos_start: 5289, pos_end: 5297,
+    idx: 739, name: "NSLDS Loan Period End Date (2)", path: "/NSLDS/loan/by_index/2/Period_End_Date", 
     validate: _validate_options, allow_blank: true,
     options: [
       {op: "date", },
@@ -9592,8 +9592,8 @@ const field_754 = {len: 8, pos_start: 5289, pos_end: 5297,
         "Blank"
     ]};
 
-const field_755 = {len: 3, pos_start: 5297, pos_end: 5300,
-    idx: 755, name: "NSLDS Loan Guaranty Agency Code (2)", path: "/NSLDS/loan/by_index/2/Guaranty_Agency_Code", 
+const field_740 = {len: 3, pos_start: 5297, pos_end: 5300,
+    idx: 740, name: "NSLDS Loan Guaranty Agency Code (2)", path: "/NSLDS/loan/by_index/2/Guaranty_Agency_Code", 
     validate: _validate_options, allow_blank: true,
     options: [
       {op: "numeric", },
@@ -9607,38 +9607,35 @@ const field_755 = {len: 3, pos_start: 5297, pos_end: 5300,
         "Blank"
     ]};
 
-const field_756 = {len: 3, pos_start: 5300, pos_end: 5303,
-    idx: 756, name: "NSLDS Loan Contact Type (2)", path: "/NSLDS/loan/by_index/2/Contact_Type", 
+const field_741 = {len: 3, pos_start: 5300, pos_end: 5303,
+    idx: 741, name: "NSLDS Loan Contact Type (2)", path: "/NSLDS/loan/by_index/2/Contact_Type", 
     validate: _validate_options, allow_blank: true,
     options: [
-      {op: "alpha", },
       {op: "enum", options: {
+        "SCH": "School",
+        "LEN": "Lender",
+        "EDR": "ED region",
+        "GA": "Guaranty agency or federal loan servicer",
+        "LNS": "Lender servicer",
+        "DDP": "Disability data provider",
+        "RDS": "U.S. Department of Education",
         "N/A": "N/A",
       }},
     ],
     note: [
-        "Alpha",
+        "SCH = School",
+        "LEN = Lender",
+        "EDR = ED region",
+        "GA = Guaranty agency or federal loan servicer",
+        "LNS = Lender servicer",
+        "DDP = Disability data provider",
+        "RDS = U.S. Department of Education",
         "N/A",
         "Blank"
     ]};
 
-const field_757 = {len: 8, pos_start: 5303, pos_end: 5311,
-    idx: 757, name: "NSLDS Loan School Code (2)", path: "/NSLDS/loan/by_index/2/School_Code", 
-    validate: _validate_options, allow_blank: true,
-    options: [
-      {op: "alphanumeric", },
-      {op: "enum", options: {
-        "N/A": "N/A",
-      }},
-    ],
-    note: [
-        "Alphanumeric",
-        "N/A",
-        "Blank"
-    ]};
-
-const field_758 = {len: 8, pos_start: 5311, pos_end: 5319,
-    idx: 758, name: "NSLDS Loan Contact Code (2)", path: "/NSLDS/loan/by_index/2/Contact_Code", 
+const field_742 = {len: 8, pos_start: 5303, pos_end: 5311,
+    idx: 742, name: "NSLDS Loan School Code (2)", path: "/NSLDS/loan/by_index/2/School_Code", 
     validate: _validate_options, allow_blank: true,
     options: [
       {op: "alphanumeric", },
@@ -9652,8 +9649,8 @@ const field_758 = {len: 8, pos_start: 5311, pos_end: 5319,
         "Blank"
     ]};
 
-const field_759 = {len: 3, pos_start: 5319, pos_end: 5322,
-    idx: 759, name: "NSLDS Loan Grade Level (2)", path: "/NSLDS/loan/by_index/2/Grade_Level", 
+const field_743 = {len: 8, pos_start: 5311, pos_end: 5319,
+    idx: 743, name: "NSLDS Loan Contact Code (2)", path: "/NSLDS/loan/by_index/2/Contact_Code", 
     validate: _validate_options, allow_blank: true,
     options: [
       {op: "alphanumeric", },
@@ -9667,8 +9664,23 @@ const field_759 = {len: 3, pos_start: 5319, pos_end: 5322,
         "Blank"
     ]};
 
-const field_760 = {len: 1, pos_start: 5322, pos_end: 5323,
-    idx: 760, name: "NSLDS Loan Additional Unsubsidized Flag (2)", path: "/NSLDS/loan/by_index/2/Additional_Unsubsidized_Flag", 
+const field_744 = {len: 3, pos_start: 5319, pos_end: 5322,
+    idx: 744, name: "NSLDS Loan Grade Level (2)", path: "/NSLDS/loan/by_index/2/Grade_Level", 
+    validate: _validate_options, allow_blank: true,
+    options: [
+      {op: "alphanumeric", },
+      {op: "enum", options: {
+        "N/A": "N/A",
+      }},
+    ],
+    note: [
+        "Alphanumeric",
+        "N/A",
+        "Blank"
+    ]};
+
+const field_745 = {len: 1, pos_start: 5322, pos_end: 5323,
+    idx: 745, name: "NSLDS Loan Additional Unsubsidized Flag (2)", path: "/NSLDS/loan/by_index/2/Additional_Unsubsidized_Flag", 
     validate: _validate_options, allow_blank: true,
     options: [
       {op: "enum", options: {
@@ -9686,8 +9698,8 @@ const field_760 = {len: 1, pos_start: 5322, pos_end: 5323,
         "Blank"
     ]};
 
-const field_761 = {len: 1, pos_start: 5323, pos_end: 5324,
-    idx: 761, name: "NSLDS Loan Capitalized Interest Flag (2)", path: "/NSLDS/loan/by_index/2/Capitalized_Interest_Flag", 
+const field_746 = {len: 1, pos_start: 5323, pos_end: 5324,
+    idx: 746, name: "NSLDS Loan Capitalized Interest Flag (2)", path: "/NSLDS/loan/by_index/2/Capitalized_Interest_Flag", 
     validate: _validate_options, allow_blank: true,
     options: [
       {op: "enum", options: {
@@ -9701,8 +9713,8 @@ const field_761 = {len: 1, pos_start: 5323, pos_end: 5324,
         "Blank"
     ]};
 
-const field_762 = {len: 6, pos_start: 5324, pos_end: 5330,
-    idx: 762, name: "NSLDS Loan Disbursement Amount (2)", path: "/NSLDS/loan/by_index/2/Disbursement_Amount", 
+const field_747 = {len: 6, pos_start: 5324, pos_end: 5330,
+    idx: 747, name: "NSLDS Loan Disbursement Amount (2)", path: "/NSLDS/loan/by_index/2/Disbursement_Amount", 
     validate: _validate_options, allow_blank: true,
     options: [
       {op: "range", "min":"000000","max":"999999"},
@@ -9716,8 +9728,8 @@ const field_762 = {len: 6, pos_start: 5324, pos_end: 5330,
         "Blank"
     ]};
 
-const field_763 = {len: 8, pos_start: 5330, pos_end: 5338,
-    idx: 763, name: "NSLDS Loan Disbursement Date (2)", path: "/NSLDS/loan/by_index/2/Disbursement_Date", 
+const field_748 = {len: 8, pos_start: 5330, pos_end: 5338,
+    idx: 748, name: "NSLDS Loan Disbursement Date (2)", path: "/NSLDS/loan/by_index/2/Disbursement_Date", 
     validate: _validate_options, allow_blank: true,
     options: [
       {op: "date", },
@@ -9731,8 +9743,8 @@ const field_763 = {len: 8, pos_start: 5330, pos_end: 5338,
         "Blank"
     ]};
 
-const field_764 = {len: 1, pos_start: 5338, pos_end: 5339,
-    idx: 764, name: "NSLDS Loan Confirmed Loan Subsidy Status (2)", path: "/NSLDS/loan/by_index/2/Confirmed_Loan_Subsidy_Status", 
+const field_749 = {len: 1, pos_start: 5338, pos_end: 5339,
+    idx: 749, name: "NSLDS Loan Confirmed Loan Subsidy Status (2)", path: "/NSLDS/loan/by_index/2/Confirmed_Loan_Subsidy_Status", 
     validate: _validate_options, allow_blank: true,
     options: [
       {op: "enum", options: {
@@ -9748,8 +9760,8 @@ const field_764 = {len: 1, pos_start: 5338, pos_end: 5339,
         "Blank"
     ]};
 
-const field_765 = {len: 8, pos_start: 5339, pos_end: 5347,
-    idx: 765, name: "NSLDS Loan Confirmed Loan Subsidy Status Date (2)", path: "/NSLDS/loan/by_index/2/Confirmed_Loan_Subsidy_Status_Date", 
+const field_750 = {len: 8, pos_start: 5339, pos_end: 5347,
+    idx: 750, name: "NSLDS Loan Subsidy Status Date (2)", path: "/NSLDS/loan/by_index/2/Confirmed_Loan_Subsidy_Status_Date", 
     validate: _validate_options, allow_blank: true,
     options: [
       {op: "date", },
@@ -9763,16 +9775,16 @@ const field_765 = {len: 8, pos_start: 5339, pos_end: 5347,
         "Blank"
     ]};
 
-const field_766 = {len: 20, pos_start: 5347, pos_end: 5367,
-    idx: 766, name: null, 
+const field_751 = {len: 20, pos_start: 5347, pos_end: 5367,
+    idx: 751, name: null, 
     extra: "Filler",
     non_content: true, 
     note: [
         "For Federal Student Aid use only"
     ]};
 
-const field_767 = {len: 2, pos_start: 5367, pos_end: 5369,
-    idx: 767, name: "NSLDS Loan Sequence Number (3)", path: "/NSLDS/loan/by_index/3/Sequence_Number", 
+const field_752 = {len: 2, pos_start: 5367, pos_end: 5369,
+    idx: 752, name: "NSLDS Loan Sequence Number (3)", path: "/NSLDS/loan/by_index/3/Sequence_Number", 
     validate: _validate_options, allow_blank: true,
     options: [
       {op: "range", "min":"01","max":"06"},
@@ -9782,8 +9794,8 @@ const field_767 = {len: 2, pos_start: 5367, pos_end: 5369,
         "Blank"
     ]};
 
-const field_768 = {len: 1, pos_start: 5369, pos_end: 5370,
-    idx: 768, name: "NSLDS Loan Defaulted Recent Indicator (3)", path: "/NSLDS/loan/by_index/3/Defaulted_Recent_Indicator", 
+const field_753 = {len: 1, pos_start: 5369, pos_end: 5370,
+    idx: 753, name: "NSLDS Loan Defaulted Recent Indicator (3)", path: "/NSLDS/loan/by_index/3/Defaulted_Recent_Indicator", 
     validate: _validate_options, allow_blank: true,
     options: [
       {op: "enum", options: {
@@ -9801,8 +9813,8 @@ const field_768 = {len: 1, pos_start: 5369, pos_end: 5370,
         "Blank"
     ]};
 
-const field_769 = {len: 1, pos_start: 5370, pos_end: 5371,
-    idx: 769, name: "NSLDS Loan Change Flag (3)", path: "/NSLDS/loan/by_index/3/Change_Flag", 
+const field_754 = {len: 1, pos_start: 5370, pos_end: 5371,
+    idx: 754, name: "NSLDS Loan Change Flag (3)", path: "/NSLDS/loan/by_index/3/Change_Flag", 
     validate: _validate_options, allow_blank: true,
     options: [
       {op: "enum", options: {
@@ -9816,8 +9828,8 @@ const field_769 = {len: 1, pos_start: 5370, pos_end: 5371,
         "Blank"
     ]};
 
-const field_770 = {len: 2, pos_start: 5371, pos_end: 5373,
-    idx: 770, name: "NSLDS Loan Type Code (3)", path: "/NSLDS/loan/by_index/3/Type_Code", 
+const field_755 = {len: 2, pos_start: 5371, pos_end: 5373,
+    idx: 755, name: "NSLDS Loan Type Code (3)", path: "/NSLDS/loan/by_index/3/Type_Code", 
     validate: _validate_options, allow_blank: true,
     options: [
       {op: "alphanumeric", },
@@ -9828,8 +9840,8 @@ const field_770 = {len: 2, pos_start: 5371, pos_end: 5373,
         "See “NSLDS Loan Program Codes” in the FAFSA® Specifications Guide, Volume 4B, Processing Codes"
     ]};
 
-const field_771 = {len: 6, pos_start: 5373, pos_end: 5379,
-    idx: 771, name: "NSLDS Loan Net Amount (3)", path: "/NSLDS/loan/by_index/3/Net_Amount", 
+const field_756 = {len: 6, pos_start: 5373, pos_end: 5379,
+    idx: 756, name: "NSLDS Loan Net Amount (3)", path: "/NSLDS/loan/by_index/3/Net_Amount", 
     validate: _validate_options, allow_blank: true,
     options: [
       {op: "range", "min":"000000","max":"999999"},
@@ -9839,8 +9851,8 @@ const field_771 = {len: 6, pos_start: 5373, pos_end: 5379,
         "Blank"
     ]};
 
-const field_772 = {len: 2, pos_start: 5379, pos_end: 5381,
-    idx: 772, name: "NSLDS Loan Current Status Code (3)", path: "/NSLDS/loan/by_index/3/Current_Status_Code", 
+const field_757 = {len: 2, pos_start: 5379, pos_end: 5381,
+    idx: 757, name: "NSLDS Loan Current Status Code (3)", path: "/NSLDS/loan/by_index/3/Current_Status_Code", 
     validate: _validate_options, allow_blank: true,
     options: [
       {op: "alphanumeric", },
@@ -9851,8 +9863,8 @@ const field_772 = {len: 2, pos_start: 5379, pos_end: 5381,
         "See “NSLDS Loan Current Status Codes” in the FAFSA® Specifications Guide, Volume 4B, Processing Codes"
     ]};
 
-const field_773 = {len: 8, pos_start: 5381, pos_end: 5389,
-    idx: 773, name: "NSLDS Loan Current Status Date (3)", path: "/NSLDS/loan/by_index/3/Current_Status_Date", 
+const field_758 = {len: 8, pos_start: 5381, pos_end: 5389,
+    idx: 758, name: "NSLDS Loan Current Status Date (3)", path: "/NSLDS/loan/by_index/3/Current_Status_Date", 
     validate: _validate_date, allow_blank: true,
     options: [
       {op: "enum", options: {
@@ -9866,8 +9878,8 @@ const field_773 = {len: 8, pos_start: 5381, pos_end: 5389,
         "Blank"
     ]};
 
-const field_774 = {len: 6, pos_start: 5389, pos_end: 5395,
-    idx: 774, name: "NSLDS Loan Outstanding Principal Balance (3)", path: "/NSLDS/loan/by_index/3/Outstanding_Principal_Balance", 
+const field_759 = {len: 6, pos_start: 5389, pos_end: 5395,
+    idx: 759, name: "NSLDS Loan Outstanding Principal Balance (3)", path: "/NSLDS/loan/by_index/3/Outstanding_Principal_Balance", 
     validate: _validate_options, allow_blank: true,
     options: [
       {op: "range", "min":"000000","max":"999999"},
@@ -9881,8 +9893,8 @@ const field_774 = {len: 6, pos_start: 5389, pos_end: 5395,
         "Blank"
     ]};
 
-const field_775 = {len: 8, pos_start: 5395, pos_end: 5403,
-    idx: 775, name: "NSLDS Loan Outstanding Principal Balance Date (3)", path: "/NSLDS/loan/by_index/3/Outstanding_Principal_Balance_Date", 
+const field_760 = {len: 8, pos_start: 5395, pos_end: 5403,
+    idx: 760, name: "NSLDS Loan Outstanding Principal Balance Date (3)", path: "/NSLDS/loan/by_index/3/Outstanding_Principal_Balance_Date", 
     validate: _validate_options, allow_blank: true,
     options: [
       {op: "date", },
@@ -9896,8 +9908,8 @@ const field_775 = {len: 8, pos_start: 5395, pos_end: 5403,
         "Blank"
     ]};
 
-const field_776 = {len: 8, pos_start: 5403, pos_end: 5411,
-    idx: 776, name: "NSLDS Loan Period Begin Date (3)", path: "/NSLDS/loan/by_index/3/Period_Begin_Date", 
+const field_761 = {len: 8, pos_start: 5403, pos_end: 5411,
+    idx: 761, name: "NSLDS Loan Period Begin Date (3)", path: "/NSLDS/loan/by_index/3/Period_Begin_Date", 
     validate: _validate_options, allow_blank: true,
     options: [
       {op: "date", },
@@ -9911,8 +9923,8 @@ const field_776 = {len: 8, pos_start: 5403, pos_end: 5411,
         "Blank"
     ]};
 
-const field_777 = {len: 8, pos_start: 5411, pos_end: 5419,
-    idx: 777, name: "NSLDS Loan Period End Date (3)", path: "/NSLDS/loan/by_index/3/Period_End_Date", 
+const field_762 = {len: 8, pos_start: 5411, pos_end: 5419,
+    idx: 762, name: "NSLDS Loan Period End Date (3)", path: "/NSLDS/loan/by_index/3/Period_End_Date", 
     validate: _validate_options, allow_blank: true,
     options: [
       {op: "date", },
@@ -9926,8 +9938,8 @@ const field_777 = {len: 8, pos_start: 5411, pos_end: 5419,
         "Blank"
     ]};
 
-const field_778 = {len: 3, pos_start: 5419, pos_end: 5422,
-    idx: 778, name: "NSLDS Loan Guaranty Agency Code (3)", path: "/NSLDS/loan/by_index/3/Guaranty_Agency_Code", 
+const field_763 = {len: 3, pos_start: 5419, pos_end: 5422,
+    idx: 763, name: "NSLDS Loan Guaranty Agency Code (3)", path: "/NSLDS/loan/by_index/3/Guaranty_Agency_Code", 
     validate: _validate_options, allow_blank: true,
     options: [
       {op: "numeric", },
@@ -9941,38 +9953,35 @@ const field_778 = {len: 3, pos_start: 5419, pos_end: 5422,
         "Blank"
     ]};
 
-const field_779 = {len: 3, pos_start: 5422, pos_end: 5425,
-    idx: 779, name: "NSLDS Loan Contact Type (3)", path: "/NSLDS/loan/by_index/3/Contact_Type", 
+const field_764 = {len: 3, pos_start: 5422, pos_end: 5425,
+    idx: 764, name: "NSLDS Loan Contact Type (3)", path: "/NSLDS/loan/by_index/3/Contact_Type", 
     validate: _validate_options, allow_blank: true,
     options: [
-      {op: "alpha", },
       {op: "enum", options: {
+        "SCH": "School",
+        "LEN": "Lender",
+        "EDR": "ED region",
+        "GA": "Guaranty agency or federal loan servicer",
+        "LNS": "Lender servicer",
+        "DDP": "Disability data provider",
+        "RDS": "U.S. Department of Education",
         "N/A": "N/A",
       }},
     ],
     note: [
-        "Alpha",
+        "SCH = School",
+        "LEN = Lender",
+        "EDR = ED region",
+        "GA = Guaranty agency or federal loan servicer",
+        "LNS = Lender servicer",
+        "DDP = Disability data provider",
+        "RDS = U.S. Department of Education",
         "N/A",
         "Blank"
     ]};
 
-const field_780 = {len: 8, pos_start: 5425, pos_end: 5433,
-    idx: 780, name: "NSLDS Loan School Code (3)", path: "/NSLDS/loan/by_index/3/School_Code", 
-    validate: _validate_options, allow_blank: true,
-    options: [
-      {op: "alphanumeric", },
-      {op: "enum", options: {
-        "N/A": "N/A",
-      }},
-    ],
-    note: [
-        "Alphanumeric",
-        "N/A",
-        "Blank"
-    ]};
-
-const field_781 = {len: 8, pos_start: 5433, pos_end: 5441,
-    idx: 781, name: "NSLDS Loan Contact Code (3)", path: "/NSLDS/loan/by_index/3/Contact_Code", 
+const field_765 = {len: 8, pos_start: 5425, pos_end: 5433,
+    idx: 765, name: "NSLDS Loan School Code (3)", path: "/NSLDS/loan/by_index/3/School_Code", 
     validate: _validate_options, allow_blank: true,
     options: [
       {op: "alphanumeric", },
@@ -9986,8 +9995,8 @@ const field_781 = {len: 8, pos_start: 5433, pos_end: 5441,
         "Blank"
     ]};
 
-const field_782 = {len: 3, pos_start: 5441, pos_end: 5444,
-    idx: 782, name: "NSLDS Loan Grade Level (3)", path: "/NSLDS/loan/by_index/3/Grade_Level", 
+const field_766 = {len: 8, pos_start: 5433, pos_end: 5441,
+    idx: 766, name: "NSLDS Loan Contact Code (3)", path: "/NSLDS/loan/by_index/3/Contact_Code", 
     validate: _validate_options, allow_blank: true,
     options: [
       {op: "alphanumeric", },
@@ -10001,8 +10010,23 @@ const field_782 = {len: 3, pos_start: 5441, pos_end: 5444,
         "Blank"
     ]};
 
-const field_783 = {len: 1, pos_start: 5444, pos_end: 5445,
-    idx: 783, name: "NSLDS Loan Additional Unsubsidized Flag (3)", path: "/NSLDS/loan/by_index/3/Additional_Unsubsidized_Flag", 
+const field_767 = {len: 3, pos_start: 5441, pos_end: 5444,
+    idx: 767, name: "NSLDS Loan Grade Level (3)", path: "/NSLDS/loan/by_index/3/Grade_Level", 
+    validate: _validate_options, allow_blank: true,
+    options: [
+      {op: "alphanumeric", },
+      {op: "enum", options: {
+        "N/A": "N/A",
+      }},
+    ],
+    note: [
+        "Alphanumeric",
+        "N/A",
+        "Blank"
+    ]};
+
+const field_768 = {len: 1, pos_start: 5444, pos_end: 5445,
+    idx: 768, name: "NSLDS Loan Additional Unsubsidized Flag (3)", path: "/NSLDS/loan/by_index/3/Additional_Unsubsidized_Flag", 
     validate: _validate_options, allow_blank: true,
     options: [
       {op: "enum", options: {
@@ -10020,8 +10044,8 @@ const field_783 = {len: 1, pos_start: 5444, pos_end: 5445,
         "Blank"
     ]};
 
-const field_784 = {len: 1, pos_start: 5445, pos_end: 5446,
-    idx: 784, name: "NSLDS Loan Capitalized Interest Flag (3)", path: "/NSLDS/loan/by_index/3/Capitalized_Interest_Flag", 
+const field_769 = {len: 1, pos_start: 5445, pos_end: 5446,
+    idx: 769, name: "NSLDS Loan Capitalized Interest Flag (3)", path: "/NSLDS/loan/by_index/3/Capitalized_Interest_Flag", 
     validate: _validate_options, allow_blank: true,
     options: [
       {op: "enum", options: {
@@ -10035,8 +10059,8 @@ const field_784 = {len: 1, pos_start: 5445, pos_end: 5446,
         "Blank"
     ]};
 
-const field_785 = {len: 6, pos_start: 5446, pos_end: 5452,
-    idx: 785, name: "NSLDS Loan Disbursement Amount (3)", path: "/NSLDS/loan/by_index/3/Disbursement_Amount", 
+const field_770 = {len: 6, pos_start: 5446, pos_end: 5452,
+    idx: 770, name: "NSLDS Loan Disbursement Amount (3)", path: "/NSLDS/loan/by_index/3/Disbursement_Amount", 
     validate: _validate_options, allow_blank: true,
     options: [
       {op: "range", "min":"000000","max":"999999"},
@@ -10050,8 +10074,8 @@ const field_785 = {len: 6, pos_start: 5446, pos_end: 5452,
         "Blank"
     ]};
 
-const field_786 = {len: 8, pos_start: 5452, pos_end: 5460,
-    idx: 786, name: "NSLDS Loan Disbursement Date (3)", path: "/NSLDS/loan/by_index/3/Disbursement_Date", 
+const field_771 = {len: 8, pos_start: 5452, pos_end: 5460,
+    idx: 771, name: "NSLDS Loan Disbursement Date (3)", path: "/NSLDS/loan/by_index/3/Disbursement_Date", 
     validate: _validate_options, allow_blank: true,
     options: [
       {op: "date", },
@@ -10065,8 +10089,8 @@ const field_786 = {len: 8, pos_start: 5452, pos_end: 5460,
         "Blank"
     ]};
 
-const field_787 = {len: 1, pos_start: 5460, pos_end: 5461,
-    idx: 787, name: "NSLDS Loan Confirmed Loan Subsidy Status (3)", path: "/NSLDS/loan/by_index/3/Confirmed_Loan_Subsidy_Status", 
+const field_772 = {len: 1, pos_start: 5460, pos_end: 5461,
+    idx: 772, name: "NSLDS Loan Confirmed Loan Subsidy Status (3)", path: "/NSLDS/loan/by_index/3/Confirmed_Loan_Subsidy_Status", 
     validate: _validate_options, allow_blank: true,
     options: [
       {op: "enum", options: {
@@ -10082,8 +10106,8 @@ const field_787 = {len: 1, pos_start: 5460, pos_end: 5461,
         "Blank"
     ]};
 
-const field_788 = {len: 8, pos_start: 5461, pos_end: 5469,
-    idx: 788, name: "NSLDS Loan Confirmed Loan Subsidy Status Date (3)", path: "/NSLDS/loan/by_index/3/Confirmed_Loan_Subsidy_Status_Date", 
+const field_773 = {len: 8, pos_start: 5461, pos_end: 5469,
+    idx: 773, name: "NSLDS Loan Subsidy Status Date (3)", path: "/NSLDS/loan/by_index/3/Confirmed_Loan_Subsidy_Status_Date", 
     validate: _validate_options, allow_blank: true,
     options: [
       {op: "date", },
@@ -10097,16 +10121,16 @@ const field_788 = {len: 8, pos_start: 5461, pos_end: 5469,
         "Blank"
     ]};
 
-const field_789 = {len: 20, pos_start: 5469, pos_end: 5489,
-    idx: 789, name: null, 
+const field_774 = {len: 20, pos_start: 5469, pos_end: 5489,
+    idx: 774, name: null, 
     extra: "Filler",
     non_content: true, 
     note: [
         "For Federal Student Aid use only"
     ]};
 
-const field_790 = {len: 2, pos_start: 5489, pos_end: 5491,
-    idx: 790, name: "NSLDS Loan Sequence Number (4)", path: "/NSLDS/loan/by_index/4/Sequence_Number", 
+const field_775 = {len: 2, pos_start: 5489, pos_end: 5491,
+    idx: 775, name: "NSLDS Loan Sequence Number (4)", path: "/NSLDS/loan/by_index/4/Sequence_Number", 
     validate: _validate_options, allow_blank: true,
     options: [
       {op: "range", "min":"01","max":"06"},
@@ -10116,8 +10140,8 @@ const field_790 = {len: 2, pos_start: 5489, pos_end: 5491,
         "Blank"
     ]};
 
-const field_791 = {len: 1, pos_start: 5491, pos_end: 5492,
-    idx: 791, name: "NSLDS Loan Defaulted Recent Indicator (4)", path: "/NSLDS/loan/by_index/4/Defaulted_Recent_Indicator", 
+const field_776 = {len: 1, pos_start: 5491, pos_end: 5492,
+    idx: 776, name: "NSLDS Loan Defaulted Recent Indicator (4)", path: "/NSLDS/loan/by_index/4/Defaulted_Recent_Indicator", 
     validate: _validate_options, allow_blank: true,
     options: [
       {op: "enum", options: {
@@ -10135,8 +10159,8 @@ const field_791 = {len: 1, pos_start: 5491, pos_end: 5492,
         "Blank"
     ]};
 
-const field_792 = {len: 1, pos_start: 5492, pos_end: 5493,
-    idx: 792, name: "NSLDS Loan Change Flag (4)", path: "/NSLDS/loan/by_index/4/Change_Flag", 
+const field_777 = {len: 1, pos_start: 5492, pos_end: 5493,
+    idx: 777, name: "NSLDS Loan Change Flag (4)", path: "/NSLDS/loan/by_index/4/Change_Flag", 
     validate: _validate_options, allow_blank: true,
     options: [
       {op: "enum", options: {
@@ -10150,8 +10174,8 @@ const field_792 = {len: 1, pos_start: 5492, pos_end: 5493,
         "Blank"
     ]};
 
-const field_793 = {len: 2, pos_start: 5493, pos_end: 5495,
-    idx: 793, name: "NSLDS Loan Type Code (4)", path: "/NSLDS/loan/by_index/4/Type_Code", 
+const field_778 = {len: 2, pos_start: 5493, pos_end: 5495,
+    idx: 778, name: "NSLDS Loan Type Code (4)", path: "/NSLDS/loan/by_index/4/Type_Code", 
     validate: _validate_options, allow_blank: true,
     options: [
       {op: "alphanumeric", },
@@ -10162,8 +10186,8 @@ const field_793 = {len: 2, pos_start: 5493, pos_end: 5495,
         "See “NSLDS Loan Program Codes” in the FAFSA® Specifications Guide, Volume 4B, Processing Codes"
     ]};
 
-const field_794 = {len: 6, pos_start: 5495, pos_end: 5501,
-    idx: 794, name: "NSLDS Loan Net Amount (4)", path: "/NSLDS/loan/by_index/4/Net_Amount", 
+const field_779 = {len: 6, pos_start: 5495, pos_end: 5501,
+    idx: 779, name: "NSLDS Loan Net Amount (4)", path: "/NSLDS/loan/by_index/4/Net_Amount", 
     validate: _validate_options, allow_blank: true,
     options: [
       {op: "range", "min":"000000","max":"999999"},
@@ -10173,8 +10197,8 @@ const field_794 = {len: 6, pos_start: 5495, pos_end: 5501,
         "Blank"
     ]};
 
-const field_795 = {len: 2, pos_start: 5501, pos_end: 5503,
-    idx: 795, name: "NSLDS Loan Current Status Code (4)", path: "/NSLDS/loan/by_index/4/Current_Status_Code", 
+const field_780 = {len: 2, pos_start: 5501, pos_end: 5503,
+    idx: 780, name: "NSLDS Loan Current Status Code (4)", path: "/NSLDS/loan/by_index/4/Current_Status_Code", 
     validate: _validate_options, allow_blank: true,
     options: [
       {op: "alphanumeric", },
@@ -10185,8 +10209,8 @@ const field_795 = {len: 2, pos_start: 5501, pos_end: 5503,
         "See “NSLDS Loan Current Status Codes” in the FAFSA® Specifications Guide, Volume 4B, Processing Codes"
     ]};
 
-const field_796 = {len: 8, pos_start: 5503, pos_end: 5511,
-    idx: 796, name: "NSLDS Loan Current Status Date (4)", path: "/NSLDS/loan/by_index/4/Current_Status_Date", 
+const field_781 = {len: 8, pos_start: 5503, pos_end: 5511,
+    idx: 781, name: "NSLDS Loan Current Status Date (4)", path: "/NSLDS/loan/by_index/4/Current_Status_Date", 
     validate: _validate_date, allow_blank: true,
     options: [
       {op: "enum", options: {
@@ -10200,8 +10224,8 @@ const field_796 = {len: 8, pos_start: 5503, pos_end: 5511,
         "Blank"
     ]};
 
-const field_797 = {len: 6, pos_start: 5511, pos_end: 5517,
-    idx: 797, name: "NSLDS Loan Outstanding Principal Balance (4)", path: "/NSLDS/loan/by_index/4/Outstanding_Principal_Balance", 
+const field_782 = {len: 6, pos_start: 5511, pos_end: 5517,
+    idx: 782, name: "NSLDS Loan Outstanding Principal Balance (4)", path: "/NSLDS/loan/by_index/4/Outstanding_Principal_Balance", 
     validate: _validate_options, allow_blank: true,
     options: [
       {op: "range", "min":"000000","max":"999999"},
@@ -10215,8 +10239,8 @@ const field_797 = {len: 6, pos_start: 5511, pos_end: 5517,
         "Blank"
     ]};
 
-const field_798 = {len: 8, pos_start: 5517, pos_end: 5525,
-    idx: 798, name: "NSLDS Loan Outstanding Principal Balance Date (4)", path: "/NSLDS/loan/by_index/4/Outstanding_Principal_Balance_Date", 
+const field_783 = {len: 8, pos_start: 5517, pos_end: 5525,
+    idx: 783, name: "NSLDS Loan Outstanding Principal Balance Date (4)", path: "/NSLDS/loan/by_index/4/Outstanding_Principal_Balance_Date", 
     validate: _validate_options, allow_blank: true,
     options: [
       {op: "date", },
@@ -10230,8 +10254,8 @@ const field_798 = {len: 8, pos_start: 5517, pos_end: 5525,
         "Blank"
     ]};
 
-const field_799 = {len: 8, pos_start: 5525, pos_end: 5533,
-    idx: 799, name: "NSLDS Loan Period Begin Date (4)", path: "/NSLDS/loan/by_index/4/Period_Begin_Date", 
+const field_784 = {len: 8, pos_start: 5525, pos_end: 5533,
+    idx: 784, name: "NSLDS Loan Period Begin Date (4)", path: "/NSLDS/loan/by_index/4/Period_Begin_Date", 
     validate: _validate_options, allow_blank: true,
     options: [
       {op: "date", },
@@ -10245,8 +10269,8 @@ const field_799 = {len: 8, pos_start: 5525, pos_end: 5533,
         "Blank"
     ]};
 
-const field_800 = {len: 8, pos_start: 5533, pos_end: 5541,
-    idx: 800, name: "NSLDS Loan Period End Date (4)", path: "/NSLDS/loan/by_index/4/Period_End_Date", 
+const field_785 = {len: 8, pos_start: 5533, pos_end: 5541,
+    idx: 785, name: "NSLDS Loan Period End Date (4)", path: "/NSLDS/loan/by_index/4/Period_End_Date", 
     validate: _validate_options, allow_blank: true,
     options: [
       {op: "date", },
@@ -10260,8 +10284,8 @@ const field_800 = {len: 8, pos_start: 5533, pos_end: 5541,
         "Blank"
     ]};
 
-const field_801 = {len: 3, pos_start: 5541, pos_end: 5544,
-    idx: 801, name: "NSLDS Loan Guaranty Agency Code (4)", path: "/NSLDS/loan/by_index/4/Guaranty_Agency_Code", 
+const field_786 = {len: 3, pos_start: 5541, pos_end: 5544,
+    idx: 786, name: "NSLDS Loan Guaranty Agency Code (4)", path: "/NSLDS/loan/by_index/4/Guaranty_Agency_Code", 
     validate: _validate_options, allow_blank: true,
     options: [
       {op: "numeric", },
@@ -10275,53 +10299,36 @@ const field_801 = {len: 3, pos_start: 5541, pos_end: 5544,
         "Blank"
     ]};
 
-const field_802 = {len: 3, pos_start: 5544, pos_end: 5547,
-    idx: 802, name: "NSLDS Loan Contact Type (4)", path: "/NSLDS/loan/by_index/4/Contact_Type", 
+const field_787 = {len: 3, pos_start: 5544, pos_end: 5547,
+    idx: 787, name: "NSLDS Loan Contact Type (4)", path: "/NSLDS/loan/by_index/4/Contact_Type", 
     validate: _validate_options, allow_blank: true,
     options: [
-      {op: "alpha", },
       {op: "enum", options: {
+        "SCH": "School",
+        "LEN": "Lender",
+        "EDR": "ED region",
+        "GA": "Guaranty agency or federal loan servicer",
+        "LNS": "Lender servicer",
+        "DDP": "Disability data provider",
+        "RDS": "U.S. Department of Education",
         "N/A": "N/A",
       }},
     ],
     note: [
-        "Alpha",
+        "SCH = School",
+        "LEN = Lender",
+        "EDR = ED region",
+        "GA = Guaranty agency or federal loan servicer",
+        "LNS = Lender servicer",
+        "DDP = Disability data provider",
+        "RDS = U.S. Department of Education",
         "N/A",
         "Blank"
     ]};
 
-const field_803 = {len: 8, pos_start: 5547, pos_end: 5555,
-    idx: 803, name: "NSLDS Loan School Code (4)", path: "/NSLDS/loan/by_index/4/School_Code", 
-    validate: _validate_options, allow_blank: true,
-    options: [
-      {op: "alphanumeric", },
-      {op: "enum", options: {
-        "N/A": "N/A",
-      }},
-    ],
-    note: [
-        "Alphanumeric",
-        "N/A",
-        "Blank"
-    ]};
 
-const field_804 = {len: 8, pos_start: 5555, pos_end: 5563,
-    idx: 804, name: "NSLDS Loan Contact Code (4)", path: "/NSLDS/loan/by_index/4/Contact_Code", 
-    validate: _validate_options, allow_blank: true,
-    options: [
-      {op: "alphanumeric", },
-      {op: "enum", options: {
-        "N/A": "N/A",
-      }},
-    ],
-    note: [
-        "Alphanumeric",
-        "N/A",
-        "Blank"
-    ]};
-
-const field_805 = {len: 3, pos_start: 5563, pos_end: 5566,
-    idx: 805, name: "NSLDS Loan Grade Level (4)", path: "/NSLDS/loan/by_index/4/Grade_Level", 
+const field_788 = {len: 8, pos_start: 5547, pos_end: 5555,
+    idx: 788, name: "NSLDS Loan School Code (4)", path: "/NSLDS/loan/by_index/4/School_Code", 
     validate: _validate_options, allow_blank: true,
     options: [
       {op: "alphanumeric", },
@@ -10335,8 +10342,38 @@ const field_805 = {len: 3, pos_start: 5563, pos_end: 5566,
         "Blank"
     ]};
 
-const field_806 = {len: 1, pos_start: 5566, pos_end: 5567,
-    idx: 806, name: "NSLDS Loan Additional Unsubsidized Flag (4)", path: "/NSLDS/loan/by_index/4/Additional_Unsubsidized_Flag", 
+const field_789 = {len: 8, pos_start: 5555, pos_end: 5563,
+    idx: 789, name: "NSLDS Loan Contact Code (4)", path: "/NSLDS/loan/by_index/4/Contact_Code", 
+    validate: _validate_options, allow_blank: true,
+    options: [
+      {op: "alphanumeric", },
+      {op: "enum", options: {
+        "N/A": "N/A",
+      }},
+    ],
+    note: [
+        "Alphanumeric",
+        "N/A",
+        "Blank"
+    ]};
+
+const field_790 = {len: 3, pos_start: 5563, pos_end: 5566,
+    idx: 790, name: "NSLDS Loan Grade Level (4)", path: "/NSLDS/loan/by_index/4/Grade_Level", 
+    validate: _validate_options, allow_blank: true,
+    options: [
+      {op: "alphanumeric", },
+      {op: "enum", options: {
+        "N/A": "N/A",
+      }},
+    ],
+    note: [
+        "Alphanumeric",
+        "N/A",
+        "Blank"
+    ]};
+
+const field_791 = {len: 1, pos_start: 5566, pos_end: 5567,
+    idx: 791, name: "NSLDS Loan Additional Unsubsidized Flag (4)", path: "/NSLDS/loan/by_index/4/Additional_Unsubsidized_Flag", 
     validate: _validate_options, allow_blank: true,
     options: [
       {op: "enum", options: {
@@ -10354,8 +10391,8 @@ const field_806 = {len: 1, pos_start: 5566, pos_end: 5567,
         "Blank"
     ]};
 
-const field_807 = {len: 1, pos_start: 5567, pos_end: 5568,
-    idx: 807, name: "NSLDS Loan Capitalized Interest Flag (4)", path: "/NSLDS/loan/by_index/4/Capitalized_Interest_Flag", 
+const field_792 = {len: 1, pos_start: 5567, pos_end: 5568,
+    idx: 792, name: "NSLDS Loan Capitalized Interest Flag (4)", path: "/NSLDS/loan/by_index/4/Capitalized_Interest_Flag", 
     validate: _validate_options, allow_blank: true,
     options: [
       {op: "enum", options: {
@@ -10369,8 +10406,8 @@ const field_807 = {len: 1, pos_start: 5567, pos_end: 5568,
         "Blank"
     ]};
 
-const field_808 = {len: 6, pos_start: 5568, pos_end: 5574,
-    idx: 808, name: "NSLDS Loan Disbursement Amount (4)", path: "/NSLDS/loan/by_index/4/Disbursement_Amount", 
+const field_793 = {len: 6, pos_start: 5568, pos_end: 5574,
+    idx: 793, name: "NSLDS Loan Disbursement Amount (4)", path: "/NSLDS/loan/by_index/4/Disbursement_Amount", 
     validate: _validate_options, allow_blank: true,
     options: [
       {op: "range", "min":"000000","max":"999999"},
@@ -10384,8 +10421,8 @@ const field_808 = {len: 6, pos_start: 5568, pos_end: 5574,
         "Blank"
     ]};
 
-const field_809 = {len: 8, pos_start: 5574, pos_end: 5582,
-    idx: 809, name: "NSLDS Loan Disbursement Date (4)", path: "/NSLDS/loan/by_index/4/Disbursement_Date", 
+const field_794 = {len: 8, pos_start: 5574, pos_end: 5582,
+    idx: 794, name: "NSLDS Loan Disbursement Date (4)", path: "/NSLDS/loan/by_index/4/Disbursement_Date", 
     validate: _validate_options, allow_blank: true,
     options: [
       {op: "date", },
@@ -10399,8 +10436,8 @@ const field_809 = {len: 8, pos_start: 5574, pos_end: 5582,
         "Blank"
     ]};
 
-const field_810 = {len: 1, pos_start: 5582, pos_end: 5583,
-    idx: 810, name: "NSLDS Loan Confirmed Loan Subsidy Status (4)", path: "/NSLDS/loan/by_index/4/Confirmed_Loan_Subsidy_Status", 
+const field_795 = {len: 1, pos_start: 5582, pos_end: 5583,
+    idx: 795, name: "NSLDS Loan Confirmed Loan Subsidy Status (4)", path: "/NSLDS/loan/by_index/4/Confirmed_Loan_Subsidy_Status", 
     validate: _validate_options, allow_blank: true,
     options: [
       {op: "enum", options: {
@@ -10416,8 +10453,8 @@ const field_810 = {len: 1, pos_start: 5582, pos_end: 5583,
         "Blank"
     ]};
 
-const field_811 = {len: 8, pos_start: 5583, pos_end: 5591,
-    idx: 811, name: "NSLDS Loan Subsidy Status Date (4)", path: "/NSLDS/loan/by_index/4/Subsidy_Status_Date", 
+const field_796 = {len: 8, pos_start: 5583, pos_end: 5591,
+    idx: 796, name: "NSLDS Loan Subsidy Status Date (4)", path: "/NSLDS/loan/by_index/4/Subsidy_Status_Date", 
     validate: _validate_options, allow_blank: true,
     options: [
       {op: "date", },
@@ -10431,16 +10468,16 @@ const field_811 = {len: 8, pos_start: 5583, pos_end: 5591,
         "Blank"
     ]};
 
-const field_812 = {len: 20, pos_start: 5591, pos_end: 5611,
-    idx: 812, name: null, 
+const field_797 = {len: 20, pos_start: 5591, pos_end: 5611,
+    idx: 797, name: null, 
     extra: "Filler",
     non_content: true, 
     note: [
         "For Federal Student Aid use only"
     ]};
 
-const field_813 = {len: 2, pos_start: 5611, pos_end: 5613,
-    idx: 813, name: "NSLDS Loan Sequence Number (5)", path: "/NSLDS/loan/by_index/5/Sequence_Number", 
+const field_798 = {len: 2, pos_start: 5611, pos_end: 5613,
+    idx: 798, name: "NSLDS Loan Sequence Number (5)", path: "/NSLDS/loan/by_index/5/Sequence_Number", 
     validate: _validate_options, allow_blank: true,
     options: [
       {op: "range", "min":"01","max":"06"},
@@ -10450,8 +10487,8 @@ const field_813 = {len: 2, pos_start: 5611, pos_end: 5613,
         "Blank"
     ]};
 
-const field_814 = {len: 1, pos_start: 5613, pos_end: 5614,
-    idx: 814, name: "NSLDS Loan Defaulted Recent Indicator (5)", path: "/NSLDS/loan/by_index/5/Defaulted_Recent_Indicator", 
+const field_799 = {len: 1, pos_start: 5613, pos_end: 5614,
+    idx: 799, name: "NSLDS Loan Defaulted Recent Indicator (5)", path: "/NSLDS/loan/by_index/5/Defaulted_Recent_Indicator", 
     validate: _validate_options, allow_blank: true,
     options: [
       {op: "enum", options: {
@@ -10469,8 +10506,8 @@ const field_814 = {len: 1, pos_start: 5613, pos_end: 5614,
         "Blank"
     ]};
 
-const field_815 = {len: 1, pos_start: 5614, pos_end: 5615,
-    idx: 815, name: "NSLDS Loan Change Flag (5)", path: "/NSLDS/loan/by_index/5/Change_Flag", 
+const field_800 = {len: 1, pos_start: 5614, pos_end: 5615,
+    idx: 800, name: "NSLDS Loan Change Flag (5)", path: "/NSLDS/loan/by_index/5/Change_Flag", 
     validate: _validate_options, allow_blank: true,
     options: [
       {op: "enum", options: {
