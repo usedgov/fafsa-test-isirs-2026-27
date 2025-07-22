@@ -4876,7 +4876,7 @@ const field_306 = {len: 240, pos_start: 2865, pos_end: 3105,
     ]};
 
 const field_307 = {len: 7, pos_start: 3105, pos_end: 3112,
-    idx: 322, name: "Parent Discretionary Net Worth", alias: "PDNW", path: "/FPS/parent/Discretionary_Net_Worth",
+    idx: 307, name: "Parent Discretionary Net Worth", alias: "PDNW", path: "/FPS/parent/Discretionary_Net_Worth",
     validate: _validate_options, allow_blank: true,
     options: [
       {op: "range", "min":"0","max":"999999999999999"},
@@ -8245,7 +8245,7 @@ const field_635 = {len: 6, pos_start: 4693, pos_end: 4699,
     ]};
 
 const field_636 = {len: 7, pos_start: 4699, pos_end: 4706,
-    idx: 651, name: "NSLDS Pell Percent Eligibility Used Decimal (1)", path: "/NSLDS/pell_grant/by_index/1/Percent_Eligibility_Used_Decimal", 
+    idx: 636, name: "NSLDS Pell Percent Eligibility Used Decimal (1)", path: "/NSLDS/pell_grant/by_index/1/Percent_Eligibility_Used_Decimal", 
     extra: ["Percent with four decimal places assumed for example, 50% - 0500000."],
     validate: _validate_options, allow_blank: true,
     options: [
@@ -8292,7 +8292,7 @@ const field_639 = {len: 20, pos_start: 4713, pos_end: 4733,
     ]};
 
 const field_640 = {len: 2, pos_start: 4733, pos_end: 4735,
-    idx: 655, name: "NSLDS Pell Sequence Number (2)", path: "/NSLDS/pell_grant/by_index/2/Sequence_Number", 
+    idx: 640, name: "NSLDS Pell Sequence Number (2)", path: "/NSLDS/pell_grant/by_index/2/Sequence_Number", 
     validate: _validate_options, allow_blank: true,
     options: [
       {op: "range", "min":"01","max":"03"},
@@ -11193,7 +11193,7 @@ const field_843 = {len: 1164, pos_start: 5835, pos_end: 6999,
 const section__NSLDS = {
     section: "NSLDS Information",
     path: "/NSLDS",
-    field_list: [ field_568, field_569, field_570, field_571, field_572, field_573, field_574, field_575, field_576, field_577, field_578, field_579, field_580, field_581, field_582, field_583, field_584, field_585, field_586, field_587, field_588, field_589, field_590, field_591, field_592, field_593, field_594, field_595, field_596, field_597, field_598, field_599, field_600, field_601, field_602, field_603, field_604, field_605, field_606, field_607, field_608, field_609, field_610, field_611, field_612, field_613, field_614, field_615, field_616, field_617, field_618, field_619, field_620, field_621, field_622, field_623, field_624, field_625, field_626, field_627, field_628, field_629, field_630, field_631, field_632, field_633, field_634, field_635, field_636, field_637, field_638, field_639, field_640, field_641, field_642, field_643, field_644, field_645, field_646, field_647, field_648, field_649, field_650, field_651, field_652, field_653, field_654, field_655, field_656, field_657, field_658, field_659, field_660, field_661, field_662, field_663, field_664, field_665, field_666, field_667, field_668, field_669, field_670, field_671, field_672, field_673, field_674, field_675, field_676, field_677, field_678, field_679, field_680, field_681, field_682, field_683, field_684, field_685, field_686, field_687, field_688, field_689, field_690, field_691, field_692, field_693, field_694, field_695, field_696, field_697, field_698, field_699, field_700, field_701, field_702, field_703, field_704, field_705, field_706, field_707, field_708, field_709, field_710, field_711, field_712, field_713, field_714, field_715, field_716, field_717, field_718, field_719, field_720, field_721, field_722, field_723, field_724, field_725, field_726, field_727, field_728, field_729, field_730, field_731, field_732, field_733, field_734, field_735, field_736, field_737, field_738, field_739, field_740, field_741, field_742, field_743, field_744, field_745, field_746, field_747, field_748, field_749, field_750, field_751, field_752, field_753, field_754, field_755, field_756, field_757, field_758, field_759, field_760, field_761, field_762, field_763, field_764, field_765, field_766, field_767, field_768, field_769, field_770, field_771, field_772, field_773, field_774, field_775, field_776, field_777, field_778, field_779, field_780, field_781, field_782, field_783, field_784, field_785, field_786, field_787, field_788, field_789, field_790, field_791, field_792, field_793, field_794, field_795, field_796, field_797, field_798, field_799, field_800, field_801, field_802, field_803, field_804, field_805, field_806, field_807, field_808, field_809, field_810, field_811, field_812, field_813, field_814, field_815, field_816, field_817, field_818, field_819, field_820, field_821, field_822, field_823, field_824, field_825, field_826, field_827, field_828, field_829, field_830, field_831, field_832, field_833, field_834, field_835, field_836, field_837, field_838, field_839, field_840, field_841, field_842, field_843],
+    field_list: [field_568, field_569, field_570, field_571, field_572, field_573, field_574, field_575, field_576, field_577, field_578, field_579, field_580, field_581, field_582, field_583, field_584, field_585, field_586, field_587, field_588, field_589, field_590, field_591, field_592, field_593, field_594, field_595, field_596, field_597, field_598, field_599, field_600, field_601, field_602, field_603, field_604, field_605, field_606, field_607, field_608, field_609, field_610, field_611, field_612, field_613, field_614, field_615, field_616, field_617, field_618, field_619, field_620, field_621, field_622, field_623, field_624, field_625, field_626, field_627, field_628, field_629, field_630, field_631, field_632, field_633, field_634, field_635, field_636, field_637, field_638, field_639, field_640, field_641, field_642, field_643, field_644, field_645, field_646, field_647, field_648, field_649, field_650, field_651, field_652, field_653, field_654, field_655, field_656, field_657, field_658, field_659, field_660, field_661, field_662, field_663, field_664, field_665, field_666, field_667, field_668, field_669, field_670, field_671, field_672, field_673, field_674, field_675, field_676, field_677, field_678, field_679, field_680, field_681, field_682, field_683, field_684, field_685, field_686, field_687, field_688, field_689, field_690, field_691, field_692, field_693, field_694, field_695, field_696, field_697, field_698, field_699, field_700, field_701, field_702, field_703, field_704, field_705, field_706, field_707, field_708, field_709, field_710, field_711, field_712, field_713, field_714, field_715, field_716, field_717, field_718, field_719, field_720, field_721, field_722, field_723, field_724, field_725, field_726, field_727, field_728, field_729, field_730, field_731, field_732, field_733, field_734, field_735, field_736, field_737, field_738, field_739, field_740, field_741, field_742, field_743, field_744, field_745, field_746, field_747, field_748, field_749, field_750, field_751, field_752, field_753, field_754, field_755, field_756, field_757, field_758, field_759, field_760, field_761, field_762, field_763, field_764, field_765, field_766, field_767, field_768, field_769, field_770, field_771, field_772, field_773, field_774, field_775, field_776, field_777, field_778, field_779, field_780, field_781, field_782, field_783, field_784, field_785, field_786, field_787, field_788, field_789, field_790, field_791, field_792, field_793, field_794, field_795, field_796, field_797, field_798, field_799, field_800, field_801, field_802, field_803, field_804, field_805, field_806, field_807, field_808, field_809, field_810, field_811, field_812, field_813, field_814, field_815, field_816, field_817, field_818, field_819, field_820, field_821, field_822, field_823, field_824, field_825, field_826, field_827, field_828, field_829, field_830, field_831, field_832, field_833, field_834, field_835, field_836, field_837, field_838, field_839, field_840, field_841, field_842, field_843],
 };
 
 
@@ -11932,7 +11932,7 @@ const field_898 = {len: 11, pos_start: 7403, pos_end: 7414,
     ]};
 
 const field_899 = {len: 12, pos_start: 7414, pos_end: 7426,
-    idx: 914, name: "Schedule C net profit/loss", path: "/parent/financial_ftim/Schedule_C_net_profitloss", 
+    idx: 899, name: "Schedule C net profit/loss", path: "/parent/financial_ftim/Schedule_C_net_profitloss", 
     validate: _validate_options, allow_blank: true,
     options: [
       {op: "range", "min":"-99999999999","max":"99999999999"},
