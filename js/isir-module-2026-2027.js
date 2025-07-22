@@ -920,7 +920,8 @@ const field_28 = {len: 10, pos_start: 327, pos_end: 337,
         "- (dash)",
         "' (apostrophe)",
         " (space)",
-        "Blank"
+        "Blank",
+        "First character must contain a letter"
     ]};
 
 const field_29 = {len: 8, pos_start: 337, pos_end: 345,
@@ -2396,7 +2397,8 @@ const field_134 = {len: 35, pos_start: 1104, pos_end: 1139,
         "- (dash)",
         "' (apostrophe)",
         " (space)",
-        "Blank"
+        "Blank",
+        "First character must contain a letter and second character must be nonnumeric"
     ]};
 
 const field_135 = {len: 10, pos_start: 1139, pos_end: 1149,
@@ -2407,7 +2409,8 @@ const field_135 = {len: 10, pos_start: 1139, pos_end: 1149,
         "- (dash)",
         "' (apostrophe)",
         " (space)",
-        "Blank"
+        "Blank",
+        "First character must contain a letter"
     ]};
 
 const field_136 = {len: 8, pos_start: 1149, pos_end: 1157,
@@ -2439,6 +2442,7 @@ const field_136 = {len: 8, pos_start: 1149, pos_end: 1157,
 
 const field_137 = {len: 9, pos_start: 1157, pos_end: 1166,
     idx: 137, name: "Social Security Number", path: "/student_spouse/identity/Social_Security_Number", fafsa_category: ["25f"], 
+    extra: ["An SSN with all zeros indicates the contributor does not have an SSN."],
     validate: _validate_options, allow_blank: true,
     "zero_padded":false,
     options: [
@@ -2878,7 +2882,8 @@ const field_169 = {len: 10, pos_start: 1595, pos_end: 1605,
         "- (dash)",
         "' (apostrophe)",
         " (space)",
-        "Blank"
+        "Blank",
+        "First character must contain a letter"
     ]};
 
 const field_170 = {len: 8, pos_start: 1605, pos_end: 1613,
@@ -2910,6 +2915,7 @@ const field_170 = {len: 8, pos_start: 1605, pos_end: 1613,
 
 const field_171 = {len: 9, pos_start: 1613, pos_end: 1622,
     idx: 171, name: "Social Security Number", path: "/parent/identity/Social_Security_Number", fafsa_category: ["30f"], 
+    extra: ["An SSN with all zeros indicates the contributor does not have an SSN."],
     validate: _validate_options, allow_blank: true,
     "zero_padded":false,
     options: [
@@ -3655,7 +3661,8 @@ const field_225 = {len: 10, pos_start: 2111, pos_end: 2121,
         "- (dash)",
         "' (apostrophe)",
         " (space)",
-        "Blank"
+        "Blank",
+        "First character must contain a letter"
     ]};
 
 const field_226 = {len: 8, pos_start: 2121, pos_end: 2129,
@@ -3687,6 +3694,7 @@ const field_226 = {len: 8, pos_start: 2121, pos_end: 2129,
 
 const field_227 = {len: 9, pos_start: 2129, pos_end: 2138,
     idx: 227, name: "Social Security Number", path: "/other_parent/identity/Social_Security_Number", fafsa_category: ["42f"], 
+    extra: ["An SSN with all zeros indicates the contributor does not have an SSN."],
     validate: _validate_options, allow_blank: true,
     "zero_padded":false,
     options: [
@@ -4980,7 +4988,7 @@ const section__FPS = {
     path: "/FPS",
     field_list: [field_268, field_269, field_270, field_271, field_272, field_273, field_274, field_275, field_276, field_277, field_278, field_279, field_280, field_281, field_282, field_283, field_284, field_285, field_286, field_287, field_288, field_289, field_290, field_291, field_292, field_293, field_294, field_295, field_296, field_297, field_298, field_299, field_300, field_301, field_302, field_303, field_304, field_305, field_306, field_307, field_308, field_309, field_310, field_311, field_312, field_313, field_314, field_315],
 };
-    
+
 
 //*********************************************
 // Section: Correction, Highlight, and Verify Flags
@@ -7153,7 +7161,7 @@ const section__matches = {
     section: "Matches and Other Processing Information",
     path: "/matches",
     field_list: [field_542, field_543, field_544, field_545, field_546, field_547, field_548, field_549, field_550, field_551, field_552, field_553, field_554, field_555, field_556, field_557, field_558, field_559, field_560, field_561, field_562, field_563, field_564, field_565, field_566, field_567],
-};   
+};
 
 
 //*********************************************
@@ -11190,6 +11198,7 @@ const field_843 = {len: 1164, pos_start: 5835, pos_end: 6999,
         "For Federal Student Aid use only"
     ]};
 
+
 const section__NSLDS = {
     section: "NSLDS Information",
     path: "/NSLDS",
@@ -12383,7 +12392,7 @@ const field_930 = {len: 15, pos_start: 7639, pos_end: 7654,
         "Blank"
     ]};
 
-const field_931 = {len: 15, pos_start: 7655, pos_end: 7669,
+const field_931 = {len: 15, pos_start: 7654, pos_end: 7669,
     idx: 931, name: "Total Parent Allowances Against Income", path: "/FTIM_processing/Total_Parent_Allowances_Against_Income", 
     validate: _validate_options, allow_blank: true,
     options: [
