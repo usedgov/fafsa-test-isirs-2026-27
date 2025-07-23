@@ -41,7 +41,7 @@ export async function * aiter_read_isir_frames(filelist_src) {
     function select_isir_frame_substring(ln) {
         let idx = ln.search(rx_isir_leader)
         return (idx>=0 ?
-            ln.slice(idx, idx+7704)
+            ln.slice(idx, idx+7944) // 2627 Total Length
               .replace(/['"]\s*$/, '') // trim any trailing CSV or JSON trailing quote
             : null )
     }

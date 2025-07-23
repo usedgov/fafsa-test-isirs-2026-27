@@ -1,3 +1,10 @@
 # CODEOWNERS 
+* @ChrisCummingsUSDS 
 * @sierrabrandtFSA 
-* @ChrisCummingsUSDS
+* @adamzargerED
+* @drodrz
+* @LauraEdwards-Focus
+* @mkalish
+* @the-andrew
+* @joshlnava
+* @ginayamada
