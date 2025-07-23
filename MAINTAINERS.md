@@ -6,7 +6,7 @@ This is a list of maintainers for this project. See CODEOWNERS for list of revie
 |:-----|:-----|:-----|:-----|
 | Maintainer | Chris Cummings | @ChrisCummingsUSDS  | U.S. Digital Service |
 | Maintainer | Sierra Brandt  | @sierrabrandtFSA    | FSA Digital Service  |
-| Maintainer | Adam Zarger    | @adamzargerED       |                      |
+| Maintainer | Adam Zarger    | @adamzargerED       | FSA Digital Service  |
 | Maintainer | Dan Rodriguez  | @drodrz             | Focus Consulting LLC |
 | Maintainer | Laura Edwards  | @LauraEdwards-Focus | Focus Consulting LLC |
 | Maintainer | Michael Kalish | @mkalish            | Focus Consulting LLC |
