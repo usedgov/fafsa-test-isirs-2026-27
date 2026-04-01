@@ -37,7 +37,7 @@ To download a tool: select the file, and on the resulting page click the "Downlo
 This standalone tool can intake a file of ISIRs with `.dat` or `.txt` extension, conduct light field-level validation, export the data as an Excel spreadsheet, and display both the ISIR data and validation results in a simple browser-based user interface.
 1. Download the [`isir-viewer-2026-2027.html`][isir-viewer] file.
 2. Open `isir-viewer-2026-2027.html` in a browser (Google Chrome or Microsoft Edge preferred).
-3. Three sample ISIRs from 7/14/2025 are pre-loaded into the tool. You can view each ISIR using the "Select sample ISIR" menu item.
+3. Sample ISIRs are pre-loaded into the tool. You can view each ISIR using the "Select sample ISIR" menu item.
 4. You may also load test ISIRs with `.dat` or `.txt` extensions using the "Select ISIR sample file" menu item.
 5. Field-level validation results and a presentation of the ISIR fields are displayed. Data is divided into different expandable sections.
 6. To export an Excel (`.xlsx`) spreadsheet of ISIR data, choose "Current" or "All" under the "Export to Spreadsheet" menu item. "Current" will export the currently displayed sample ISIR; "All" will export every ISIR in your currently loaded sample file into one sheet with multiple columns. Clicking on the resulting filename that appears will download the Excel spreadsheet.
