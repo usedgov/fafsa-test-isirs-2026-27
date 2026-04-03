@@ -1,7 +1,7 @@
 ## Test ISIR Files
 The following test ISIRs are currently available. Additional test ISIRs will be added as they become available.
 * All personally identifiable information (PII) in these test ISIRS is mock data and does not reflect real people.
-* These test ISIRs reflect the current 2026-27 ISIR format. 
+* These test ISIRs published after 04/01/2026 reflect the current 2026-27 ISIR format. 
 
 Note: Some files may be too large to view within GitHub. Please refer to the project [README](../README.md) for instructions on how to use the included ISIR viewer tool.
 
